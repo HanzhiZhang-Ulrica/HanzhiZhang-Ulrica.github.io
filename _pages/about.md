@@ -31,7 +31,7 @@ Hanzhi's workflow is characterized by high efficiency and an exceptional ability
 
 Hanzhi Zhang's personality, as an [ENTP-A](https://www.16personalities.com/entp-personality), is defined by her insatiable curiosity and robust intellectual flexibility. She revels in intellectual challenges and is the quintessential devil's advocate, skillfully deconstructing arguments and occasionally challenging her own beliefs by exploring alternative viewpoints.
 
-In her leisure time, Hanzhi pursues an intriguing blend of interests. She delves into the mystical realms of tarot and astrology, using them as unique tools to influence decisions in programming and research. She also enjoys unraveling the latest gossip and embarks on quests to locate lost items.
+Hanzhi pursues an intriguing blend of interests. She delves into the mystical realms of tarot and astrology, using them as unique tools to influence decisions in programming and research. She also enjoys unraveling the latest gossip and embarks on quests to locate lost items.
 
 Her cultural appetites are satiated by frequent visits to musicals, dramas, museums, galleries, and exhibitions, which enrich her understanding of diverse perspectives.
 
