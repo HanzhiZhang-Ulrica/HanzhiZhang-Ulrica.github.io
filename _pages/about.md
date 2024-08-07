@@ -28,7 +28,7 @@ Her cultural appetites are satiated by frequent visits to musicals, dramas, muse
 
 Photography is another passion of hers, which she humorously describes as a sport. This hobby sees her traversing mountains, laden with heavy gear, tirelessly capturing moments through day and night—an endurance exercise that combines her love for nature and artistry.
 
-![image](../image/ravenclaw.png)
+![image](../images/ravenclaw.png)
 
 
 
