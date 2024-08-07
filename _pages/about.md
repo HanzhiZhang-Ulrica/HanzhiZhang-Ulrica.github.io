@@ -10,7 +10,7 @@ redirect_from:
 
 ## Now
 
-Hanzhi Zhang is currently pursuing her PhD in the [Department of Computer Science and Engineering (CSE) at the University of North Texas (UNT), Denton, TX](https://computerscience.engineering.unt.edu/). Her academic journey is driven by a profound interest in exploring the ethical dimensions and cognitive behaviors of Artificial Intelligence (AI). Her research primarily focuses on **Responsible AI**, delving into the intricacies of **AI Hallucination** as well as investigating both **Large and Small Language Models**. Her work aims to forge a path towards more accountable and transparent AI systems.
+Hanzhi Zhang is currently pursuing her PhD directed by [Dr. Yunhe Feng](https://yunhefeng.me/) in the [Department of Computer Science and Engineering (CSE) at the University of North Texas (UNT), Denton, TX](https://computerscience.engineering.unt.edu/). Her academic journey is driven by a profound interest in exploring the ethical dimensions and cognitive behaviors of Artificial Intelligence (AI). Her research primarily focuses on **Responsible AI**, delving into the intricacies of **AI Hallucination** as well as investigating both **Large and Small Language Models**. Her work aims to forge a path towards more accountable and transparent AI systems.
 
 ## Past
 
