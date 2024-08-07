@@ -36,3 +36,8 @@ In her leisure time, Hanzhi pursues an intriguing blend of interests. She delves
 Her cultural appetites are satiated by frequent visits to musicals, dramas, museums, galleries, and exhibitions, which enrich her understanding of diverse perspectives.
 
 Photography is another passion of hers, which she humorously describes as a sport. This hobby sees her traversing mountains, laden with heavy gear, tirelessly capturing moments through day and night—an endurance exercise that combines her love for nature and artistry.
+
+![image](../image/ravenclaw.png)
+
+
+
