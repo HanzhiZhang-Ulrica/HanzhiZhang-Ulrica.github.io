@@ -1,7 +1,7 @@
 ---
 title: 'Docker Setup Instruction'
-date: 2023-10-24
-permalink: /posts/2023/10/24/docker_setup_instruction/
+date: 2023-10-16
+permalink: /posts/2023/10/16/docker_setup_instruction/
 tags:
   - tools
 ---
