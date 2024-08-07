@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Hanzhi Zhang / Welcome!"
+title                    : "Per Aspera Ad Astra"
 title_separator          : "-"
 name                     : &name "Hanzhi Zhang"
 description              : &description "personal description"
