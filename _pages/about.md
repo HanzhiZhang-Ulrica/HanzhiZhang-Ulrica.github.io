@@ -1,12 +1,21 @@
-# Now
+---
+permalink: /
+title: "About Me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+## Now
 
 Hanzhi Zhang is currently pursuing her PhD in the [Department of Computer Science and Engineering (CSE) at the University of North Texas (UNT), Denton, TX](https://computerscience.engineering.unt.edu/). Her academic journey is driven by a profound interest in exploring the ethical dimensions and cognitive behaviors of Artificial Intelligence (AI). Her research primarily focuses on **Responsible AI**, delving into the intricacies of **AI Hallucination** as well as investigating both **Large and Small Language Models**. Her work aims to forge a path towards more accountable and transparent AI systems.
 
-# Past
+## Past
 
 Before her doctoral journey at UNT, Hanzhi Zhang honed her skills in the tech industry, serving as a storage backend engineer for six months. She completed her Master's degree with distinction in **Data Science** from the [University of Birmingham](https://www.birmingham.ac.uk/), where she led pioneering projects. Her work included using machine learning and deep learning techniques to predict car accidents within VANETs, an edge computing framework; investigating economic determinants impacting cryptocurrency prices using blockchain data; and architecting a robust data vault model. Prior to this, she earned her Bachelor's degree in **Computer Science and Technology (Honors)** from [Xiamen University Malaysia Campus](https://www.xmu.edu.my/), where she explored sentiment analysis through the application of Bidirectional Long Short Term Memory algorithms.
 
-# Skills
+## Skills
 
 **Programming Languages**: Proficient in a wide array of programming languages including Python, C, C++, Golang, Shell, SQL, and Rust, Hanzhi Zhang commands a diverse and powerful toolkit for software development and data analysis.
 
@@ -18,7 +27,7 @@ Before her doctoral journey at UNT, Hanzhi Zhang honed her skills in the tech in
 
 Hanzhi's workflow is characterized by high efficiency and an exceptional ability to manage parallel tasks, which enhances her productivity and the quality of her projects.
 
-# Others
+## Others
 
 Hanzhi Zhang's personality, as an [ENTP-A](https://www.16personalities.com/entp-personality), is defined by her insatiable curiosity and robust intellectual flexibility. She revels in intellectual challenges and is the quintessential devil's advocate, skillfully deconstructing arguments and occasionally challenging her own beliefs by exploring alternative viewpoints.
 
