@@ -8,5 +8,5 @@ This poster has been selected to receive an outstanding poster award on **the 1s
 
 
 
-![image](<../images/POLY-FEVER-poster.png>)
+![](<../images/POLY-FEVER-poster.png>)
 
