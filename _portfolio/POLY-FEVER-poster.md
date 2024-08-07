@@ -4,6 +4,5 @@ excerpt: "Investigating Biased Cross-Lingual Hallucination Detection Capabilitie
 collection: portfolio
 ---
 
-![image](../images/POLY-FEVER-poster.png)
-
+![image](../images/POLY-FEVER-poster.jpg)
 
