@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[CV Hanzhi Zhang](./CV_Hanzhi_Zhang.pdf)
+[Click to view the CV of Hanzhi Zhang](./CV_Hanzhi_Zhang.pdf)
