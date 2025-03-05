@@ -27,19 +27,19 @@ The `ssh` command (SSH protocol) is the standard way to connect to Lonestar6 (**
 
 The Linux command line:
 
-```cmd
+```shell
 localhost$ ssh <username>@ls6.tacc.utexas.edu
 ```
 
 The above command will rotate connections across all available login nodes, `login1-login3`, and route your connection to one of them. To connect to a specific login node, use its full domain name:
 
-```cmd
+```shell
 localhost$ ssh <username>@login2.ls6.tacc.utexas.edu
 ```
 
 To connect with X11 support on Lonestar6 (usually required for applications with graphical user interfaces), use the `-X` or `-Y` switch:
 
-```cmd
+```shell
 localhost$ ssh -X <username>@ls6.tacc.utexas.edu
 ```
 
@@ -47,7 +47,7 @@ To report a connection problem, execute the `ssh` command with the `-vvv` option
 
 **SSH Config Example:**
 
-```cmd
+```shell
 Host TACC
     HostName ls6.tacc.utexas.edu
     User <username>
@@ -55,7 +55,7 @@ Host TACC
 
 When connecting, you'll be asked to enter your password and TACC Token Code.
 
-```cmd
+```shell
 To access the system:
 
 1) If not using ssh-keys, please enter your TACC password at the password prompt
@@ -74,7 +74,7 @@ Lonestar6's startup mechanisms define corresponding account-level environment va
 
 Your home directory `$HOME` do not have enough space, go to your account-specific working directory `$WORK` once you login.
 
-```cmd
+```shell
 $ cd $WORK
 $ pwd
 /work/<number>/<username>/ls6
@@ -93,19 +93,19 @@ You can transfer files between Lonestar6 and Linux-based systems using either [`
 
 **Using `scp`**
 
-```cmd
+```shell
 scp <local_file> <username>@ls6.tacc.utexas.edu:$WORK
 ```
 
 **Using `rsync` (for large or multiple files)**
 
-```cmd
+```shell
 rsync -av <local_dir> <username>@ls6.tacc.utexas.edu:$WORK
 ```
 
 For a more user-friendly experience, consider using an application like [Termius](https://termius.com/) or cloud storage platforms such as [GitHub](https://github.com/) or [Dropbox](https://www.dropbox.com/). For example
 
-```cmd
+```shell
 $ git clone <github repository link>
 $ # Or
 $ wget -O <file name> <dropbox link>
@@ -115,7 +115,7 @@ $ wget -O <file name> <dropbox link>
 
 Put all your customizations in `~/.bashrc`. Take mine as an example, anything that default in `$HOME`, change it to `$WORK` 
 
-```cmd
+```shell
 export PYTHONPATH="$WORK/python-packages:$PYTHONPATH"
 export NLTK_DATA=$WORK/python-packages/nltk_data
 export HF_HOME=$WORK/huggingface_cache/
@@ -155,7 +155,7 @@ Copy and customize the following scripts to specify and refine your job's requir
 
 An example for the Interactive Job Session:
 
-```cmd
+```shell
 $ srun --partition=gpu-a100-dev --nodes=1 --time=00:30:00 --ntasks=1 --pty bash
 $ # Or simply
 $ srun -p gpu-a100-dev -N 1 -t 00:30:00 -n 1 --pty bash
