@@ -1,3 +1,12 @@
+---
+title: 'TACC Longstar6 Instruction'
+date: 2025-03-04
+permalink: /posts/2025/03/04/TACC_Longstar6_instruction/
+tags:
+  - tools
+
+---
+
 This is the quick start instruction for beginners on Texas Advanced Computing Center (TACC) Longstar6 High Performance Computing (HPC) Systems. For more details information, please refer to [the official website](https://tacc.utexas.edu/).
 
 At first, you should have an account for TACC. [Log In or Create Account](https://tacc.utexas.edu/portal/login). 
