@@ -200,3 +200,8 @@ $ srun -p gpu-a100-dev -N 1 -t 00:30:00 -n 1 --pty bash
 | `--time=02:00:00`        | Max runtime of 2 hours.                |
 | `--partition=gpu-a100`   | Specify partition/queue.               |
 | `--account=your_account` | Charge to a specific account.          |
+
+# References
+
+1. [Longstar6 User Guide](https://docs.tacc.utexas.edu/hpc/lonestar6/)
+2. [Slurm Workload Manager](https://slurm.schedmd.com/documentation.html)
