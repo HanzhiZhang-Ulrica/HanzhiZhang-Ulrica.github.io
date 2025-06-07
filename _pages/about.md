@@ -7,38 +7,31 @@ redirect_from:
   - /about/
   - /about.html
 ---
+## 🎓 Now
 
-## Now
+Hanzhi Zhang is currently pursuing her PhD directed by [Dr. Yunhe Feng](https://yunhefeng.me/) in the [Department of Computer Science and Engineering (CSE) at the University of North Texas (UNT), Denton, TX](https://computerscience.engineering.unt.edu/). She is a member of the [**Responsible AI Lab**](https://yunhefeng.me/lab/) and the [**LLaVi Lab**](https://llavi-lab.github.io/) at UNT. Her academic journey is driven by a profound interest in exploring the ethical dimensions and cognitive behaviors of Artificial Intelligence (AI). Her research primarily focuses on **🤖 Responsible AI**, delving into the intricacies of **🧠 AI Hallucination**, **⚡ Efficient AI**, and investigating both **Large and Small Language Models**. Her work aims to forge a path towards more accountable, transparent, and efficient AI systems.
 
-Hanzhi Zhang is currently pursuing her PhD directed by [Dr. Yunhe Feng](https://yunhefeng.me/) in the [Department of Computer Science and Engineering (CSE) at the University of North Texas (UNT), Denton, TX](https://computerscience.engineering.unt.edu/). Her academic journey is driven by a profound interest in exploring the ethical dimensions and cognitive behaviors of Artificial Intelligence (AI). Her research primarily focuses on **Responsible AI**, delving into the intricacies of **AI Hallucination**, **Efficient AI**, and investigating both **Large and Small Language Models**. Her work aims to forge a path towards more accountable, transparent, and efficient AI systems.
+## 📚 Past
 
-## Past
+Hanzhi completed her **📊 MS in Data Science** with **🏆 Distinction** from the [University of Birmingham](https://www.birmingham.ac.uk/) (2021-2022) and her **💻 BS in Computer Science and Technology (Honours)** from [Xiamen University](https://www.xmu.edu.my/) (2017-2021). She previously worked as a **💾 Storage Backend Intern** at **OPPO, Inc.** (2020-2021), focusing on file systems development.
 
-Before her doctoral journey at UNT, Hanzhi Zhang honed her skills in the tech industry, serving as a **Storage Backend Intern** at **OPPO, Inc.** for eight months (Aug. 2020 - Apr. 2021), where she worked on file systems. She completed her Master's degree with **Distinction** in **Data Science** from the [University of Birmingham](https://www.birmingham.ac.uk/) (Sept. 2021 - Dec. 2022), where she led pioneering projects. Her work included using machine learning and deep learning techniques to predict car accidents within VANETs, an edge computing framework; investigating economic determinants impacting cryptocurrency prices using blockchain data; and architecting a robust data vault model. Prior to this, she earned her Bachelor's degree in **Computer Science and Technology (Honours)** from [Xiamen University](https://www.xmu.edu.my/) (Sept. 2017 - Aug. 2021), where she explored sentiment analysis through the application of Bidirectional Long Short Term Memory algorithms.
+## 🌟 Others
 
-## Skills
+Hanzhi Zhang's personality, as an **🎭 [ENTP-A](https://www.16personalities.com/entp-personality)**, is defined by her insatiable curiosity and robust intellectual flexibility. She revels in intellectual challenges and is the quintessential devil's advocate, skillfully deconstructing arguments and occasionally challenging her own beliefs by exploring alternative viewpoints.
 
-**Programming Languages**: Proficient in a wide array of programming languages including Python, C, C++, Golang, Shell, SQL, and Rust, Hanzhi Zhang commands a diverse and powerful toolkit for software development and data analysis.
+Hanzhi pursues an intriguing blend of interests. She delves into the mystical realms of **🔮 tarot and astrology**, using them as unique tools to influence decisions in programming and research. She also enjoys unraveling the latest gossip and embarks on quests to locate lost items.
 
-**Software & Tools**: Her technical environment is anchored by Linux, supplemented by extensive use of Docker for containerization, Git for version control, and both Cmake and Makefile for building software projects.
+Her cultural appetites are satiated by frequent visits to **🎭 musicals, dramas, 🏛️ museums, galleries, and exhibitions**, which enrich her understanding of diverse perspectives.
 
-**Frameworks & Libraries**: Hanzhi is adept in utilizing cutting-edge frameworks and libraries such as PyTorch and TensorFlow for machine learning, OpenCV for computer vision tasks, and Django for web development.
+**📸 Photography** is another passion of hers, which she humorously describes as a sport. This hobby sees her traversing **🏔️ mountains**, laden with heavy gear, tirelessly capturing moments through day and night—an endurance exercise that combines her love for nature and artistry.
 
-**Databases**: Her database management skills are robust, with proficiency in both MySQL and PostgreSQL, enabling her to handle complex data architectures effectively.
+## 📰 News
 
-Hanzhi's workflow is characterized by high efficiency and an exceptional ability to manage parallel tasks, which enhances her productivity and the quality of her projects.
-
-## Others
-
-Hanzhi Zhang's personality, as an [ENTP-A](https://www.16personalities.com/entp-personality), is defined by her insatiable curiosity and robust intellectual flexibility. She revels in intellectual challenges and is the quintessential devil's advocate, skillfully deconstructing arguments and occasionally challenging her own beliefs by exploring alternative viewpoints.
-
-Hanzhi pursues an intriguing blend of interests. She delves into the mystical realms of tarot and astrology, using them as unique tools to influence decisions in programming and research. She also enjoys unraveling the latest gossip and embarks on quests to locate lost items.
-
-Her cultural appetites are satiated by frequent visits to musicals, dramas, museums, galleries, and exhibitions, which enrich her understanding of diverse perspectives.
-
-Photography is another passion of hers, which she humorously describes as a sport. This hobby sees her traversing mountains, laden with heavy gear, tirelessly capturing moments through day and night—an endurance exercise that combines her love for nature and artistry.
-
-![image](../images/ravenclaw.png)
-
-
-
+- **🎉 May 2025**: DAM paper accepted to ACL Findings 2025
+- **🏆 April 2025**: Won IEEE MOST Student Travel Grant Award
+- **📝 March 2025**: Poly-FEVER benchmark published on arXiv
+- **🚗 March 2025**: D2SO paper accepted to IEEE MOST 2025
+- **✅ February 2025**: Passed PhD Qualifying Exam
+- **🏥 February 2025**: HALO paper accepted to IEEE/ACM CHASE 2025
+- **🎤 November 2024**: Presented at NSF eCAT 2024 Annual Fall Meeting
+- **🔬 June 2024**: Selected for Argonne Training Program on Extreme-Scale Computing (ATPESC-24)
