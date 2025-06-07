@@ -2,6 +2,7 @@
 title: 'Fly over Mountains'
 date: 2025-03-08
 permalink: /posts/2025/03/08/fly_over_mountains/
+published: false
 tags:
   - life
 
@@ -18,7 +19,7 @@ tags:
 但时间终究在向前流动。存款超过50万的女性中，71%因经济自主挣脱婚姻焦虑[（13）](https://www.bcg.com/publications/2019/boost-global-economy-5-trillion-dollar-support-women-entrepreneurs)；冰岛通过男性强制育儿假政策后，女性高管比例跃升至44%[（14）](https://data.unwomen.org/)。这些数据背后，是无数个体的突围：
 
 - **在云南山区**，张桂梅校长创办的华坪女高，将1804名贫困女孩送入大学[（15）](https://news.cctv.com/2020/12/11/ARTIDujnUbXahstMetQrr0pk201211.shtml)；
-- **在印度德里**，女性工程师团队开发“SafeCity”应用，标记性骚扰高发区域并推动警方加强巡逻[（16）](https://nymag.com/developing/2018/10/safecity-walkfreely-ushahidi-sexual-harassment-abuse-reporting-maps.html)）……
+- **在印度德里**，女性工程师团队开发"SafeCity"应用，标记性骚扰高发区域并推动警方加强巡逻[（16）](https://nymag.com/developing/2018/10/safecity-walkfreely-ushahidi-sexual-harassment-abuse-reporting-maps.html)）……
 
 她们的故事未被写入教科书，却如星火般照亮系统裂缝。
 
@@ -26,7 +27,7 @@ tags:
 
 - 1909年，芝加哥女工为八小时工作制走上街头[（17）](https://www.nps.gov/articles/000/women-of-the-1910-chicago-garment-workers-strike.htm)；
 - 1995年，北京世妇会通过《行动纲领》要求教育平等[（18）](https://www.mfa.gov.cn/web/ziliao_674904/wjs_674919/2159_674923/200011/t20001107_7950026.shtml)；
-- 2023年，韩国女性用“4B运动”拒绝婚姻与生育[（19）](https://web.archive.org/web/20241109045356/https://www.womennews.co.kr/news/articleView.html?idxno=197898)……
+- 2023年，韩国女性用"4B运动"拒绝婚姻与生育[（19）](https://web.archive.org/web/20241109045356/https://www.womennews.co.kr/news/articleView.html?idxno=197898)……
 
 时间不会自动带来正义，但抗争可以重塑时间的轨迹。**所有在时间长河中凿壁偷光的女性：**愿你们的教育权不再被性别褫夺，愿你们的劳动不再被隐形剥削，愿你们的身体不再被暴力规训。今夜，当时针向前跃进，愿我们记住：**妇女节不是终点，我们终将拥有完整的白昼。**
 
