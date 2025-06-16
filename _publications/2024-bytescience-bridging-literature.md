@@ -3,7 +3,7 @@ title: "📚 ByteScience: Bridging Unstructured Scientific Literature and Struct
 collection: publications
 permalink: /publication/2024-bytescience-bridging-literature
 venue: 'IEEE ICDMW 2024'
-paperurl: ''
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10917307'
 ---
 
 🔬 An innovative framework that bridges unstructured scientific literature and structured data through auto fine-tuned Large Language Models operating at token granularity. 
