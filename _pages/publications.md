@@ -9,6 +9,14 @@ For full publication list, please go to my [Google Scholar profile](https://scho
 
 ---
 
+## **2026**
+
+**Harmful Factuality Hallucination: LLMs Correcting What They Shouldn't**  
+M. Li, **H. Zhang**, H. Fan, J. Ding, and Y. Feng  
+Findings of the Conference of the European Chapter of the Association for Computational Linguistics (**EACL Findings**), 2026.
+
+---
+
 ## **2025**
 
 **DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration**  

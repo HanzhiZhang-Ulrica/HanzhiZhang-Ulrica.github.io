@@ -27,6 +27,7 @@ Her cultural appetites are satiated by frequent visits to **🎭 musicals, drama
 
 ## 📰 News
 
+- **📢 Oct 2025**: Gave invited talk on Responsible AI at AIxHEART
 - **🎉 May 2025**: DAM paper accepted to ACL Findings 2025
 - **🏆 April 2025**: Won IEEE MOST Student Travel Grant Award
 - **📝 March 2025**: Poly-FEVER benchmark published on arXiv
