@@ -11,8 +11,8 @@ locale                   : "en-US"
 title                    : "Hanzhi Zhang | Per Aspera Ad Astra"
 title_separator          : "-"
 name                     : &name "Hanzhi Zhang"
-description              : &description "personal description"
-url                      : https://hanzhizhang-ulrica.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Hanzhi Zhang, Ph.D. Candidate at UNT, researches efficient AI systems, hardware-aware LLM inference, mixed-precision computing, and reliable and responsible AI."
+url                      : https://hanzhizhang-ulrica.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HanzhiZhang-Ulrica/hanzhizhang-ulrica.github.io/"
 
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : #"Your Sidebar Name"
   pronouns         : "she/her"  
-  bio              : "Responsible AI, AI Hallucination, Efficient AI, Small Language Models"
+  bio              : "Efficient AI Systems | Hardware-Aware LLM Inference | Mixed-Precision Computing | Reliable AI"
   location         : "Denton, TX"
   employer         : "University of North Texas"
   uri              : # URL
@@ -167,6 +167,7 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - local
   - node_modules
   - package.json
   - tmp
@@ -281,7 +282,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

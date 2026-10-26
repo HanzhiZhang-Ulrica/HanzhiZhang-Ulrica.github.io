@@ -3,45 +3,25 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+excerpt: "Peer-reviewed publications by Hanzhi Zhang on efficient AI systems, language models, and reliable and responsible AI."
 ---
 
 For full publication list, please go to my [Google Scholar profile](https://scholar.google.com/citations?user=piQO0TQAAAAJ&hl=en).
 
----
-
-## **2026**
-
-**Harmful Factuality Hallucination: LLMs Correcting What They Shouldn't**  
-M. Li, **H. Zhang**, H. Fan, J. Ding, and Y. Feng  
-Findings of the Conference of the European Chapter of the Association for Computational Linguistics (**EACL Findings**), 2026.
+{% assign publications = site.publications | sort: 'order' %}
+{% assign previous_year = 0 %}
+{% for publication in publications %}
+{% if publication.year != previous_year %}
 
 ---
 
-## **2025**
+## **{{ publication.year }}**
 
-**DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration**  
-**H. Zhang**, H. Fan, K. Sha, Y. Huang, and Y. Feng  
-Findings of the Annual Meeting of the Association for Computational Linguistics (**ACL Findings**), 2025.  
-[[code]](https://github.com/HanzhiZhang-Ulrica/DAM)
-
-**D2SO: Detecting Distant and Small Objects for Vision-based Vehicle Autonomous Systems**  
-**H. Zhang**, K. Sha, H. Fan, S. Fu, and Y. Feng  
-IEEE International Conference on Mobility: Operations, Services, and Technologies (**IEEE MOST**), 2025.
-
-**HALO: Hallucination Analysis and Learning Optimization to Empower LLMs with Retrieval-Augmented Context for Guided Clinical Decision Making**  
-S. Anjum, **H. Zhang**, W. Zhou, E. J. Paek, X. Zhao, and Y. Feng  
-IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (**IEEE/ACM CHASE**), 2025.  
-[[paper]](https://arxiv.org/abs/2409.10424)
-
----
-
-## **2024**
-
-**Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models**  
-**H. Zhang**, S. Anjum, H. Fan, W. Zheng, Y. Huang, and Y. Feng  
-arXiv preprint arXiv:2503.16541, 2024.  
-[[dataset]](https://huggingface.co/datasets/HanzhiZhang/Poly-FEVER)
-
-**ByteScience: Bridging Unstructured Scientific Literature and Structured Data with Auto Fine-tuned Large Language Model in Token Granularity**  
-T. Xie, **H. Zhang**, S. Wang, Y. Wan, I. Razzak, C. Kit, W. Zhang, and B. Hoex  
-IEEE International Conference on Data Mining Workshops (**IEEE ICDMW**), 2024.
+{% assign previous_year = publication.year %}
+{% endif %}
+<p><strong>{{ publication.title | escape }}</strong><br>
+{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+{{ publication.venue | markdownify | remove: '<p>' | remove: '</p>' }}, {{ publication.year }}.<br>
+{% if publication.equal_contribution %}<em>* {{ publication.equal_contribution }} </em><br>{% endif %}
+{% include publication-links.html publication=publication %} <a href="{{ publication.url | relative_url }}">[details]</a></p>
+{% endfor %}

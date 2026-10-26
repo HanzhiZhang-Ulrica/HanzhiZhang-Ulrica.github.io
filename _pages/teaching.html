@@ -1,12 +1,29 @@
 ---
-layout: archive
-title: "Teaching"
+layout: single
+title: "🎓 Teaching & Mentoring"
 permalink: /teaching/
 author_profile: true
+excerpt: "Undergraduate and graduate teaching, NSF REU coordination, and student research mentoring at UNT."
 ---
 
-{% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2>🎓 Teaching</h2>
+{% assign courses = site.teaching | sort: 'date' | reverse %}
+{% for course in courses %}
+<h3><a href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
+<p><strong>{{ course.term }}</strong> · {{ course.role }}<br>{{ course.venue }}</p>
+{{ course.content | markdownify }}
 {% endfor %}
+
+<h2 id="mentoring">🌱 Mentoring & Advising</h2>
+<h3>NSF REU Academic Coordinator and Research Mentor · Summer 2026</h3>
+<p>Hanzhi coordinated research training for <strong>nine undergraduates</strong> in UNT's NSF Research Experiences for Undergraduates program, including a lecture on long-context LLM evaluation, weekly research talks, and ongoing mentoring.</p>
+
+<h3>Responsible AI Lab Student Mentoring · 2023–present</h3>
+<p>She provides research and academic guidance to <strong>8 graduate students, 2 undergraduates, and 1 Texas Academy of Mathematics and Science (TAMS) student</strong>. Her mentoring of two students on research projects contributed to publications including <strong>Poly-FEVER (EMNLP Findings 2026)</strong> and <strong>D2SO (IEEE MOST 2025)</strong>.</p>
+
+<h3>🛠️ Research Training Resources</h3>
+<p>She developed <a href="{{ '/posts/2025/03/04/TACC_Longstar6_instruction/' | relative_url }}">HPC</a> and <a href="{{ '/posts/2023/10/16/docker_setup_instruction/' | relative_url }}">Docker</a> tutorials to help junior researchers conduct experiments independently.</p>
+
+<h2>🤝 Outreach & Community</h2>
+<p>Hanzhi shares Responsible AI with educators and the regional AI community through invited talks at <strong>AIxHEART</strong> and the <strong>Presidential AI Challenge</strong>. She is also a member of UNT's <strong>Women in Data Science (WinDS)</strong> chapter.</p>
+<p><a href="{{ '/talks/' | relative_url }}">🎤 Talks & presentations</a> · <a href="{{ '/service/' | relative_url }}">🤝 Professional service & honors</a></p>

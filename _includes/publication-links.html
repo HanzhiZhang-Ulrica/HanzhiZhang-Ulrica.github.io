@@ -1,0 +1,4 @@
+{% assign publication = include.publication %}
+{% if publication.paperurl %}<a href="{{ publication.paperurl }}">[paper]</a>{% endif %}
+{% if publication.codeurl %} <a href="{{ publication.codeurl }}">[code]</a>{% endif %}
+{% if publication.dataurl %} <a href="{{ publication.dataurl }}">[dataset]</a>{% endif %}

@@ -1,0 +1,5 @@
+<ul class="news-list">
+{% for item in site.data.news %}
+  <li><strong>{{ item.date_label }}</strong>: {{ item.text | escape }}</li>
+{% endfor %}
+</ul>

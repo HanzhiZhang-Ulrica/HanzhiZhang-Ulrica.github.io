@@ -1,5 +1,5 @@
 ---
-title: 'TACC Longstar6 Instruction'
+title: 'TACC Lonestar6 Instruction'
 date: 2025-03-04
 permalink: /posts/2025/03/04/TACC_Longstar6_instruction/
 tags:
@@ -7,11 +7,11 @@ tags:
 
 ---
 
-This is the quick start instruction for beginners on Texas Advanced Computing Center (TACC) Longstar6 High Performance Computing (HPC) Systems. For more details information, please refer to [the official website](https://tacc.utexas.edu/).
+This is the quick start instruction for beginners on Texas Advanced Computing Center (TACC) Lonestar6 High Performance Computing (HPC) Systems. For more details information, please refer to [the official website](https://tacc.utexas.edu/).
 
 At first, you should have an account for TACC. [Log In or Create Account](https://tacc.utexas.edu/portal/login). 
 
-Remember your **username** and **password**. Only when you have/are added to certain project, you have access to corresponding system. For this document, we use [Longstar6](https://tacc.utexas.edu/systems/lonestar6/) system.
+Remember your **username** and **password**. Only when you have/are added to certain project, you have access to corresponding system. For this document, we use [Lonestar6](https://tacc.utexas.edu/systems/lonestar6/) system.
 
 ## 0. Not the First Time Cheat Sheet
 
@@ -129,7 +129,7 @@ Take your time with this step to ensure your environment is set up correctly. If
 
 ## 5. Running Jobs
 
-Longstar6 uses the [**S**imple **L**inux **U**tility for **R**esource **M**anagement (Slurm)](https://slurm.schedmd.com/documentation.html) batch environment
+Lonestar6 uses the [**S**imple **L**inux **U**tility for **R**esource **M**anagement (Slurm)](https://slurm.schedmd.com/documentation.html) batch environment
 
 | Queue Name       | Min/Max Nodes per Job (assoc'd cores)* | Max Job Duration | Max Nodes per User | Max Jobs per User | Charge Rate (per node-hour) |
 | ---------------- | -------------------------------------- | ---------------- | ------------------ | ----------------- | --------------------------- |
@@ -203,5 +203,5 @@ $ srun -p gpu-a100-dev -N 1 -t 00:30:00 -n 1 --pty bash
 
 # References
 
-1. [Longstar6 User Guide](https://docs.tacc.utexas.edu/hpc/lonestar6/)
+1. [Lonestar6 User Guide](https://docs.tacc.utexas.edu/hpc/lonestar6/)
 2. [Slurm Workload Manager](https://slurm.schedmd.com/documentation.html)
