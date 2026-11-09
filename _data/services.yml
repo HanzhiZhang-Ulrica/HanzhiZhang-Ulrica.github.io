@@ -1,0 +1,36 @@
+conference:
+  - field: Machine learning and NLP
+    venues:
+      - WWW 2027
+      - ICLR 2027
+      - NeurIPS 2026 (**Top Reviewer**)
+      - ICML 2026
+      - ACL Rolling Review 2026 (May, August, and October cycles)
+  - field: Data mining and systems
+    venues:
+      - CIKM 2025
+      - ICDM 2024
+      - IEEE ICPADS 2023
+
+journals:
+  - IEEE IoT-J 2026
+  - IEEE JBHI 2026
+  - Smart Health 2026
+  - Multimedia Tools and Applications 2026
+
+external:
+  - ACM SEC 2026
+  - ICDM 2025
+  - WWW 2024
+  - AAAI 2024
+  - WACV 2024
+  - ICNC 2024
+  - EISA 2023
+  - Inscrypt 2023
+
+volunteering:
+  - event: NSF CISE MSI Aspiring PI Workshop
+    institution: University of North Texas
+    date: Dec 2024
+  - event: IEEE MOST 2024
+    date: May 2024

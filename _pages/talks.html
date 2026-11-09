@@ -1,32 +1,24 @@
 ---
-layout: single
+layout: default
 title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
+excerpt: "Invited talks, conference and poster presentations, research seminars, and lab showcases."
 ---
-<h2>Invited Talks</h2>
-<ul>
-  <li><strong>May 2026</strong>: <strong>Responsible AI</strong>, Presidential AI Challenge, Denton ISD and UNT. Audience: educators and industry professionals.</li>
-  <li><strong>October 2025</strong>: <strong>Responsible AI: The Hidden Curriculum</strong>, AIxHEART. Professional development session for middle-school teachers.</li>
-</ul>
 
-<h2>Conference & Proposal Presentations</h2>
-<ul>
-  <li><strong>July 2025</strong>: <strong>DAM: Dynamic Attention Mask for Long-Context LLM Inference Acceleration</strong>, ACL 2025 (Findings).</li>
-  <li><strong>May 2025</strong>: <strong>D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems</strong>, IEEE MOST 2025.</li>
-  <li><strong>November 2024</strong>: <strong>Efficient Small Language Models for Edge Devices via Task-Aware Sparse Attention</strong>, NSF IUCRC eCAT meeting.</li>
-</ul>
+<div class="content-page talks-page">
+  <h1 class="page__title">{{ page.title }}</h1>
 
-<h2>Guest Lectures & Research Seminars</h2>
-<ul>
-  <li><strong>Summer 2026</strong>: <strong>Long-Context Evaluation of Large Language Models</strong>, NSF REU program, UNT.</li>
-  <li><strong>2024–2026</strong>: Research presentations, <strong>LLaVi Lab AI Seminar</strong>, UNT, to faculty and Ph.D. students.</li>
-  <li><strong>2023–2024</strong>: Research presentations, <strong>Data Science and AI Talk Series</strong>, UNT, to faculty and Ph.D. students.</li>
-</ul>
-
-<h2>Poster Presentations</h2>
-<ul>
-  <li><strong>2023–2026</strong>: UNT CSE Open House.</li>
-  <li><strong>2024 & 2025</strong>: UNT University Research Day.</li>
-  <li><strong>March 2024</strong>: UNT Engineering Showcase, <strong>First Place</strong>. <a href="{{ '/talks/2024-03-27-poster' | relative_url }}">Poster & details</a></li>
-</ul>
+  {% for section in site.data.talks.sections %}
+  <section class="section-card" aria-labelledby="{{ section.id | escape }}">
+    <h2 id="{{ section.id | escape }}">{{ section.title | escape }}</h2>
+    {% for entry in section.entries %}
+    <article class="pub-entry teaching-entry">
+      <span class="year-badge">{{ entry.year | escape }}</span>
+      <div class="text-justify teaching-heading"><strong>{% if entry.title_url %}<a href="{{ entry.title_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.title | escape }}</a>{% else %}{{ entry.title | escape }}{% endif %}</strong>. {{ entry.type | escape }}, {% if entry.venue_url %}<a href="{{ entry.venue_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.venue | escape }}</a>{% else %}{{ entry.venue | escape }}{% endif %}{% if entry.term %}, {{ entry.term | escape }}{% endif %}.</div>
+      {% if entry.details %}<div class="teaching-details">{{ entry.details | markdownify }}</div>{% endif %}
+    </article>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</div>

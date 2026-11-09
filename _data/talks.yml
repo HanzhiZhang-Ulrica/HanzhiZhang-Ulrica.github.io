@@ -1,0 +1,86 @@
+sections:
+  - id: invited-talks
+    title: Invited Talks
+    entries:
+      - title: Responsible AI
+        type: Invited talk
+        venue: Presidential AI Challenge (Denton ISD and UNT)
+        term: May 2026
+        year: "2026"
+        details: "Audience: educators and industry professionals."
+
+      - title: "Responsible AI: The Hidden Curriculum"
+        type: Invited talk
+        venue: AIxHEART
+        term: Oct 2025
+        year: "2025"
+        details: Professional development session for middle-school teachers.
+
+  - id: conference-proposal-presentations
+    title: Conference & Proposal Presentations
+    entries:
+      - title: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
+        title_url: https://aclanthology.org/2025.findings-acl.242/
+        type: Conference presentation
+        venue: ACL 2025 (Findings)
+        term: Jul 2025
+        year: "2025"
+
+      - title: "D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems"
+        title_url: https://doi.org/10.1109/MOST65065.2025.00013
+        type: Conference presentation
+        venue: IEEE MOST 2025
+        term: May 2025
+        year: "2025"
+
+      - title: Efficient Small Language Models for Edge Devices via Task-Aware Sparse Attention
+        type: Proposal presentation
+        venue: NSF IUCRC eCAT meeting
+        term: Nov 2024
+        year: "2024"
+
+  - id: poster-presentations
+    title: Poster Presentations
+    entries:
+      - title: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
+        type: Poster presentation
+        venue: UNT University Research Day
+        venue_url: https://research.unt.edu/resources/research-events/research-day-2025/
+        term: Oct 2025
+        year: "2025"
+
+      - title: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
+        type: Poster presentation
+        venue: North Texas Symposium on Generative AI, UT Arlington
+        venue_url: https://carida.uta.edu/symposium/
+        term: Mar 2025
+        year: "2025"
+
+      - title: "Poly-FEVER: A Multilingual Hallucination Detection Benchmark"
+        type: Poster presentation
+        venue: UNT University Research Day
+        venue_url: https://research.unt.edu/resources/research-events/research-day-2024/index.html
+        term: Oct 2024
+        year: "2024"
+
+      - title: "Poly-FEVER: A Multilingual Hallucination Detection Benchmark"
+        type: Poster presentation
+        venue: UNT Engineering Showcase
+        term: Mar 2024
+        year: "2024"
+        details: "**First Place**."
+
+  - id: research-seminars-lab-showcases
+    title: Research Seminars & Lab Showcases
+    entries:
+      - title: LLaVi Lab AI Seminar
+        title_url: https://llavi-lab.github.io/seminar.html
+        type: Research presentations
+        venue: UNT
+        year: "2024–2026"
+        details: "Audience: faculty and Ph.D. students."
+
+      - title: Responsible AI Lab
+        type: Lab research showcase
+        venue: UNT CSE Open House
+        year: "2023–2026"
