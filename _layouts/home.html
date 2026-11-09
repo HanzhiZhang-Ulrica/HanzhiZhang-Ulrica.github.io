@@ -3,7 +3,10 @@ layout: default
 ---
 <div class="home-grid">
   <div class="home-content">
-    <h1 class="home-hero">{{ site.name }}</h1>
+    <div class="home-heading">
+      <h1 class="home-hero">{{ site.name }}</h1>
+      <a class="home-cv-link" id="cv-download" href="{{ '/files/CV_Hanzhi_Zhang.pdf' | relative_url }}?v={{ site.time | date: '%s' }}">Click to view the CV of Hanzhi Zhang</a>
+    </div>
     <p class="home-hero-sub">PhD Candidate in Computer Science, {{ site.author.employer }}</p>
     <div class="chip-container" aria-label="Research interests">
       {% assign interests = site.author.bio | split: ' | ' %}
