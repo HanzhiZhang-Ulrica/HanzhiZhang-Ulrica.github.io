@@ -1,8 +1,6 @@
 {% assign publication = include.publication %}
-{% assign doi_url = publication.doi | prepend: 'https://doi.org/' %}
-{% if publication.paperurl and publication.paperurl != doi_url %}
+{% if publication.paperurl %}
   {% if publication.paperurl contains 'arxiv.org/' %}<a class="btn-pill btn-arxiv" href="{{ publication.paperurl }}">arXiv</a>{% else %}<a class="btn-pill btn-pdf" href="{{ publication.paperurl }}">Paper</a>{% endif %}
 {% endif %}
-{% if publication.doi and publication.doi != '' %}<a class="btn-pill btn-doi" href="{{ doi_url | escape }}">DOI</a>{% endif %}
 {% if publication.codeurl %} <a class="btn-pill btn-code" href="{{ publication.codeurl }}">Code</a>{% endif %}
 {% if publication.dataurl %} <a class="btn-pill btn-data" href="{{ publication.dataurl }}">Dataset</a>{% endif %}
