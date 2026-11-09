@@ -46,8 +46,8 @@ main.site-container { width: 100%; min-height: 65vh; }
 .page__content .align-right { float: right; margin-left: 1rem; }
 .page__content .align-left { float: left; margin-right: 1rem; }
 .news-list { list-style: none; margin: 0; padding: 0; }
-.news-list .news-date, .news-list .news-headline { display: block; }
-.news-list .news-date { text-transform: none; letter-spacing: .035em; font-size: .78rem; }
+.news-list .news-date, .news-list .news-headline { display: inline; }
+.news-list .news-date { text-transform: none; letter-spacing: normal; font-size: .9375rem; white-space: nowrap; }
 .news-list .news-headline { font-size: .9375rem; }
 .news-card { margin-top: var(--space-4); }
 .news-years .news-item { border-bottom: none; }
