@@ -11,6 +11,13 @@ main.site-container { width: 100%; min-height: 65vh; }
 .sidebar-news h2 { margin-top: 0; font-size: 1.125rem; }
 .sidebar-news-list { list-style: none; padding: 0; margin: 0; }
 .sidebar-news .news-archive-link { margin: var(--space-4) 0 0; }
+.chip-static { cursor: default; }
+.chip-static:hover { background-color: var(--accent-light); color: var(--accent); }
+.site-footer .footer-contact { grid-template-columns: minmax(0, 1fr); }
+.teaching-details { margin-top: var(--space-3); }
+.teaching-details p { max-width: none; margin-bottom: var(--space-2); font-size: .9375rem; line-height: 1.65; }
+.teaching-details p:last-child { margin-bottom: 0; }
+.teaching-resources { max-width: none; margin: var(--space-3) 0 0; font-size: .9375rem; line-height: 1.65; }
 .content-page { min-width: 0; }
 .page__title { margin-top: 0; overflow-wrap: anywhere; }
 .page__content, .archive { min-width: 0; }

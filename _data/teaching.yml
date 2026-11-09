@@ -1,0 +1,59 @@
+teaching:
+  - title: "CSCE 4201: Introduction to Artificial Intelligence"
+    role: Teaching Assistant
+    institution: University of North Texas
+    location: Denton, TX
+    term: Fall 2026
+    year: "2026"
+    details: |
+      Undergraduate course, **74 students**. Hanzhi independently designed and delivered **three 3-hour lectures** on **CNNs, NLP, and Transformers**.
+
+      **92.6% of survey respondents** expressed interest in attending another lecture by Hanzhi.
+
+  - title: Long-Context Evaluation of Large Language Models
+    role: Guest Lecturer, NSF Research Experiences for Undergraduates (REU)
+    institution: University of North Texas
+    location: Denton, TX
+    term: Summer 2026
+    year: "2026"
+    details: |
+      Hanzhi delivered a guest lecture on long-context evaluation of large language models for UNT's NSF REU program.
+
+  - title: "CSCE 5300: Introduction to Big Data and Data Science"
+    role: Teaching Assistant
+    institution: University of North Texas
+    location: Denton, TX
+    term: Fall 2024 & Spring 2025
+    year: "2024–2025"
+    details: |
+      Graduate core course, **79 students in Fall 2024** and **64 students in Spring 2025**. Hanzhi received an overall teaching evaluation of **Excellent in both semesters**.
+
+      She managed grading and office hours, coordinated randomized-question exams, and analyzed score distributions.
+
+mentoring:
+  - title: NSF Research Experiences for Undergraduates (REU)
+    role: Academic Coordinator and Research Mentor
+    institution: University of North Texas
+    location: Denton, TX
+    term: Summer 2026
+    year: "2026"
+    details: |
+      Hanzhi coordinated research training for **9 undergraduates**, including **6 from MSIs, 1 from an HBCU, and 1 from an R2 university**. She organized weekly research talks and provided ongoing mentoring.
+
+  - title: Student Research Mentoring and Academic Guidance
+    role: Responsible AI Lab
+    institution: University of North Texas
+    location: Denton, TX
+    term: 2023–present
+    year: "2023–present"
+    details: |
+      Hanzhi provides research and academic guidance to **8 graduate students, 2 undergraduates, and 1 Texas Academy of Mathematics and Science (TAMS) student**.
+
+      She mentored **2 students** on research projects resulting in **Poly-FEVER (EMNLP Findings 2026)** and **D2SO (IEEE MOST 2025)**.
+    resources:
+      - label: HPC
+        url: /posts/2025/03/04/TACC_Longstar6_instruction/
+      - label: Docker
+        url: /posts/2023/10/16/docker_setup_instruction/
+    resources_before: She developed
+    resources_after: tutorials to help junior researchers conduct experiments independently.

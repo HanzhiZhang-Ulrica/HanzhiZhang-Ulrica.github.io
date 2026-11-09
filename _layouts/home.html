@@ -7,7 +7,7 @@ layout: default
     <p class="home-hero-sub">PhD Candidate in Computer Science, {{ site.author.employer }}</p>
     <div class="chip-container" aria-label="Research interests">
       {% assign interests = site.author.bio | split: ' | ' %}
-      {% for interest in interests %}<a class="chip" href="{{ '/research/' | relative_url }}">{{ interest }}</a>{% endfor %}
+      {% for interest in interests %}<span class="chip chip-static">{{ interest }}</span>{% endfor %}
     </div>
     <span class="visually-hidden">{{ page.title }}</span>
     <div class="page__content home-original-content">{{ content }}</div>

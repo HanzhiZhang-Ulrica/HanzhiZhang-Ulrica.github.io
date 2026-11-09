@@ -1,21 +1,10 @@
 <footer class="site-footer">
-  <div class="footer-grid">
-    <div>
-      <h2 class="footer-heading">About</h2>
-      <p>{{ site.name }}<br>{{ site.title | split: ' | ' | last }}<br>{{ site.author.employer }}</p>
-    </div>
+  <div class="footer-grid footer-contact">
     <div>
       <h2 class="footer-heading">Contact</h2>
       <p><a href="mailto:{{ site.author.email }}">{% include editorial/icon.html name="envelope" %} {{ site.author.email }}</a><br>
       <a href="https://github.com/{{ site.author.github }}">{% include editorial/icon.html name="github" %} GitHub</a><br>
       <a href="{{ site.author.googlescholar }}">{% include editorial/icon.html name="google-scholar" %} Google Scholar</a></p>
     </div>
-    <div>
-      <h2 class="footer-heading">Links</h2>
-      <nav class="footer-pages" aria-label="More pages">{% include footer/custom.html %}</nav>
-      <p><a href="{{ '/feed.xml' | relative_url }}">{{ site.data.ui-text[site.locale].feed_label | default: 'Feed' }}</a><br>
-      Powered by <a href="https://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/sbryngelson/academic-website-template">academic-website-template</a></p>
-    </div>
   </div>
-  <div class="footer-grid"><div class="footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name }}</div></div>
 </footer>
