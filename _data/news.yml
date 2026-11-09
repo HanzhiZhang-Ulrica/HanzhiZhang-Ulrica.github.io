@@ -3,9 +3,9 @@
 # following the requested display convention; they are not personal assignment dates.
 # Original date notes and sources retain the full review-cycle evidence.
 - date_label: "Oct 2026"
-  text: "I was selected as a “Top Reviewer” for NeurIPS 2027."
+  text: "I was selected as a “Top Reviewer” for NeurIPS 2026."
   emphasis: ["Top Reviewer"]
-  date_note: "Wording and conference year supplied by Hanzhi Zhang; the existing Oct 2026 display date is retained."
+  date_note: "Hanzhi Zhang confirmed NeurIPS 2026, correcting the earlier year typo."
 - date_label: "Oct 2026"
   text: "Served as a reviewer for ICLR 2027"
   source_url: "https://iclr.cc/Conferences/2027/AreaChairGuidelines"
@@ -14,13 +14,13 @@
   text: "Served as a reviewer for ACL Rolling Review 2026 (October cycle)"
   date_note: "Review cycle named in the CV; not an inferred invitation date."
 - date_label: "Oct 2026"
-  text: "Designed and delivered a 3-hour lecture on CNNs for CSCE 4201: Introduction to Artificial Intelligence"
+  text: "Gave a lecture on CNNs for CSCE 4201"
   date_note: "Lecture month confirmed by Hanzhi Zhang."
 - date_label: "Oct 2026"
-  text: "Designed and delivered a 3-hour lecture on NLP for CSCE 4201: Introduction to Artificial Intelligence"
+  text: "Gave a lecture on NLP for CSCE 4201"
   date_note: "Lecture month confirmed by Hanzhi Zhang."
 - date_label: "Oct 2026"
-  text: "Designed and delivered a 3-hour lecture on Transformers for CSCE 4201: Introduction to Artificial Intelligence"
+  text: "Gave a lecture on Transformers for CSCE 4201"
   date_note: "Lecture month confirmed by Hanzhi Zhang."
 - date_label: "Oct 2026"
   text: "Started research collaboration with Amazon scientist Qian Qu"
