@@ -28,7 +28,10 @@ author:
   location         : "Denton, TX"
   employer         : "University of North Texas"
   uri              : # URL
-  email            : "hanzhizhang@my.unt.edu" 
+  email            : "Hanzhi.Zhang@unt.edu"
+  other_emails:
+    - "hanzhizhang@my.unt.edu"
+    - "ulricazhang2017@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

@@ -84,13 +84,30 @@
     var pubList = document.getElementById('pubList');
     var pubStatus = document.getElementById('pubStatus');
     var pubEmpty = document.getElementById('pubEmpty');
+    function normalizePublicationSearch(value) {
+      return value.replace(/\s+/g, ' ').toLowerCase().trim();
+    }
+    function publicationAuthorAliases(bibtex) {
+      // Index only authors, not the editors or abstract elsewhere in BibTeX.
+      var field = bibtex.match(/^\s*author\s*=\s*(?:"((?:\\.|[^"\\])*)"|\{([^{}]*)\})/im);
+      if (!field) return '';
+      return (field[1] || field[2] || '').split(/\s+and\s+/i).map(function (author) {
+        var name = author.trim();
+        var parts = name.split(/\s*,\s*/);
+        return parts.length === 2 ? name + ' | ' + parts[1] + ' ' + parts[0] : name;
+      }).join(' | ');
+    }
+    var publicationSearchText = publications.map(function (entry) {
+      var citation = entry.querySelector('.publication-citation');
+      var bibtex = entry.querySelector('.pub-bibtex');
+      return normalizePublicationSearch((citation ? citation.textContent : '') + ' | ' +
+        publicationAuthorAliases(bibtex ? bibtex.textContent : ''));
+    });
     function filterPublications() {
-      var query = pubSearch.value.toLowerCase().trim();
+      var query = normalizePublicationSearch(pubSearch.value);
       var count = 0;
-      publications.forEach(function (entry) {
-        var citation = entry.querySelector('.publication-citation');
-        var searchableText = citation ? citation.textContent : '';
-        entry.hidden = !searchableText.replace(/\s+/g, ' ').toLowerCase().includes(query);
+      publications.forEach(function (entry, index) {
+        entry.hidden = !publicationSearchText[index].includes(query);
         if (!entry.hidden) count += 1;
       });
       groups.forEach(function (group) {
