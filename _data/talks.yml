@@ -36,6 +36,7 @@ sections:
       - title: Efficient Small Language Models for Edge Devices via Task-Aware Sparse Attention
         type: Proposal presentation
         venue: NSF IUCRC eCAT meeting
+        venue_url: https://www.ecat.center/ecat-meetings/ecat-2024-annual-fall-meeting
         term: Nov 2024
         year: "2024"
 
@@ -43,6 +44,7 @@ sections:
     title: Poster Presentations
     entries:
       - title: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
+        title_url: https://aclanthology.org/2025.findings-acl.242/
         type: Poster presentation
         venue: UNT University Research Day
         venue_url: https://research.unt.edu/resources/research-events/research-day-2025/
@@ -50,6 +52,7 @@ sections:
         year: "2025"
 
       - title: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
+        title_url: https://aclanthology.org/2025.findings-acl.242/
         type: Poster presentation
         venue: North Texas Symposium on Generative AI, UT Arlington
         venue_url: https://carida.uta.edu/symposium/
@@ -57,6 +60,7 @@ sections:
         year: "2025"
 
       - title: "Poly-FEVER: A Multilingual Hallucination Detection Benchmark"
+        title_url: https://aclanthology.org/2026.findings-emnlp.540/
         type: Poster presentation
         venue: UNT University Research Day
         venue_url: https://research.unt.edu/resources/research-events/research-day-2024/index.html
@@ -64,6 +68,7 @@ sections:
         year: "2024"
 
       - title: "Poly-FEVER: A Multilingual Hallucination Detection Benchmark"
+        title_url: /images/POLY-FEVER-poster.png
         type: Poster presentation
         venue: UNT Engineering Showcase
         term: Mar 2024
@@ -122,6 +127,7 @@ sections:
         details: "Audience: faculty and Ph.D. students."
 
       - title: Responsible AI Lab
+        title_url: https://yunhefeng.me/lab/
         type: Lab research showcase
         venue: UNT CSE Open House
         year: "2023–2026"

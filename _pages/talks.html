@@ -14,8 +14,8 @@ excerpt: "Invited talks, conference and poster presentations, research seminars,
     <h2 id="{{ section.id | escape }}">{{ section.title | escape }}</h2>
     {% for entry in section.entries %}
     <article class="pub-entry teaching-entry">
-      <span class="year-badge">{{ entry.year | escape }}</span>
-      <div class="text-justify teaching-heading"><strong>{% if entry.title_url %}<a href="{{ entry.title_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.title | escape }}</a>{% else %}{{ entry.title | escape }}{% endif %}</strong>. {{ entry.type | escape }}, {% if entry.venue_url %}<a href="{{ entry.venue_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.venue | escape }}</a>{% else %}{{ entry.venue | escape }}{% endif %}{% if entry.term %}, {{ entry.term | escape }}{% endif %}.</div>
+      <span class="year-badge">{{ entry.term | default: entry.year | escape }}</span>
+      <div class="text-justify teaching-heading"><strong>{% if entry.title_url %}<a href="{{ entry.title_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.title | escape }}</a>{% else %}{{ entry.title | escape }}{% endif %}</strong>. {{ entry.type | escape }}, {% if entry.venue_url %}<a href="{{ entry.venue_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.venue | escape }}</a>{% else %}{{ entry.venue | escape }}{% endif %}.</div>
       {% if entry.details %}<div class="teaching-details">{{ entry.details | markdownify }}</div>{% endif %}
     </article>
     {% endfor %}
