@@ -1,8 +1,16 @@
-<div class="section-card news-card">
-  <ul class="news-list news-timeline">
-  {% for item in site.data.news %}
-    <li class="news-item" id="news-{{ forloop.index }}"><strong class="news-date">{{ item.date_label | escape }}:</strong> <span class="news-headline">{% include editorial/news-headline.html item=item %}</span></li>
+{% assign news_years = site.data.news | group_by_exp: 'item', "item.date_label | split: ' ' | last" %}
+{% assign news_index = 0 %}
+<div class="news-years">
+  {% for year in news_years %}
+  <details class="section-card news-card news-year" id="news-year-{{ year.name }}"{% if forloop.first %} open{% endif %}>
+    <summary class="news-year-heading"><span>{{ year.name | escape }}</span><span class="news-year-toggle" aria-hidden="true"></span></summary>
+    <ul class="news-list news-timeline">
+    {% for item in year.items %}
+      {% assign news_index = news_index | plus: 1 %}
+      <li class="news-item" id="news-{{ news_index }}"><strong class="news-date">{{ item.date_label | escape }}:</strong> <span class="news-headline">{% include editorial/news-headline.html item=item %}</span></li>
+    {% endfor %}
+    </ul>
+  </details>
   {% endfor %}
-  </ul>
 </div>
 <p class="news-date-note">Reviewing months reflect the start of conference review cycles and may be estimated from submission dates.</p>
