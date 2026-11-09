@@ -1,0 +1,23 @@
+---
+layout: null
+sitemap: false
+---
+[
+{% assign separator = '' %}
+{% assign search_documents = site.pages | concat: site.documents %}
+{% for document in search_documents %}
+{% if document.title and document.url != '/404.html' and document.search != false %}
+{{ separator }}{
+  "title": {{ document.title | strip_html | jsonify }},
+  "url": {{ document.url | relative_url | jsonify }},
+  "content": {{ document.content | markdownify | strip_html | replace: '
+', ' ' | jsonify }}
+}
+{% assign separator = ',' %}
+{% endif %}
+{% endfor %}
+{% for news in site.data.news %}
+{{ separator }}{"title": {{ news.date_label | prepend: 'News · ' | jsonify }}, "url": {{ '/' | relative_url | append: '#-news' | jsonify }}, "content": {{ news.text | jsonify }}}
+{% assign separator = ',' %}
+{% endfor %}
+]

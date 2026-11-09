@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 title: "About Me"
 excerpt: "About Me"

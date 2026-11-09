@@ -1,0 +1,667 @@
+[
+  {
+    "path": "_sass/editorial/base/_fonts.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/base/_fonts.scss",
+    "sha256": "4daf14377b20daa3d06ebffb7db2df2ef640d65ef5c86303a7621a59419d6130"
+  },
+  {
+    "path": "_sass/editorial/base/_icons.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/base/_icons.scss",
+    "sha256": "2b3d8ce957122c2e3dce69080fa528c7efc9cf0c7269b7d01cdb88a0cfb7c0dd"
+  },
+  {
+    "path": "_sass/editorial/base/_reset.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/base/_reset.scss",
+    "sha256": "90d9e808766a5eda48c1b0c95c6c83e2f45114a821104572210e64729a00b310"
+  },
+  {
+    "path": "_sass/editorial/base/_typography.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/base/_typography.scss",
+    "sha256": "ea75e141c96a568990e5866d8cc1b63655997e42f9f17b1216f71c653e93c9b3"
+  },
+  {
+    "path": "_sass/editorial/base/_variables.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/base/_variables.scss",
+    "sha256": "64b84ca750aaa07101d65d4d8fd1c7c1bb2c57d6716a861de0ed6016170d22c6"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/__DO_NOT_MODIFY",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/__DO_NOT_MODIFY",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_accordion.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_accordion.scss",
+    "sha256": "eb871105c1ab1e442470c85e07f4f8b7e7fa9af7c6f219947b706d049be2f262"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_alert.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_alert.scss",
+    "sha256": "d3f9847243612b6a3f4d3312cc2f28ee182e5484dbf51aac5bddf6995d874bb5"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_badge.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_badge.scss",
+    "sha256": "e96d05183226451a2530167cae83d2c73019cad45eaeae6b6599a28fb2b44172"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_breadcrumb.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_breadcrumb.scss",
+    "sha256": "27ffdd2fb429547f525481254967ca1793411c715227a4529f2a5b7fda037757"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_button-group.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_button-group.scss",
+    "sha256": "896466012e38d280e47a91d8ddf04a9222e86561611de28c20ef56823eea13b4"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_buttons.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_buttons.scss",
+    "sha256": "5c5b38a956e439b06a22f509b0bd82919eaeb6558dc7371bb75f3dabc9d7d249"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_card.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_card.scss",
+    "sha256": "98a1c50c8538708bb0cb4a420ccdd248edca2674bb5a0dba3cdbff74553ef4c0"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_carousel.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_carousel.scss",
+    "sha256": "25e5445a6badd6e8309ee8697fa19870b497cbf88a4f6a5b2964010b0e9dbb71"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_close.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_close.scss",
+    "sha256": "ea7d26ebf496e4cb51df8c8205f57eec63be8cf296ca40ba5c931e07bb787637"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_containers.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_containers.scss",
+    "sha256": "250974e59fa2ddf5b873e12106d5613e6a2c8128d92f374dcf9ac44d2141a0c5"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_dropdown.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_dropdown.scss",
+    "sha256": "6521e0e625162c36f0619a6b44a4963939ac7ae23730a674592ad4412499027a"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_forms.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_forms.scss",
+    "sha256": "02f52c1a1f99f55d11d0b0a305518f0a6527128087019965a3482dae015cae48"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_functions.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_functions.scss",
+    "sha256": "9bd34bcb210127820109a4e55dbaa9d864c09d36b51d7212b543298ce09331b8"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_grid.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_grid.scss",
+    "sha256": "27b94087e6eb2a7dfe2ad0b91a522222af9763077ea4e6e99c6fe0f98a86b4dc"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_helpers.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_helpers.scss",
+    "sha256": "840f9d14060777fd356d0f75ae1b4ad32a305039e771125c337d646f4ff0e5bf"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_images.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_images.scss",
+    "sha256": "272bec78b7bc03ddc5b713f33843ea2ad884941df5bda03c4ae9c399678df09d"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_list-group.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_list-group.scss",
+    "sha256": "82875f1dce086a6d38d8cde4a685cc5b389ed8a85d1dbca6b0fae75291c1cc9f"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_maps.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_maps.scss",
+    "sha256": "132e25b45a7c89544e2edb020e57b01323ae5de47d091e60ed075c6b8b1e2463"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_mixins.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_mixins.scss",
+    "sha256": "a357a8e98f4d90aff5b830eef99730a132b7b5aa657046ffa68367d7df8e87ee"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_modal.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_modal.scss",
+    "sha256": "b057a86f67865ca56e1363a5933910dccb09999e27ee602cd0ebfed6eea911b9"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_nav.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_nav.scss",
+    "sha256": "c40702e9ee7c172694003cb46f10152280baf6e9b5b505baafa2d75a909864c1"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_navbar.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_navbar.scss",
+    "sha256": "bb6a95c4c03b6fa9da105d9562027f0afbbeb95f310a556eff429063462f2ebf"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_offcanvas.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_offcanvas.scss",
+    "sha256": "7c4bd2bbe8609248a93e0b268a5b3f7c98426b39c12822fcf8970cbf651a79ad"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_pagination.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_pagination.scss",
+    "sha256": "f0f4aadb79bf18aab5f70878289810e0908fe2f2f496d7d55bd00e9048f40c79"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_placeholders.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_placeholders.scss",
+    "sha256": "b0adb3ab91a4ec506292d8955c27f5d96306608d9e666e2306073d1fb71573fb"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_popover.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_popover.scss",
+    "sha256": "df91571389826dc5c8c26aadce3e9058f74c00089b8fb5ef364d96561494629f"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_progress.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_progress.scss",
+    "sha256": "a56387dd89c098742901232f3147136ea2122b76e68e8f217c41945e67356b67"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_reboot.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_reboot.scss",
+    "sha256": "25fb7377e8b656d3ece08df4899af0703ba5a231828e0a03a8debd87b282a1bc"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_root.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_root.scss",
+    "sha256": "477e711ca57a72fad1c34f76a240305889610c8e618ae545ce07141a6eeac750"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_spinners.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_spinners.scss",
+    "sha256": "75c1ea4754b1c6a48e5290324f1e0ca05ba9e676ea73e7e1727863ca81cd9b3b"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_tables.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_tables.scss",
+    "sha256": "9b3fd5f8cb74b1f71a0de1513992ff386523cf3256df08648a9447eec6791bb2"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_toasts.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_toasts.scss",
+    "sha256": "4f7c586d896ded225dede421482457a1fca0c7ff34dd624d1a3b42b670c3dd7d"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_tooltip.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_tooltip.scss",
+    "sha256": "f0b49142e615bfd9d2f094acdea91f1d61ed0e7641f8124b061f9804619bf230"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_transitions.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_transitions.scss",
+    "sha256": "d59fd519409a398160c6f0780d8ff6850ecfe65644db576cfdfc5cfcfd6ef0e6"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_type.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_type.scss",
+    "sha256": "b107f64c8e85798a28c82af461b3f1f953486efbc02362dc309825c3f35b832f"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_utilities.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_utilities.scss",
+    "sha256": "c1ad318d353da41a758f85210f4479ee3941712a56cb4d963e1a5f988a886551"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_variables-dark.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_variables-dark.scss",
+    "sha256": "797d75d3e09968ef6c5104ee41b5c1f6f828e3fa9e7b43dc7641937b18fd25c9"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/_variables.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/_variables.scss",
+    "sha256": "2852aeba6322f498a1b11f129e8b001a5151e744770be4af5349d0929e0ab14a"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/bootstrap-grid.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/bootstrap-grid.scss",
+    "sha256": "5a3c56c7adb99cd81c26dff9436c7a6793c85e1232309764cb7df389d5bb2914"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/bootstrap-reboot.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/bootstrap-reboot.scss",
+    "sha256": "e59ceccd66cc1df34939b33bcd517aa46a4b41a5436cdc34e56bafd16fec85de"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/bootstrap-utilities.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/bootstrap-utilities.scss",
+    "sha256": "27c592f1d9d0e03d4b0cf064e855556fa54bb97dd633f79c7f973493a5779256"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/bootstrap.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/bootstrap.scss",
+    "sha256": "a4a8cb6535c2b8b0a8be3d99635f2a132f906b396dd3a24e1de6dbfe66ef569a"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_floating-labels.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_floating-labels.scss",
+    "sha256": "14b6444d4e53230d6b604724cba8d25cb17bc9253b27f526142317665b465f17"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_form-check.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_form-check.scss",
+    "sha256": "6ad4cecc238c3b95affac3c41fbc8a61661491edd3584a072166f0558397d481"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_form-control.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_form-control.scss",
+    "sha256": "a9e25688b1dbe38b2c51fcbacfe6fc64e74be42044abfe7f4507efa6404b1248"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_form-range.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_form-range.scss",
+    "sha256": "d37cf6eb0298e7c9879d3e2fbb7e8d2fc76c68843a67b8cd07e0d4efd9d9a2a1"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_form-select.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_form-select.scss",
+    "sha256": "870cc45a393cd5c279104026b19a902bf7a8e885a162724aacc5804a53c1d90d"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_form-text.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_form-text.scss",
+    "sha256": "5b48529ad274508604428db89e44cac948a22c464b29aeb0889ffde9014172ed"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_input-group.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_input-group.scss",
+    "sha256": "973838b289615fee100d7d11e6e603810abb1f44ef1ee98a4e63f10bf5e73fe8"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_labels.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_labels.scss",
+    "sha256": "a5b04d56390ab06f7b65713ec3cd2ad2b6c8485e2da243d79a8746f3cd32ae53"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/forms/_validation.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/forms/_validation.scss",
+    "sha256": "4b5e2068ecdec8e053259116d4eafe121da66fadaed3239662a6595054bfc5ec"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_clearfix.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_clearfix.scss",
+    "sha256": "f94631b704e47c68422cd43902276e6e15d5781689e1beb65f4078419527fa88"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_color-bg.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_color-bg.scss",
+    "sha256": "8f2dafd5caf6cebd8445a3bfa2e1cf16422f8f32d1af8e85ac7a31d2cea3c706"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_colored-links.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_colored-links.scss",
+    "sha256": "792adeb8967acbd1f36635e7a93637acbb7be693758d713c0df1b77cf5f326c6"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_focus-ring.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_focus-ring.scss",
+    "sha256": "7d9cf88d95b75c745b999fdebe1029acd15104dcbdb207f36303b29685365ba7"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_icon-link.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_icon-link.scss",
+    "sha256": "bd6ca865165545813ad5db42cf51d96e407e1fea5d937e02dc3adfad6cf8bbc9"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_position.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_position.scss",
+    "sha256": "e3bcff53441ea3322040a20d482228b17d0a6b7f0b3eef19a1ee83a80078c499"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_ratio.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_ratio.scss",
+    "sha256": "7678a08a32be69578667aa258fdd0072176f7215a018e915ea81dbd917466e6a"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_stacks.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_stacks.scss",
+    "sha256": "dfd1ee24d88aecbe519626972ef793da54b716dff00cd18f7c0e7987e7645a3c"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_stretched-link.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_stretched-link.scss",
+    "sha256": "a00a6028adbed86c285a88024ba2bb1896547bbaf28e4547632638011fb5e253"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_text-truncation.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_text-truncation.scss",
+    "sha256": "df1d92f44c438d30a770db5670dd8b1567fd9698a06eebd2e166962543f70269"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_visually-hidden.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_visually-hidden.scss",
+    "sha256": "a0a6c832af5b2d03e14bef3a92e2f90866ab44403882c19e2449e5442b78fc72"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/helpers/_vr.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/helpers/_vr.scss",
+    "sha256": "71f644d66dabc19da3326c70298550a90937291a3b7aa380931f7da24af40a9c"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_alert.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_alert.scss",
+    "sha256": "8eef986ecb34163ef10bc22e2df2e87a9a4b9efbccf0583b473091a6a4a24c21"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_backdrop.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_backdrop.scss",
+    "sha256": "78404f79c9628e4ea787039794a527ee0ed2f5973bcfa6003abf4e32bccbe350"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_banner.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_banner.scss",
+    "sha256": "5a7e2b7aaf5bcbe54312ee26c0b76171abeaa352cd186c93007989f450685cd9"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_border-radius.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_border-radius.scss",
+    "sha256": "3b87877ccabe88f65106f5b33425ae056c2bca92b1b38f3aa2814c5198871db9"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_box-shadow.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_box-shadow.scss",
+    "sha256": "50cb7c061507b7fe3ba899f19bf44af314557d0a61f6077eee495a676eb26ae4"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_breakpoints.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_breakpoints.scss",
+    "sha256": "3ca965c82661a439fbf72cbd134e0dc1cf1e1adc97323577c99e5e540494535e"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_buttons.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_buttons.scss",
+    "sha256": "a836c09f6145377c7a326242b77a0729ea33eec266dbc5b02957e5a4cedea69c"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_caret.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_caret.scss",
+    "sha256": "b93c0ff222d8210ccfd46087124f8ca84e0eda85a78a0aa75dcddfd00d027d75"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_clearfix.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_clearfix.scss",
+    "sha256": "09ef14b4aff05afd33a24a1ee9e6a0c050b167c49422b1f53ff48c5a836c432b"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_color-mode.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_color-mode.scss",
+    "sha256": "20a025e648f8cc335273d1eb31432e8733b93ea773a0b6ab92de15d52a61197b"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_color-scheme.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_color-scheme.scss",
+    "sha256": "42b574c0bb2fe4242c77ada51cbc86c602df3e4950423fbc7c038c388d47c3d5"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_container.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_container.scss",
+    "sha256": "1df7b94e6ebd5b6fca0e9ba9ab7e0026e80eeb7b163b799a7a34f8596a8d4293"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_deprecate.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_deprecate.scss",
+    "sha256": "35954ebf57535f02217775f81e48b9f4cff6d6071b41fff166d54d3aa6fea301"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_forms.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_forms.scss",
+    "sha256": "10fa01a37e9482b1b0e28b8ebf45603c9fbd2e0a7c5b842d9e305deb4cc89dd7"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_gradients.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_gradients.scss",
+    "sha256": "8b170bb2649454218828e3b4bbc631cc468793960da3abd2d7d0dfb2028cf1d5"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_grid.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_grid.scss",
+    "sha256": "04de640571de98a8b5f770bd753be1623d7bcc80536ca9c00f664f09ffbc5770"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_image.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_image.scss",
+    "sha256": "c75b08a1a4abf2bafb5ec55f7f8333a12e3fe825c797aa31146c70730433476b"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_list-group.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_list-group.scss",
+    "sha256": "4e44c4bc81e40e6f1291bb40b2c88065e3a05b41f85b7dbfcc5b19a7d5003864"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_lists.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_lists.scss",
+    "sha256": "65b70126d686cc4d45662840e0c79586fa039caa7f8059eb1381590eb2c1bacf"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_pagination.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_pagination.scss",
+    "sha256": "20373067170e5d434c946b35e94b58ac3510e421dddcdf5d59147397b243addc"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_reset-text.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_reset-text.scss",
+    "sha256": "1f6f14b4ff20aa597b2c7e5fa87132aaa9513ac3de288cd1ecc693daa8e9feae"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_resize.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_resize.scss",
+    "sha256": "9f09e226ddf5cc632cb8afa349084266b5698c64ca731ad8b653e1f4b74aed24"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_table-variants.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_table-variants.scss",
+    "sha256": "df8815461663c000aa3ebadf1515d64359941681a00f6c9bff7267cc701cc0f5"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_text-truncate.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_text-truncate.scss",
+    "sha256": "ad1da44cd6d0bf790548e8b0c486799d08d81f8cd551741d808b08a3c2cc0178"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_transition.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_transition.scss",
+    "sha256": "26bb99db8f829d6db9cf9b0ba16ce52eb0425f5e053851a8f654580fb581ec0d"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_utilities.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_utilities.scss",
+    "sha256": "479fcad575dee63812b00f0365e270ca3c702b1cadf52f2aa11be56116fc6f1d"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/mixins/_visually-hidden.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/mixins/_visually-hidden.scss",
+    "sha256": "b738f0c228f775b21df316a19d08c670faf2a4ff8c945cb122da04adf1ea7f88"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/utilities/_api.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/utilities/_api.scss",
+    "sha256": "1e45c70008d87c7f05b231af1104b4c1005238c52beb3e5fb2e7379a2d95ce72"
+  },
+  {
+    "path": "_sass/editorial/bootstrap/vendor/_rfs.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap/vendor/_rfs.scss",
+    "sha256": "9ee81375d95df735e997687966087ed336a18fda750b78ce523a1e56346e7225"
+  },
+  {
+    "path": "_sass/editorial/bootstrap.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/bootstrap.scss",
+    "sha256": "78c0c106ec17ad7e358f37b48f39abab059f76092a919e11461ed5ea8b52acb2"
+  },
+  {
+    "path": "_sass/editorial/components/_buttons.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_buttons.scss",
+    "sha256": "a854c4dac0b435b9a4afff51fdf15af1b774daea12c6ca7213b56513b42fe14c"
+  },
+  {
+    "path": "_sass/editorial/components/_card.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_card.scss",
+    "sha256": "e9edc8d7380970b8dfa80aecdbac822eff350845f2b486a0ee394a6177db6585"
+  },
+  {
+    "path": "_sass/editorial/components/_chips.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_chips.scss",
+    "sha256": "9378fcfc0fab4d38f52e8264cc3ca85998c1d0c3dbb850177b9e9a87e5f570c8"
+  },
+  {
+    "path": "_sass/editorial/components/_footer.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_footer.scss",
+    "sha256": "5dbf1eaed8c6d03daac4354bb4ca396ebe8a63f3f6db2b3506cf059577ba8127"
+  },
+  {
+    "path": "_sass/editorial/components/_navbar.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_navbar.scss",
+    "sha256": "ec5901c01468c079deaaa4c001713b36ca198036b0b3a4787c85ed9a5c13f112"
+  },
+  {
+    "path": "_sass/editorial/components/_profile.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_profile.scss",
+    "sha256": "34a9061986e8dd0bdb488846be7b332c558eea6117736218bfb0de1d5fa765e5"
+  },
+  {
+    "path": "_sass/editorial/components/_publication.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_publication.scss",
+    "sha256": "6e25130d919315c127f3710eed546aa82708caca9ca3c0f712807c719d4c6ba6"
+  },
+  {
+    "path": "_sass/editorial/components/_search.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/components/_search.scss",
+    "sha256": "b3e2a1a5592f06b4f1cfd15a587098c22c49a36ac02e55133aebd77f4defedfb"
+  },
+  {
+    "path": "_sass/editorial/layouts/_grid.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/layouts/_grid.scss",
+    "sha256": "11a739b9cbac4b1d2448b12bb5a5ac4a106a5a9a86fad139a7bf49129af9a451"
+  },
+  {
+    "path": "_sass/editorial/layouts/_home.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/layouts/_home.scss",
+    "sha256": "67a9785493c3bf4630d982eff998275829685947fbab4d6bb1f956e6df26eea1"
+  },
+  {
+    "path": "_sass/editorial/layouts/_research.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/layouts/_research.scss",
+    "sha256": "1075cfb9aef034f4b2ae8fcf6ebcc7e0b69c91b08f3a90c3d97cd1ad1be9e8dc"
+  },
+  {
+    "path": "_sass/editorial/layouts/_team.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/layouts/_team.scss",
+    "sha256": "122fab4859d1d2313f52daf61494ab38c5fc92bdcadf4bff56a11ce6c0dd69dd"
+  },
+  {
+    "path": "_sass/editorial/utilities/_animations.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/utilities/_animations.scss",
+    "sha256": "025f929a9780c9fdb699ee2a0bf40487d399ff148a32ceb570d9d8f5ca0f38a8"
+  },
+  {
+    "path": "_sass/editorial/utilities/_dark-mode.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/utilities/_dark-mode.scss",
+    "sha256": "e5ef6748db42bd771a6f24a00090e3393fa145d171ca2864777d482a0329fd2e"
+  },
+  {
+    "path": "_sass/editorial/utilities/_print.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/_sass/utilities/_print.scss",
+    "sha256": "df3577d296f9034aaa482507c773136be04f0f7f011159b15ed8ead0fc6040af"
+  },
+  {
+    "path": "assets/fonts/dm-sans-latin-ext-italic-400.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/dm-sans-latin-ext-italic-400.woff2",
+    "sha256": "f01f87dc7f64b876651d8d820286ba9374717eb22195b860f852dd0bdbabf6c3"
+  },
+  {
+    "path": "assets/fonts/dm-sans-latin-ext-normal-wght.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/dm-sans-latin-ext-normal-wght.woff2",
+    "sha256": "0d0609aee778d21b40bda1d27b7e6b5b3cb1a3e96b90b8831c681aca097c2219"
+  },
+  {
+    "path": "assets/fonts/dm-sans-latin-italic-400.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/dm-sans-latin-italic-400.woff2",
+    "sha256": "a3ea623fec2a53e17b55994dfdf92de634c3e50e08958ebf00f4cdf2e719eccd"
+  },
+  {
+    "path": "assets/fonts/dm-sans-latin-normal-wght.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/dm-sans-latin-normal-wght.woff2",
+    "sha256": "aa530716b0d351866af7dbfa3eee4120fb36f2d071baff8c234185141865c7ff"
+  },
+  {
+    "path": "assets/fonts/jetbrains-mono-latin-ext-normal-400.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/jetbrains-mono-latin-ext-normal-400.woff2",
+    "sha256": "d5f407e28185790518c49ec8738fa89916ddc99f793010d249165d0e2c2452cc"
+  },
+  {
+    "path": "assets/fonts/jetbrains-mono-latin-normal-400.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/jetbrains-mono-latin-normal-400.woff2",
+    "sha256": "d3dcdccdaba31643defe2317942155d4af3ee03951d058adbe8bc02b13e61b0a"
+  },
+  {
+    "path": "assets/fonts/LICENSE-dm-sans.txt",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/LICENSE-dm-sans.txt",
+    "sha256": "be5f632588774077cbb19a8d3fd788fbc7861af041f4e7165eae5822b11392b3",
+    "adaptation": "Trimmed line-ending whitespace only; license notice text unchanged."
+  },
+  {
+    "path": "assets/fonts/LICENSE-jetbrains-mono.txt",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/LICENSE-jetbrains-mono.txt",
+    "sha256": "0f4fad8b540800d694358d1cc197c7a8b129c9f658e072cb062d2d920a7b69fd",
+    "adaptation": "Trimmed line-ending whitespace only; license notice text unchanged."
+  },
+  {
+    "path": "assets/fonts/LICENSE-source-serif-4.md",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/LICENSE-source-serif-4.md",
+    "sha256": "717a22f1bd2e30d49c21a2a6f548819aacd0ade1adf854533f4d42a01bb4f910"
+  },
+  {
+    "path": "assets/fonts/source-serif-4-latin-ext-italic-400.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/source-serif-4-latin-ext-italic-400.woff2",
+    "sha256": "3eff7682cb08de3fbd2f411e05dc3f68fbd3ce721ec554ffafa7b0397214e76f"
+  },
+  {
+    "path": "assets/fonts/source-serif-4-latin-ext-normal-wght.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/source-serif-4-latin-ext-normal-wght.woff2",
+    "sha256": "a0cd390d017200f91327781204458ff918999584bece8902497ba6c08472178d"
+  },
+  {
+    "path": "assets/fonts/source-serif-4-latin-italic-400.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/source-serif-4-latin-italic-400.woff2",
+    "sha256": "419703e180143eb9033e02651331fcf3cc8558d42f1041140a0b24e5be0933bb"
+  },
+  {
+    "path": "assets/fonts/source-serif-4-latin-normal-wght.woff2",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/fonts/source-serif-4-latin-normal-wght.woff2",
+    "sha256": "2a24bad466f09b88b8e9cbc488bf774117c912e66374c57bf4716855849143f8"
+  },
+  {
+    "path": "assets/vendor/sbryngelson/LICENSE",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/LICENSE",
+    "sha256": "441f53c32f8f28cc415e4c728c66ec94bf6887b9ca7d46c9698b2f2330fb5868",
+    "adaptation": "Trimmed line-ending whitespace only; license notice text unchanged."
+  },
+  {
+    "path": "_sass/editorial/theme.scss",
+    "source": "https://github.com/sbryngelson/academic-website-template/blob/1fe64d1c1e8a6465ac267534b095119101dfa550/assets/main.scss",
+    "adaptation": "Removed Jekyll front matter only; all Sass imports retained.",
+    "sha256": "4e1a08a74977be5f2e7ef204a5a93952789428b9c1e19a0362f0bdf7fb74992e"
+  },
+  {
+    "path": "assets/editorial.css",
+    "source": "_sass/editorial/theme.scss",
+    "compiler": "Dart Sass 1.108.1",
+    "sha256": "1ba1078b90e223cf715dccdad2ba8171dacad856d5f992388108fcf5b66c26ff"
+  },
+  {
+    "path": "assets/vendor/sbryngelson/Bootstrap-LICENSE",
+    "source": "https://raw.githubusercontent.com/twbs/bootstrap/v5.3.8/LICENSE",
+    "sha256": "4620c84ad5ce8602ff65640ed6b7c8b78ebb9e036584f0ebc1ccc88206a4bb51"
+  },
+  {
+    "path": "assets/vendor/sbryngelson/Bootswatch-LICENSE",
+    "source": "https://raw.githubusercontent.com/thomaspark/bootswatch/v4.5.2/LICENSE",
+    "sha256": "af0520cd61f5231a8e158cbbeb79c837f8d65d0b288c14fae8d648f9e6204ce1"
+  }
+]

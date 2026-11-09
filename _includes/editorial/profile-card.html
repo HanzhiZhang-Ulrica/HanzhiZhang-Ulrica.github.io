@@ -1,0 +1,18 @@
+{% assign author = site.author %}
+<aside class="profile-card" aria-label="Profile" itemscope itemtype="https://schema.org/Person">
+  <img src="{{ author.avatar | prepend: '/images/' | relative_url }}" class="profile-photo" alt="{{ site.name }}" width="140" height="140" fetchpriority="high" itemprop="image">
+  <p class="profile-name" itemprop="name">{{ site.name }}</p>
+  <p class="profile-title">PhD Candidate in Computer Science</p>
+  <p class="profile-institution" itemprop="affiliation">{{ author.employer }}</p>
+  <p class="profile-institution">{{ author.location }} · {{ author.pronouns }}</p>
+  <div class="profile-links">
+    <a href="mailto:{{ author.email }}" class="icon-link" title="Email" aria-label="Email">{% include editorial/icon.html name="envelope" %}</a>
+    <a href="{{ '/files/CV_Hanzhi_Zhang.pdf' | relative_url }}" class="icon-link" title="CV" aria-label="CV">{% include editorial/icon.html name="cv" %}</a>
+    <a href="{{ author.googlescholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include editorial/icon.html name="google-scholar" %}</a>
+    <a href="https://github.com/{{ author.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include editorial/icon.html name="github" %}</a>
+    <a href="{{ author.orcid }}" class="icon-link" title="ORCID" aria-label="ORCID">{% include editorial/icon.html name="orcid" %}</a>
+    <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn">{% include editorial/icon.html name="linkedin" %}</a>
+  </div>
+  <p class="profile-email"><a href="mailto:{{ author.email }}">{{ author.email }}</a></p>
+  <p class="profile-motto">{{ site.title | split: ' | ' | last }}</p>
+</aside>
