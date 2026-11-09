@@ -73,11 +73,52 @@ sections:
   - id: research-seminars-lab-showcases
     title: Research Seminars & Lab Showcases
     entries:
-      - title: LLaVi Lab AI Seminar
+      - title: "MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design"
         title_url: https://llavi-lab.github.io/seminar.html
-        type: Research presentations
-        venue: UNT
-        year: "2024–2026"
+        type: Research presentation
+        venue: LLaVi Lab AI Seminar, UNT
+        term: Sep 2026
+        year: "2026"
+        details: "Audience: faculty and Ph.D. students."
+
+      - title: "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free"
+        title_url: https://llavi-lab.github.io/seminar/S26.html
+        type: Research presentation
+        venue: LLaVi Lab AI Seminar, UNT
+        term: Apr 2026
+        year: "2026"
+        details: "Audience: faculty and Ph.D. students."
+
+      - title: "SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration"
+        title_url: https://llavi-lab.github.io/seminar/F25.html
+        type: Research presentation
+        venue: LLaVi Lab AI Seminar, UNT
+        term: Nov 2025
+        year: "2025"
+        details: "Audience: faculty and Ph.D. students."
+
+      - title: Large Language Diffusion Models
+        title_url: https://llavi-lab.github.io/seminar/S25.html
+        type: Research presentation
+        venue: LLaVi Lab AI Seminar, UNT
+        term: Feb 2025
+        year: "2025"
+        details: "Audience: faculty and Ph.D. students."
+
+      - title: "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression"
+        title_url: https://hengfan2010.github.io/aiseminar/F24.htm
+        type: Research presentation
+        venue: LLaVi Lab AI Seminar, UNT
+        term: Oct 2024
+        year: "2024"
+        details: "Audience: faculty and Ph.D. students."
+
+      - title: Small Language Model
+        title_url: https://hengfan2010.github.io/aiseminar/S24.htm
+        type: Research presentation
+        venue: LLaVi Lab AI Seminar, UNT
+        term: Apr 2024
+        year: "2024"
         details: "Audience: faculty and Ph.D. students."
 
       - title: Responsible AI Lab
