@@ -12,10 +12,6 @@ Hanzhi Zhang is currently a **PhD Candidate in Computer Science**, directed by [
 
 {% include editorial/selected-publications.html %}
 
-## Professional Background
-
-Hanzhi completed her **MS in Data Science** with **Distinction** from the [University of Birmingham](https://www.birmingham.ac.uk/) (2021-2022) and her **BS in Computer Science and Technology (Honours)** from [Xiamen University](https://www.xmu.edu.cn/) (2017-2021). She previously worked as a **Storage Backend Intern** at **OPPO, Inc.** (2020-2021), focusing on file systems development.
-
 ## Human Elements
 
 Hanzhi Zhang's personality, as an **[ENTP-A](https://www.16personalities.com/entp-personality)**, is defined by her insatiable curiosity and robust intellectual flexibility. She revels in intellectual challenges and is the quintessential devil's advocate, skillfully deconstructing arguments and occasionally challenging her own beliefs by exploring alternative viewpoints.
@@ -25,5 +21,3 @@ Hanzhi pursues an intriguing blend of interests. She delves into the mystical re
 Her cultural appetites are satiated by frequent visits to **musicals, dramas, museums, galleries, and exhibitions**, which enrich her understanding of diverse perspectives.
 
 **Photography** is another passion of hers, which she humorously describes as a sport. This hobby sees her traversing **mountains**, laden with heavy gear, tirelessly capturing moments through day and night—an endurance exercise that combines her love for nature and artistry.
-
-> *Next goal: convince my advisor that consulting tarot cards for hyperparameter tuning counts as "novel optimization techniques." Stay tuned.*
