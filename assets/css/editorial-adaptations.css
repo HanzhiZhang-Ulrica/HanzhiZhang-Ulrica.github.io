@@ -52,6 +52,7 @@ main.site-container { width: 100%; min-height: 65vh; }
 .copy-wrapper:focus-within .copy-btn { opacity: 1; }
 .pub-collapse .pub-bibtex { padding-top: 3.5rem; overflow-wrap: anywhere; }
 .pub-bibtex code { font-size: inherit; white-space: inherit; overflow-wrap: anywhere; }
+.pub-collapse .pub-abstract-text { font: inherit; }
 .pub-abstract-source { margin: var(--space-2) 0 0; font-size: .75rem; color: var(--text-muted); }
 .publication-group + .publication-group { margin-top: var(--space-8); }
 .pub-equal { font-size: .875rem; color: var(--text-muted); }

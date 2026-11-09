@@ -5,9 +5,9 @@ icon:
 year: 2025
 order: 6
 authors: S. Anjum, **H. Zhang**, W. Zhou, E. J. Paek, X. Zhao, and Y. Feng
-venue: 'IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (**IEEE/ACM CHASE**)'
+venue: 'IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (IEEE/ACM CHASE)'
 permalink: /publication/2025-halo-hallucination-analysis
-paperurl: https://arxiv.org/abs/2409.10011
+paperurl: https://doi.org/10.1145/3721201.3721385
 codeurl: https://github.com/ResponsibleAILab/HALO
 collection: publications
 date: '2025-01-01'

@@ -4,7 +4,7 @@ icon:
 year: 2025
 order: 5
 authors: '**H. Zhang**, H. Lucero, K. Sha, H. Fan, S. Fu, and Y. Feng'
-venue: 'IEEE International Conference on Mobility: Operations, Services, and Technologies (**IEEE MOST**)'
+venue: 'IEEE International Conference on Mobility: Operations, Services, and Technologies (IEEE MOST)'
 permalink: /publication/2025-d2so-detecting-distant-small-objects
 redirect_to: /publications/#pub-2025-d2so-detecting-distant-small-objects
 paperurl: https://songfu-cse.github.io/Papers/MOST2025B.pdf

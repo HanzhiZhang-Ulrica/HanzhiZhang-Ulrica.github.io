@@ -5,7 +5,7 @@ icon:
 year: 2024
 order: 7
 authors: T. Xie, **H. Zhang**, S. Wang, Y. Wan, I. Razzak, C. Kit, W. Zhang, and B. Hoex
-venue: IEEE International Conference on Data Mining Workshops (**IEEE ICDMW**)
+venue: IEEE International Conference on Data Mining Workshops (IEEE ICDMW)
 permalink: /publication/2024-bytescience-bridging-literature
 paperurl: https://ieeexplore.ieee.org/abstract/document/10917307
 collection: publications
