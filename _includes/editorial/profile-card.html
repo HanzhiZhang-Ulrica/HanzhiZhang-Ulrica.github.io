@@ -7,7 +7,6 @@
   <p class="profile-institution">{{ author.location }} · {{ author.pronouns }}</p>
   <div class="profile-links">
     <a href="mailto:{{ author.email }}" class="icon-link" title="Email" aria-label="Email">{% include editorial/icon.html name="envelope" %}</a>
-    <a href="{{ '/files/CV_Hanzhi_Zhang.pdf' | relative_url }}?v={{ site.time | date: '%s' }}" class="icon-link" title="CV" aria-label="CV">{% include editorial/icon.html name="cv" %}</a>
     <a href="{{ author.googlescholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include editorial/icon.html name="google-scholar" %}</a>
     <a href="https://github.com/{{ author.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include editorial/icon.html name="github" %}</a>
     <a href="{{ author.orcid }}" class="icon-link" title="ORCID" aria-label="ORCID">{% include editorial/icon.html name="orcid" %}</a>
