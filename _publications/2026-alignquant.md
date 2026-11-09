@@ -41,14 +41,14 @@ abstract: >-
   https://github.com/HanzhiZhang-Ulrica/AlignQuant.
 bibtex_source: https://arxiv.org/abs/2610.07457
 bibtex: |-
-  @misc{zhang2026alignquant,
-    author = {Zhang, Hanzhi and Zhang, Qiao and Cao, Qinglei and Fan, Heng and Huang, Yan and Sha, Kewei and Feng, Yunhe},
-    title = {{AlignQuant}: Tile-Aligned Mixed-Precision Quantization for Efficient {LLM} Generation},
-    year = {2026},
-    eprint = {2610.07457},
-    archivePrefix = {arXiv},
-    primaryClass = {cs.LG},
-    url = {https://arxiv.org/abs/2610.07457}
+  @misc{zhang2026alignquanttilealignedmixedprecisionquantization,
+        title={AlignQuant: Tile-Aligned Mixed-Precision Quantization for Efficient LLM Generation},
+        author={Hanzhi Zhang and Qiao Zhang and Qinglei Cao and Heng Fan and Yan Huang and Kewei Sha and Yunhe Feng},
+        year={2026},
+        eprint={2610.07457},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG},
+        url={https://arxiv.org/abs/2610.07457},
   }
 ---
 

@@ -32,14 +32,13 @@ abstract: >-
   efficient hardware execution. The implementation is: https://github.com/HanzhiZhang-Ulrica/TileQuant
 bibtex_source: https://arxiv.org/abs/2611.07217
 bibtex: |-
-  @misc{zhang2026tilequant,
-      title = {{TileQuant}: Tile as the Precision-Allocation Unit for {LLM} Mixed-Precision Post-Training Quantization},
-      author = {Zhang, Hanzhi and Zhang, Qiao and Cao, Qinglei and Fan, Heng and Huang, Yan and Sha, Kewei and Feng, Yunhe},
-      year = {2026},
-      eprint = {2611.07217},
-      archivePrefix = {arXiv},
-      primaryClass = {cs.LG},
-      doi = {10.48550/arXiv.2611.07217},
-      url = {https://arxiv.org/abs/2611.07217}
+  @misc{zhang2026tilequanttileprecisionallocationunit,
+        title={TileQuant: Tile as the Precision-Allocation Unit for LLM Mixed-Precision Post-Training Quantization},
+        author={Hanzhi Zhang and Qiao Zhang and Qinglei Cao and Heng Fan and Yan Huang and Kewei Sha and Yunhe Feng},
+        year={2026},
+        eprint={2611.07217},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG},
+        url={https://arxiv.org/abs/2611.07217},
   }
 ---

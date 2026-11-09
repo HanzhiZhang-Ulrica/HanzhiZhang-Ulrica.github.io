@@ -38,15 +38,16 @@ abstract: >-
   VQ-SAM achieves promising results and surpasses existing methods, evidencing its effectiveness. With VQS-4K
   and VQ-SAM, we expect to inspire more future research and applications on VQS. Our benchmark and code are
   released at https://github.com/VAIL-Fan/VQS.
-bibtex_source: https://github.com/VAIL-Fan/VQS#citation
+bibtex_source: https://arxiv.org/abs/2603.08898
 bibtex: |-
-  @inproceedings{fan2026vqs,
-    title     = {Towards Visual Query Segmentation in the Wild},
-    author    = {Fan, Bing and Li, Minghao and Zhang, Hanzhi and Dong, Shaohua and
-                 Mareedu, Naga Prudhvi and Liu, Xiaoqiong and Shi, Weishi and
-                 Feng, Yunhe and Huang, Yan and Fan, Heng},
-    booktitle = {Advances in Neural Information Processing Systems},
-    year      = {2026}
+  @misc{fan2026visualquerysegmentationwild,
+        title={Towards Visual Query Segmentation in the Wild},
+        author={Bing Fan and Minghao Li and Hanzhi Zhang and Shaohua Dong and Naga Prudhvi Mareedu and Xiaoqiong Liu and Weishi Shi and Yunhe Feng and Yan Huang and Heng Fan},
+        year={2026},
+        eprint={2603.08898},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2603.08898},
   }
 redirect_to: /publications/#pub-2026-visual-query-segmentation
 ---

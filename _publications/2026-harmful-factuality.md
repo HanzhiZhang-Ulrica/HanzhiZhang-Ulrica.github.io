@@ -18,7 +18,7 @@ abstract_source: https://aclanthology.org/2026.findings-eacl.46/
 abstract: >-
   While Large Language Models (LLMs) are trained for factual accuracy, this objective can directly conflict with
   the critical demand for source fidelity. This paper isolates and formalizes this conflict as Harmful
-  Factuality Hallucination (HFH): a previously overlooked failure mode where an LLM’s attempt to “correct”
+  Factuality Hallucination (HFH): a previously overlooked failure mode where an LLM's attempt to “correct”
   perceived source errors results in an output that is factually true but unfaithful to the input. Unlike
   traditional hallucination research focused on models generating falsehoods, we investigate the harm of
   misplaced correctness. We introduce a reproducible framework to elicit and measure HFH using controlled
@@ -29,7 +29,7 @@ abstract: >-
   the abstract factuality–faithfulness tension into a measurable, actionable target for building more reliable
   LLM systems. Our code is publicly available at
   https://github.com/ResponsibleAILab/Harmful-Factuality-Hallucination.
-bibtex_source: https://aclanthology.org/2026.findings-eacl.46.bib
+bibtex_source: https://aclanthology.org/2026.findings-eacl.46/
 bibtex: |-
   @inproceedings{li-etal-2026-harmful,
       title = "Harmful Factuality: {LLM}s Correcting What They Shouldn{'}t",
@@ -49,7 +49,8 @@ bibtex: |-
       url = "https://aclanthology.org/2026.findings-eacl.46/",
       doi = "10.18653/v1/2026.findings-eacl.46",
       pages = "896--912",
-      ISBN = "979-8-89176-386-9"
+      ISBN = "979-8-89176-386-9",
+      abstract = "While Large Language Models (LLMs) are trained for factual accuracy, this objective can directly conflict with the critical demand for source fidelity. This paper isolates and formalizes this conflict as Harmful Factuality Hallucination (HFH): a previously overlooked failure mode where an LLM{'}s attempt to ``correct'' perceived source errors results in an output that is factually true but unfaithful to the input. Unlike traditional hallucination research focused on models generating falsehoods, we investigate the harm of misplaced correctness. We introduce a reproducible framework to elicit and measure HFH using controlled entity-level perturbations (both soft, embedding-based and hard, instruction-based) paired with strategic entity selection. Across summarization, rephrasing, and QA tasks, our evaluation of diverse LLMs reveals that HFH is a prevalent behavior that worsens with model scale. We identify three underlying mechanisms and demonstrate that a simple instructional prompt can reduce HFH rates by approximately 50{\%}. Our framework turns the abstract factuality{--}faithfulness tension into a measurable, actionable target for building more reliable LLM systems. Our code is publicly available at \url{https://github.com/ResponsibleAILab/Harmful-Factuality-Hallucination}."
   }
 abstract_license: CC BY 4.0
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/

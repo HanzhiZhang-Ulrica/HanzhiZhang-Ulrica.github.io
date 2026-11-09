@@ -14,18 +14,18 @@ date_precision: year
 excerpt: A specialized framework for detecting distant and small objects in vision-based autonomous vehicle systems, enhancing
   safety and situational awareness.
 doi: 10.1109/MOST65065.2025.00013
-bibtex_source: https://api.crossref.org/works/10.1109/MOST65065.2025.00013
+bibtex_source: https://doi.org/10.1109/MOST65065.2025.00013
 bibtex: |-
-  @inproceedings{zhang2025d2so,
-    author = {Zhang, Hanzhi and Lucero, Harold and Sha, Kewei and Fan, Heng and Fu, Song and Feng, Yunhe},
-    title = {{D2SO}: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems},
-    booktitle = {2025 IEEE 3rd International Conference on Mobility, Operations, Services and Technologies (MOST)},
-    year = {2025},
-    pages = {35--42},
-    publisher = {IEEE},
-    doi = {10.1109/MOST65065.2025.00013},
-    url = {https://doi.org/10.1109/MOST65065.2025.00013}
-  }
+  @INPROCEEDINGS{11071446,
+    author={Zhang, Hanzhi and Lucero, Harold and Sha, Kewei and Fan, Heng and Fu, Song and Feng, Yunhe},
+    booktitle={2025 IEEE 3rd International Conference on Mobility, Operations, Services and Technologies (MOST)},
+    title={D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems},
+    year={2025},
+    volume={},
+    number={},
+    pages={35-42},
+    keywords={YOLO;Image segmentation;Computer vision;Visualization;Autonomous systems;Image color analysis;Urban areas;Transformers;Hazards;Reliability;Small Object Detection;Distant Object Detection;Image Segmentation;Vehicle Autonomous Systems;Segment Anything Model (SAM);Vision Transformer (ViT)},
+    doi={10.1109/MOST65065.2025.00013}}
 abstract_label: Abstract
 abstract_source: https://songfu-cse.github.io/Papers/MOST2025B.pdf
 abstract: >-

@@ -45,14 +45,14 @@ abstract: >-
   https://github.com/HanzhiZhang-Ulrica/TriAttention.
 bibtex_source: https://arxiv.org/abs/2611.07256
 bibtex: |-
-  @misc{zhang2026triattention,
-    author = {Zhang, Hanzhi and Zhang, Qiao and Cao, Qinglei and Fan, Heng and Huang, Yan and Sha, Kewei and Feng, Yunhe},
-    title = {{TriAttention}: Unified Sparse Mixed-Precision Attention for Long-Context {LLM} Inference},
-    year = {2026},
-    eprint = {2611.07256},
-    archivePrefix = {arXiv},
-    primaryClass = {cs.LG},
-    url = {https://arxiv.org/abs/2611.07256}
+  @misc{zhang2026triattentionunifiedsparsemixedprecision,
+        title={TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference},
+        author={Hanzhi Zhang and Qiao Zhang and Qinglei Cao and Heng Fan and Yan Huang and Kewei Sha and Yunhe Feng},
+        year={2026},
+        eprint={2611.07256},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG},
+        url={https://arxiv.org/abs/2611.07256},
   }
 ---
 

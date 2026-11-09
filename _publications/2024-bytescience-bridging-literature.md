@@ -14,18 +14,18 @@ date_precision: year
 excerpt: An innovative framework that bridges unstructured scientific literature and structured data through auto fine-tuned
   Large Language Models operating at token granularity.
 doi: 10.1109/ICDMW65004.2024.00126
-bibtex_source: https://api.crossref.org/works/10.1109/ICDMW65004.2024.00126
+bibtex_source: https://doi.org/10.1109/ICDMW65004.2024.00126
 bibtex: |-
-  @inproceedings{xie2024bytescience,
-    author = {Xie, Tong and Zhang, Hanzhi and Wang, Shaozhou and Wan, Yuwei and Razzak, Imran and Kit, Chunyu and Zhang, Wenjie and Hoex, Bram},
-    title = {{ByteScience}: Bridging Unstructured Scientific Literature and Structured Data with Auto Fine-tuned Large Language Model in Token Granularity},
-    booktitle = {2024 IEEE International Conference on Data Mining Workshops (ICDMW)},
-    year = {2024},
-    pages = {907--911},
-    publisher = {IEEE},
-    doi = {10.1109/ICDMW65004.2024.00126},
-    url = {https://doi.org/10.1109/ICDMW65004.2024.00126}
-  }
+  @INPROCEEDINGS{10917307,
+    author={Xie, Tong and Zhang, Hanzhi and Wang, Shaozhou and Wan, Yuwei and Razzak, Imran and Kit, Chunyu and Zhang, Wenjie and Hoex, Bram},
+    booktitle={2024 IEEE International Conference on Data Mining Workshops (ICDMW)},
+    title={ByteScience: Bridging Unstructured Scientific Literature and Structured Data with Auto Fine-tuned Large Language Model in Token Granularity},
+    year={2024},
+    volume={},
+    number={},
+    pages={907-911},
+    keywords={Cloud computing;Accuracy;Web services;Large language models;Computational modeling;Propulsion;Natural language processing;Data models;Data mining;Informatics;component;formatting;style;styling;insert},
+    doi={10.1109/ICDMW65004.2024.00126}}
 abstract_label: Abstract
 abstract_source: https://arxiv.org/abs/2411.12000
 abstract_license: CC BY 4.0

@@ -31,14 +31,13 @@ abstract: >-
   families. The implementation is available at https://github.com/HanzhiZhang-Ulrica/TileMix.
 bibtex_source: https://arxiv.org/abs/2608.17336
 bibtex: |-
-  @misc{zhang2026tilemix,
-      title = {{TileMix}: Tile-Centric Mixed-Precision Attention for {LLM} Inference Acceleration},
-      author = {Zhang, Hanzhi and Zhang, Qiao and Cao, Qinglei and Fan, Heng and Huang, Yan and Sha, Kewei and Feng, Yunhe},
-      year = {2026},
-      eprint = {2608.17336},
-      archivePrefix = {arXiv},
-      primaryClass = {cs.AI},
-      doi = {10.48550/arXiv.2608.17336},
-      url = {https://arxiv.org/abs/2608.17336}
+  @misc{zhang2026tilemixtilecentricmixedprecisionattention,
+        title={TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration},
+        author={Hanzhi Zhang and Qiao Zhang and Qinglei Cao and Heng Fan and Yan Huang and Kewei Sha and Yunhe Feng},
+        year={2026},
+        eprint={2608.17336},
+        archivePrefix={arXiv},
+        primaryClass={cs.AI},
+        url={https://arxiv.org/abs/2608.17336},
   }
 ---
