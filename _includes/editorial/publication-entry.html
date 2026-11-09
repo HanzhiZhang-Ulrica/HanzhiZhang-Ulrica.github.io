@@ -1,11 +1,30 @@
 {% assign publication = include.publication %}
-<article class="pub-entry" data-pub-searchable>
+{% assign publication_id = publication.slug | default: publication.title | slugify %}
+<article class="pub-entry" id="pub-{{ publication_id }}" data-pub-searchable>
   <span class="year-badge" aria-hidden="true">{{ publication.year }}</span>
   <div class="text-justify publication-citation">
     <span class="citation-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>.
     <span class="citation-title">{{ publication.title | escape }}</span>.
     <em class="citation-venue">{{ publication.venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</em>, {{ publication.year }}.
   </div>
-  {% if publication.equal_contribution %}<div class="pub-equal"><em>* {{ publication.equal_contribution }} </em></div>{% endif %}
-  <div class="pub-actions">{% include publication-links.html publication=publication %} <a class="btn-pill btn-link" href="{{ publication.url | relative_url }}">Details</a></div>
+  <div class="pub-actions">
+    {% include publication-links.html publication=publication %}
+    {% if publication.bibtex and publication.bibtex != '' %}<button type="button" class="btn-pill btn-bib" id="toggle-bib-{{ publication_id }}" data-pub-toggle="bib-{{ publication_id }}" aria-controls="bib-{{ publication_id }}" aria-expanded="false" aria-label="BibTeX for {{ publication.title | escape }}">BIB</button>{% endif %}
+    {% if publication.abstract and publication.abstract != '' %}<button type="button" class="btn-pill btn-abstract" id="toggle-abs-{{ publication_id }}" data-pub-toggle="abs-{{ publication_id }}" aria-controls="abs-{{ publication_id }}" aria-expanded="false" aria-label="{{ publication.abstract_label | default: 'Abstract' | escape }} for {{ publication.title | escape }}">{{ publication.abstract_label | default: 'Abstract' | escape }}</button>{% endif %}
+  </div>
+  {% if publication.bibtex and publication.bibtex != '' %}
+  <div class="pub-collapse" id="bib-{{ publication_id }}" role="region" aria-labelledby="toggle-bib-{{ publication_id }}" hidden>
+    <div class="copy-wrapper">
+      <button type="button" class="copy-btn" data-copy-bib="bib-{{ publication_id }}" aria-label="Copy BibTeX for {{ publication.title | escape }}">Copy</button>
+      <pre class="pub-bibtex"><code>{{ publication.bibtex | escape }}</code></pre>
+    </div>
+    <p class="copy-status visually-hidden" role="status" aria-live="polite"></p>
+  </div>
+  {% endif %}
+  {% if publication.abstract and publication.abstract != '' %}
+  <div class="pub-collapse" id="abs-{{ publication_id }}" role="region" aria-labelledby="toggle-abs-{{ publication_id }}" hidden>
+    <pre class="pub-abstract-text">{{ publication.abstract | escape }}</pre>
+    {% if publication.abstract_source %}<p class="pub-abstract-source"><a href="{{ publication.abstract_source | escape }}">Source</a>{% if publication.abstract_license and publication.abstract_license_url %} · <a href="{{ publication.abstract_license_url | escape }}">{{ publication.abstract_license | escape }}</a>{% endif %}</p>{% endif %}
+  </div>
+  {% endif %}
 </article>

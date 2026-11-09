@@ -9,7 +9,7 @@ sitemap: false
 {% if document.title and document.url != '/404.html' and document.search != false %}
 {{ separator }}{
   "title": {{ document.title | strip_html | jsonify }},
-  "url": {{ document.url | relative_url | jsonify }},
+  "url": {{ document.redirect_to | default: document.url | relative_url | jsonify }},
   "content": {{ document.content | markdownify | strip_html | replace: '
 ', ' ' | jsonify }}
 }

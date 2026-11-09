@@ -45,6 +45,15 @@ main.site-container { width: 100%; min-height: 65vh; }
 .news-item:first-child { padding-top: 0; }
 .news-item:last-child { padding-bottom: 0; }
 .pub-entry .pub-title { font-size: 1rem; line-height: 1.6; }
+.pub-entry { scroll-margin-top: var(--space-4); }
+.pub-collapse.show { max-height: none; }
+.copy-wrapper { position: relative; }
+.copy-btn { opacity: 1; top: var(--space-3); right: var(--space-3); min-height: 2rem; }
+.copy-wrapper:focus-within .copy-btn { opacity: 1; }
+.pub-collapse .pub-bibtex { padding-top: 3.5rem; overflow-wrap: anywhere; }
+.pub-bibtex code { font-size: inherit; white-space: inherit; overflow-wrap: anywhere; }
+.pub-abstract-source { margin: var(--space-2) 0 0; font-size: .75rem; color: var(--text-muted); }
+.publication-group + .publication-group { margin-top: var(--space-8); }
 .pub-equal { font-size: .875rem; color: var(--text-muted); }
 .publication-year + .publication-year { margin-top: var(--space-8); }
 .publication-year h2 { margin-bottom: 0; }

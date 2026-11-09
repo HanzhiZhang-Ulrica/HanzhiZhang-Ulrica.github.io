@@ -1,6 +1,6 @@
 <h2 id="selected-publications">Selected publications</h2>
 <div class="section-card selected-pubs">
-  {% assign selected_publications = site.publications | sort: 'order' %}
+  {% assign selected_publications = site.publications | where_exp: 'publication', "publication.publication_type != 'preprint'" | sort: 'order' %}
   {% assign selected_count = 0 %}
   {% for publication in selected_publications %}
     {% assign first_author = publication.authors | split: ',' | first | strip %}

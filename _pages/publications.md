@@ -3,7 +3,7 @@ layout: default
 title: "Publications"
 permalink: /publications/
 author_profile: true
-excerpt: "Peer-reviewed publications by Hanzhi Zhang on efficient AI systems, language models, and reliable and responsible AI."
+excerpt: "Publications and preprints by Hanzhi Zhang on efficient AI systems, language models, and reliable and responsible AI."
 ---
 <div class="content-page publications-page">
   <h1 class="page__title">{{ page.title }}</h1>
@@ -12,15 +12,24 @@ excerpt: "Peer-reviewed publications by Hanzhi Zhang on efficient AI systems, la
   <input type="search" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year..." aria-controls="pubList">
   <div class="section-card" id="pubList">
     {% assign publications = site.publications | sort: 'order' %}
-    {% assign years = publications | group_by: 'year' %}
-    {% for year in years %}
-    <section class="publication-year" aria-labelledby="year-{{ year.name }}">
-      <h2 id="year-{{ year.name }}">{{ year.name }}</h2>
-      {% for publication in year.items %}
-      {% include editorial/publication-entry.html publication=publication %}
+    {% assign preprints = publications | where: 'publication_type', 'preprint' %}
+    {% assign proceedings = publications | where_exp: 'publication', "publication.publication_type != 'preprint'" %}
+    {% if preprints.size > 0 %}
+    <section class="publication-group" aria-labelledby="preprints" data-publication-group>
+      <h2 id="preprints">Preprints</h2>
+      {% for publication in preprints %}
+        {% include editorial/publication-entry.html publication=publication %}
       {% endfor %}
     </section>
-    {% endfor %}
+    {% endif %}
+    {% if proceedings.size > 0 %}
+    <section class="publication-group" aria-labelledby="conference-proceedings" data-publication-group>
+      <h2 id="conference-proceedings">Refereed Conference Proceedings</h2>
+      {% for publication in proceedings %}
+        {% include editorial/publication-entry.html publication=publication %}
+      {% endfor %}
+    </section>
+    {% endif %}
   </div>
   <p id="pubStatus" class="visually-hidden" role="status" aria-live="polite"></p>
   <p id="pubEmpty" hidden>No publications match your search.</p>

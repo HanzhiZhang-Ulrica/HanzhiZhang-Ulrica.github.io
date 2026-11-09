@@ -32,7 +32,7 @@
   {% include editorial/navbar.html %}
   <main id="main" class="site-container" tabindex="-1">{{ content }}</main>
   {% include editorial/footer.html %}
-  <script src="{{ '/assets/js/editorial.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/editorial.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   {% include analytics.html %}
   {% if site.comments.provider %}{% include comments-providers/scripts.html %}{% endif %}
 </body>

@@ -48,7 +48,6 @@ layout: default
       <section class="page__content" itemprop="text">
         {% if page.collection == 'publications' %}
           {{ page.authors | markdownify }}
-          {% if page.equal_contribution %}<p><em>* {{ page.equal_contribution }} (Co-first authors.)</em></p>{% endif %}
           <p>{% include publication-links.html publication=page %}</p>
         {% endif %}
         {{ content }}

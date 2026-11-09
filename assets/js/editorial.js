@@ -41,29 +41,96 @@
     });
   }
 
+  document.querySelectorAll('[data-pub-toggle]').forEach(function (button) {
+    var panel = document.getElementById(button.getAttribute('data-pub-toggle'));
+    if (!panel) return;
+    button.addEventListener('click', function () {
+      var expanded = button.getAttribute('aria-expanded') !== 'true';
+      button.setAttribute('aria-expanded', String(expanded));
+      panel.hidden = !expanded;
+      panel.classList.toggle('show', expanded);
+    });
+  });
+
+  document.querySelectorAll('[data-copy-bib]').forEach(function (button) {
+    var panel = document.getElementById(button.getAttribute('data-copy-bib'));
+    var code = panel && panel.querySelector('.pub-bibtex');
+    var status = panel && panel.querySelector('.copy-status');
+    if (!code || !status) return;
+    button.addEventListener('click', function () {
+      button.disabled = true;
+      button.classList.remove('copied');
+      status.textContent = '';
+      Promise.resolve().then(function () {
+        if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error('Clipboard unavailable');
+        return navigator.clipboard.writeText(code.textContent.trim());
+      }).then(function () {
+        button.textContent = 'Copied';
+        button.classList.add('copied');
+        status.textContent = 'BibTeX copied to clipboard.';
+      }).catch(function () {
+        button.textContent = 'Copy failed';
+        status.textContent = 'Could not copy. Please select and copy the BibTeX text.';
+      }).finally(function () {
+        button.disabled = false;
+      });
+    });
+  });
+
   var pubSearch = document.getElementById('pubSearch');
   if (pubSearch) {
     var publications = Array.from(document.querySelectorAll('[data-pub-searchable]'));
-    var years = document.querySelectorAll('.publication-year');
+    var groups = document.querySelectorAll('[data-publication-group]');
+    var pubList = document.getElementById('pubList');
     var pubStatus = document.getElementById('pubStatus');
     var pubEmpty = document.getElementById('pubEmpty');
     function filterPublications() {
       var query = pubSearch.value.toLowerCase().trim();
       var count = 0;
       publications.forEach(function (entry) {
-        entry.hidden = !entry.textContent.toLowerCase().includes(query);
+        var citation = entry.querySelector('.publication-citation');
+        var searchableText = citation ? citation.textContent : '';
+        entry.hidden = !searchableText.replace(/\s+/g, ' ').toLowerCase().includes(query);
         if (!entry.hidden) count += 1;
       });
-      years.forEach(function (year) {
-        year.hidden = !Array.from(year.querySelectorAll('[data-pub-searchable]')).some(function (entry) {
+      groups.forEach(function (group) {
+        group.hidden = !Array.from(group.querySelectorAll('[data-pub-searchable]')).some(function (entry) {
           return !entry.hidden;
         });
       });
+      if (pubList) pubList.hidden = count === 0;
       if (pubEmpty) pubEmpty.hidden = count !== 0;
       if (pubStatus) pubStatus.textContent = count + ' of ' + publications.length + ' publications shown.';
     }
     pubSearch.addEventListener('input', filterPublications);
     filterPublications();
+
+    function revealPublicationTarget(hash) {
+      if (!hash || !hash.startsWith('#pub-')) return;
+      var targetId;
+      try { targetId = decodeURIComponent(hash.slice(1)); } catch (_) { return; }
+      var target = document.getElementById(targetId);
+      if (!target || !target.matches('[data-pub-searchable]') || !target.hidden) return;
+      pubSearch.value = '';
+      filterPublications();
+      target.scrollIntoView({ block: 'start', behavior: 'auto' });
+    }
+    window.addEventListener('hashchange', function () {
+      revealPublicationTarget(window.location.hash);
+    });
+    // Capture before the search overlay removes its result links on close.
+    // Click handling also covers a target whose hash is already in the URL.
+    document.addEventListener('click', function (event) {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      var link = event.target.closest('a[href]');
+      if (!link || (link.target && link.target !== '_self') || link.hasAttribute('download')) return;
+      var destination;
+      try { destination = new URL(link.href, window.location.href); } catch (_) { return; }
+      if (destination.origin === window.location.origin && destination.pathname === window.location.pathname && destination.search === window.location.search) {
+        revealPublicationTarget(destination.hash);
+      }
+    }, true);
+    revealPublicationTarget(window.location.hash);
   }
 
   var topButton = document.createElement('button');
