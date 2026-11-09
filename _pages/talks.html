@@ -9,16 +9,18 @@ excerpt: "Invited talks, conference and poster presentations, research seminars,
 <div class="content-page talks-page">
   <h1 class="page__title">{{ page.title }}</h1>
 
-  {% for section in site.data.talks.sections %}
-  <section class="section-card" aria-labelledby="{{ section.id | escape }}">
-    <h2 id="{{ section.id | escape }}">{{ section.title | escape }}</h2>
-    {% for entry in section.entries %}
-    <article class="pub-entry teaching-entry">
+  {% assign current_year = site.time | date: '%Y' %}
+  {% assign talk_years = site.data.talks.entries | group_by_exp: 'entry', 'entry.group_year | default: entry.year' | sort: 'name' | reverse %}
+  {% for year in talk_years %}
+  <details class="section-card talk-year" id="talk-year-{{ year.name }}"{% if year.name == current_year %} open{% endif %}>
+    <summary class="talk-year-heading"><span>{{ year.name | escape }}</span><span class="talk-year-toggle" aria-hidden="true"></span></summary>
+    {% for entry in year.items %}
+    <article class="pub-entry talk-entry">
       <span class="year-badge">{{ entry.term | default: entry.year | escape }}</span>
-      <div class="text-justify teaching-heading"><strong>{% if entry.title_url %}<a href="{{ entry.title_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.title | escape }}</a>{% else %}{{ entry.title | escape }}{% endif %}</strong>. {{ entry.type | escape }}, {% if entry.venue_url %}<a href="{{ entry.venue_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.venue | escape }}</a>{% else %}{{ entry.venue | escape }}{% endif %}.</div>
-      {% if entry.details %}<div class="teaching-details">{{ entry.details | markdownify }}</div>{% endif %}
+      <div class="text-justify talk-heading"><strong>{% if entry.title_url %}<a href="{{ entry.title_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.title | escape }}</a>{% else %}{{ entry.title | escape }}{% endif %}</strong>. {{ entry.type | escape }}, {% if entry.venue_url %}<a href="{{ entry.venue_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.venue | escape }}</a>{% else %}{{ entry.venue | escape }}{% endif %}.</div>
+      {% if entry.details %}<div class="talk-details">{{ entry.details | markdownify }}</div>{% endif %}
     </article>
     {% endfor %}
-  </section>
+  </details>
   {% endfor %}
 </div>

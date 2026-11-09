@@ -17,9 +17,7 @@ External Reviewer: {{ site.data.services.external | join: '; ' }}.
 {% for entry in site.data.services.volunteering %}Student Volunteer, {{ entry.event }}, {{ entry.institution }}, {{ entry.date }}. {% endfor %}
 {% when '/talks/' %}
 {{ document.title }}
-{% for section in site.data.talks.sections %}{{ section.title }}.
-{% for entry in section.entries %}{{ entry.title }}. {{ entry.type }}, {{ entry.venue }}, {{ entry.term | default: entry.year }}. {{ entry.details }} {% endfor %}
-{% endfor %}
+{% for entry in site.data.talks.entries %}{{ entry.title }}. {{ entry.type }}, {{ entry.venue }}, {{ entry.term | default: entry.year }}. {{ entry.details }} {% endfor %}
 {% else %}
 {{ document.content }}
 {% endcase %}
