@@ -3,7 +3,7 @@
   <ul class="news-timeline sidebar-news-list">
     {% for item in site.data.news limit:6 %}
     <li class="news-item">
-      <div class="news-date">{{ item.date_label | escape }}</div>
+      <div class="news-date">{% include editorial/news-icon.html item=item %}{{ item.date_label | escape }}</div>
       <div class="news-headline">{% include editorial/news-headline.html item=item %}</div>
     </li>
     {% endfor %}

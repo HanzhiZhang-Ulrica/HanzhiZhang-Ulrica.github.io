@@ -7,7 +7,7 @@
     <ul class="news-list news-timeline">
     {% for item in year.items %}
       {% assign news_index = news_index | plus: 1 %}
-      <li class="news-item" id="news-{{ news_index }}"><strong class="news-date">{{ item.date_label | escape }}:</strong> <span class="news-headline">{% include editorial/news-headline.html item=item %}</span></li>
+      <li class="news-item" id="news-{{ news_index }}"><strong class="news-date">{% include editorial/news-icon.html item=item %}{{ item.date_label | escape }}:</strong> <span class="news-headline">{% include editorial/news-headline.html item=item %}</span></li>
     {% endfor %}
     </ul>
   </details>

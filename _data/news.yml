@@ -4,35 +4,44 @@
 # Original date notes and sources retain the full review-cycle evidence.
 - date_label: "Oct 2026"
   text: "Selected as a “Top Reviewer” for NeurIPS 2026"
+  category: award
   emphasis: ["Top Reviewer"]
   date_note: "Hanzhi Zhang confirmed NeurIPS 2026, correcting the earlier year typo."
 - date_label: "Oct 2026"
   text: "Served as a reviewer for ICLR 2027"
+  category: review
   source_url: "https://iclr.cc/Conferences/2027/AreaChairGuidelines"
   date_note: "Official initial review period: Oct 1–21, 2026; not a personal invitation date."
 - date_label: "Oct 2026"
   text: "Served as a reviewer for ACL Rolling Review 2026 (October cycle)"
+  category: review
   date_note: "Review cycle named in the CV; not an inferred invitation date."
 - date_label: "Oct 2026"
   text: "Gave a lecture on CNNs for CSCE 4201"
+  category: teaching
   date_note: "Lecture month confirmed by Hanzhi Zhang."
 - date_label: "Oct 2026"
   text: "Gave a lecture on NLP for CSCE 4201"
+  category: teaching
   date_note: "Lecture month confirmed by Hanzhi Zhang."
 - date_label: "Oct 2026"
   text: "Gave a lecture on Transformers for CSCE 4201"
+  category: teaching
   date_note: "Lecture month confirmed by Hanzhi Zhang."
 - date_label: "Oct 2026"
   text: "Started research collaboration with Amazon scientist Qian Qu"
+  category: collaboration
   date_note: "Collaboration start month confirmed by Hanzhi Zhang."
 - date_label: "Sep 2026"
   text: "Gave a presentation on “MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design” at UNT's LLaVi Lab AI Seminar"
+  category: talk
   source_url: "https://llavi-lab.github.io/seminar.html"
   date_note: "Sep 11, 2026"
   link_text: "MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design"
   link_url: "https://llavi-lab.github.io/seminar.html"
 - date_label: "Sep 2026"
   text: "Our research paper, “Towards Visual Query Segmentation in the Wild”, has been accepted for publication in Advances in Neural Information Processing Systems (NeurIPS 2026). I am a co-first author of this work."
+  category: paper
   source_url: "https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets"
   date_note: "Acceptance month follows the official Evaluations & Datasets author notification date, Sep 24, 2026."
   link_text: "Towards Visual Query Segmentation in the Wild"
@@ -40,13 +49,16 @@
   emphasis: ["NeurIPS 2026", "co-first author"]
 - date_label: "Sep 2026"
   text: "I contributed to the Amazon Research Awards (ARA) project “TileRoute-Trainium: Tile-Level Mixed-Precision Kernels for Long-Context LLM Inference” as lead student researcher and proposal co-writer."
+  category: research_support
   emphasis: ["Amazon Research Awards"]
   date_note: "Month confirmed by Hanzhi Zhang."
 - date_label: "Aug 2026"
   text: "Served as a reviewer for ACL Rolling Review 2026 (August cycle)"
+  category: review
   date_note: "Review cycle named in the CV; not an inferred invitation date."
 - date_label: "Aug 2026"
   text: "Our research paper, “Poly-FEVER: A Multilingual Hallucination Detection Benchmark”, has been accepted for publication in Findings of the Association for Computational Linguistics (EMNLP 2026)."
+  category: paper
   source_url: "https://2026.emnlp.org/calls/main_conference_papers/"
   date_note: "Acceptance month follows the official author notification date, Aug 20, 2026. The proceedings publication month is October."
   link_text: "Poly-FEVER: A Multilingual Hallucination Detection Benchmark"
@@ -54,32 +66,41 @@
   emphasis: ["EMNLP 2026"]
 - date_label: "Summer 2026"
   text: "Served as Academic Coordinator and Research Mentor for nine undergraduates in UNT's NSF REU program"
+  category: mentoring
 - date_label: "Summer 2026"
   text: "Gave a guest lecture on “Long-Context Evaluation of Large Language Models” at UNT's NSF REU program"
+  category: teaching
 - date_label: "Jun 2026"
   text: "Started research collaboration with ORNL's AAIMS Group"
+  category: collaboration
   date_note: "Collaboration start month confirmed by Hanzhi Zhang."
 - date_label: "May 2026"
   text: "Served as an external reviewer for ACM SEC 2026"
+  category: review
   date_note: "Inferred review-cycle bounds from final extended submission May 8 to notification Jul 29, 2026; rebuttal Jul 18–22. Not a confirmed personal assignment date."
   source_url: "https://acm-ieee-sec.org/2026/call_for_papers.php"
 - date_label: "May 2026"
   text: "Served as a reviewer for NeurIPS 2026"
+  category: review
   source_url: "https://neurips.cc/Conferences/2026/EvaluationsDatasetsReviewerGuidelines"
   date_note: "Official review period: May 29–Jun 25, 2026; the guide states the main track follows the same timeline."
 - date_label: "May 2026"
   text: "Gave an invited talk on “Responsible AI” at the Presidential AI Challenge"
+  category: talk
 - date_label: "May 2026"
   text: "Served as a reviewer for ACL Rolling Review 2026 (May cycle)"
+  category: review
   date_note: "Review cycle named in the CV; not an inferred invitation date."
 - date_label: "Apr 2026"
   text: "Gave a presentation on “Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free” at UNT's LLaVi Lab AI Seminar"
+  category: talk
   source_url: "https://llavi-lab.github.io/seminar/S26.html"
   date_note: "Apr 1, 2026"
   link_text: "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free"
   link_url: "https://llavi-lab.github.io/seminar/S26.html"
 - date_label: "Mar 2026"
   text: "Our research paper, “Harmful Factuality: LLMs Correcting What They Shouldn’t”, has been published in Findings of the Association for Computational Linguistics (EACL 2026)."
+  category: paper
   source_url: "https://aclanthology.org/2026.findings-eacl.46/"
   date_note: "March 2026 publication month is recorded in ACL Anthology and the supplied BibTeX."
   link_text: "Harmful Factuality: LLMs Correcting What They Shouldn’t"
@@ -87,97 +108,122 @@
   emphasis: ["EACL 2026"]
 - date_label: "Feb 2026"
   text: "Served as a reviewer for ICML 2026"
+  category: review
   source_url: "https://icml.cc/Conferences/2026/ReviewerInstructions"
   date_note: "Official review period: Feb 12–Mar 12, 2026."
 - date_label: "Nov 2025"
   text: "Gave a presentation on “SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration” at UNT's LLaVi Lab AI Seminar"
+  category: talk
   source_url: "https://llavi-lab.github.io/seminar/F25.html"
   date_note: "Nov 5, 2025"
   link_text: "SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration"
   link_url: "https://llavi-lab.github.io/seminar/F25.html"
 - date_label: "Oct 2025"
   text: "Gave an invited talk on “Responsible AI: The Hidden Curriculum” at AIxHEART"
+  category: talk
 - date_label: "Oct 2025"
   text: "Presented a poster on “DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration” at UNT University Research Day"
+  category: poster
   link_text: "UNT University Research Day"
   link_url: "https://research.unt.edu/resources/research-events/research-day-2025/"
 - date_label: "Jul 2025"
   text: "Gave a presentation on “DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration” at ACL 2025 (Findings)"
+  category: talk
   link_text: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
   link_url: "https://aclanthology.org/2025.findings-acl.242/"
 - date_label: "Jun 2025"
   text: "Served as an external reviewer for ICDM 2025"
+  category: review
   source_url: "https://www3.cs.stonybrook.edu/~icdm2025/cfp.html"
   date_note: "Inferred review-cycle bounds from submission Jun 6 to notification Aug 25, 2025; not a confirmed personal assignment date."
 - date_label: "May 2025"
   text: "Served as a reviewer for CIKM 2025"
+  category: review
   source_url: "https://cikm2025.org/calls/full-research-papers"
   date_note: "Inferred review-cycle bounds across tracks: full/applied submissions May 23, short submissions Jun 6, resource submissions Jun 17; notifications Aug 4–11, 2025. The personal review track is not documented."
 - date_label: "May 2025"
   text: "Our research paper, “DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration”, has been accepted for publication in Findings of the Association for Computational Linguistics (ACL 2025)."
+  category: paper
   link_text: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
   link_url: "https://aclanthology.org/2025.findings-acl.242/"
   emphasis: ["ACL 2025"]
 - date_label: "May 2025"
   text: "Gave a presentation on “D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems” at IEEE MOST 2025"
+  category: talk
   link_text: "D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems"
   link_url: "https://doi.org/10.1109/MOST65065.2025.00013"
 - date_label: "Apr 2025"
   text: "Received a Student Travel Grant Award from IEEE MOST 2025"
+  category: award
 - date_label: "Apr 2025"
   text: "Participated in the Women-in-Computing session at IEEE MOST 2025"
+  category: community
 - date_label: "Mar 2025"
   text: "Our research paper, “Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models”, is now available as a preprint on arXiv."
+  category: paper
   link_text: "Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models"
   link_url: "https://arxiv.org/abs/2503.16541"
 - date_label: "Mar 2025"
   text: "Our research paper, “D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems”, has been accepted for publication in the Proceedings of the IEEE International Conference on Mobility, Operations, Services and Technologies (IEEE MOST 2025)."
+  category: paper
   link_text: "D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems"
   link_url: "https://doi.org/10.1109/MOST65065.2025.00013"
 - date_label: "Mar 2025"
   text: "Presented a poster on “DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration” at the North Texas Symposium on Generative AI at UT Arlington"
+  category: poster
   link_text: "North Texas Symposium on Generative AI"
   link_url: "https://carida.uta.edu/symposium/"
 - date_label: "Feb 2025"
   text: "Gave a presentation on “Large Language Diffusion Models” at UNT's LLaVi Lab AI Seminar"
+  category: talk
   source_url: "https://llavi-lab.github.io/seminar/S25.html"
   date_note: "Feb 24, 2025"
   link_text: "Large Language Diffusion Models"
   link_url: "https://llavi-lab.github.io/seminar/S25.html"
 - date_label: "Feb 2025"
   text: "Passed PhD Qualifying Exam"
+  category: academic
 - date_label: "Feb 2025"
   text: "Our research paper, “HALO: Hallucination Analysis and Learning Optimization to Empower LLMs with Retrieval-Augmented Context for Guided Clinical Decision Making”, has been accepted for publication in the Proceedings of the IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE 2025)."
+  category: paper
   link_text: "HALO: Hallucination Analysis and Learning Optimization to Empower LLMs with Retrieval-Augmented Context for Guided Clinical Decision Making"
   link_url: "https://doi.org/10.1145/3721201.3721385"
 - date_label: "Spring 2025"
   text: "Served as a Teaching Assistant for CSCE 5300: Introduction to Big Data and Data Science (64 graduate students)"
+  category: teaching
 - date_label: "Dec 2024"
   text: "Served as a student volunteer at the NSF CISE MSI Aspiring PI Workshop at UNT"
+  category: volunteering
   link_text: "NSF CISE MSI Aspiring PI Workshop"
   link_url: "https://sharadonly.github.io/cise/"
 - date_label: "Dec 2024"
   text: "Our research paper, “ByteScience: Bridging Unstructured Scientific Literature and Structured Data with Auto Fine-Tuned Large Language Model in Token Granularity”, has been published in the Proceedings of the IEEE International Conference on Data Mining Workshops (ICDMW 2024)."
+  category: paper
   source_url: "https://scholars.cityu.edu.hk/en/publications/bytescience-bridging-unstructured-scientific-literature-and-struc/"
   date_note: "IEEE Crossref published-print/issued date: Dec 9, 2024; CityU records Published - Dec 2024. March 2025 is DOI registration/deposit, not the publication month."
   link_text: "ByteScience: Bridging Unstructured Scientific Literature and Structured Data with Auto Fine-Tuned Large Language Model in Token Granularity"
   link_url: "https://doi.org/10.1109/ICDMW65004.2024.00126"
 - date_label: "Nov 2024"
   text: "Presented a proposal on “Efficient Small Language Models for Edge Devices via Task-Aware Sparse Attention” at the NSF IUCRC eCAT meeting"
+  category: talk
 - date_label: "Oct 2024"
   text: "Gave a presentation on “MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression” at UNT's LLaVi Lab AI Seminar"
+  category: talk
   source_url: "https://hengfan2010.github.io/aiseminar/F24.htm"
   date_note: "Oct 14, 2024"
   link_text: "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression"
   link_url: "https://hengfan2010.github.io/aiseminar/F24.htm"
 - date_label: "Oct 2024"
   text: "Presented a poster on “Poly-FEVER: A Multilingual Hallucination Detection Benchmark” at UNT University Research Day"
+  category: poster
   link_text: "UNT University Research Day"
   link_url: "https://research.unt.edu/resources/research-events/research-day-2024/index.html"
 - date_label: "Fall 2024"
   text: "Served as a Teaching Assistant for CSCE 5300: Introduction to Big Data and Data Science (79 graduate students)"
+  category: teaching
 - date_label: "Jul 2024"
   text: "Participated in the Argonne Training Program on Extreme-Scale Computing (ATPESC) 2024"
+  category: training
   link_text: "Argonne Training Program on Extreme-Scale Computing (ATPESC) 2024"
   link_url: "https://www.alcf.anl.gov/news/argonne-training-program-immerses-attendees-extreme-scale-computing"
   source_url: "https://www.alcf.anl.gov/news/argonne-training-program-immerses-attendees-extreme-scale-computing"
@@ -185,60 +231,74 @@
   participant_source_url: "https://atpesc-archive.anl.gov/participants-2024/"
 - date_label: "Jul 2024"
   text: "Started serving as PI for ALCF Polaris computing allocations for “Large Language Models’ Hallucination Detection and Mitigation Ability across Multi Languages” (5,000 node-hours per allocation)"
+  category: research_support
   link_text: "ALCF Polaris"
   link_url: "https://www.alcf.anl.gov/polaris"
   source_url: "https://www.alcf.anl.gov/news/argonne-training-program-immerses-attendees-extreme-scale-computing"
   date_note: "Hanzhi confirmed that the Polaris allocations began in the same month as her ATPESC participation. ATPESC 2024 ran Jul 28–Aug 9; the display uses the start month, July."
 - date_label: "Jun 2024"
   text: "Served as a reviewer for ICDM 2024"
+  category: review
   source_url: "https://icdm2024.org/dates/"
   date_note: "Inferred review-cycle bounds from submission Jun 14 to notification Sep 6, 2024; not a confirmed personal assignment date."
 - date_label: "May 2024"
   text: "Served as a student volunteer at IEEE MOST 2024"
+  category: volunteering
   link_text: "IEEE MOST 2024"
   link_url: "https://ieeemobility.org/MOST2024/index.php"
 - date_label: "May 2024"
   text: "Participated in the AI Prompt-a-Thon at UT Arlington with Microsoft"
+  category: community
   link_text: "AI Prompt-a-Thon"
   link_url: "https://www.uta.edu/news/news-releases/2024/05/31/ut-arlington-microsoft-host-ai-prompt-a-thon"
 - date_label: "Apr 2024"
   text: "Gave a presentation on “Small Language Model” at UNT's LLaVi Lab AI Seminar"
+  category: talk
   source_url: "https://hengfan2010.github.io/aiseminar/S24.htm"
   date_note: "Apr 8, 2024; the archive spells the speaker name Hanzi Zhang."
   link_text: "Small Language Model"
   link_url: "https://hengfan2010.github.io/aiseminar/S24.htm"
 - date_label: "Mar 2024"
   text: "I won First Place for the poster “Poly-FEVER: A Multilingual Hallucination Detection Benchmark” at UNT Engineering Showcase."
+  category: award
   emphasis: ["First Place"]
 - date_label: "Oct 2023"
   text: "Served as an external reviewer for WWW 2024"
+  category: review
   source_url: "https://www2024.thewebconf.org/calls/research-tracks/"
   date_note: "Inferred conference review-cycle bounds: full papers Oct 12 through author–reviewer discussion Dec 1–14, 2023. This range is not a confirmed personal assignment date."
 - date_label: "Oct 2023"
   text: "Served as an external reviewer for ICNC 2024"
+  category: review
   source_url: "https://www.conf-icnc.org/2024/cfp.htm"
   date_note: "Inferred review-cycle bounds from final extended submission Oct 20 to acceptance notification Nov 27, 2023; the conference took place in 2024."
 - date_label: "Sep 2023"
   text: "Served as a reviewer for IEEE ICPADS 2023"
+  category: review
   source_url: "https://ieee-cybermatics.org/2023/icpads/cfp.php"
   date_note: "Inferred review-cycle bounds from final submission Sep 22 to notification Oct 22, 2023; not a confirmed personal assignment date."
 - date_label: "Aug 2023"
   text: "Served as an external reviewer for AAAI 2024"
+  category: review
   source_url: "https://aaai.org/aaai-24-conference/aaai-24-call-for-proposals/"
   date_note: "Inferred conference review-cycle bounds: full papers Aug 15 through author feedback Nov 2–7, 2023. This range does not establish participation in both review phases."
 - date_label: "Aug 2023"
   text: "Started PhD in Computer Science at UNT and joined Responsible AI Lab"
+  category: academic
   link_text: "Responsible AI Lab"
   link_url: "https://yunhefeng.me/lab/"
 - date_label: "Jul 2023"
   text: "Served as an external reviewer for EISA 2023"
+  category: review
   source_url: "https://eisa.compute.dtu.dk/2023/"
   date_note: "Inferred review-cycle bounds spanning both rounds: Jul 15–Aug 30 and Sep 15–Oct 10, 2023. The personal reviewing round is not documented."
 - date_label: "Jul 2023"
   text: "Served as an external reviewer for Inscrypt 2023"
+  category: review
   source_url: "https://github.com/Inscrypt2023/Inscrypt2023.github.io/blob/main/home.html"
   date_note: "Inferred review-cycle bounds from submission in July to the updated notification date Oct 15, 2023. The official website source supersedes the older September notification on EasyChair."
 - date_label: "Jul 2023"
   text: "Served as an external reviewer for WACV 2024"
+  category: review
   source_url: "https://wacv2024.thecvf.com/reviewer-guidelines/"
   date_note: "Official initial-review rounds: Jul 7–28 and Sep 8–29, 2023. The range covers the available rounds without assigning a personal round."

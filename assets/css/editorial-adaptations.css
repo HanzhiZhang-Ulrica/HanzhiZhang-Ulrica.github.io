@@ -45,6 +45,7 @@ main.site-container p, main.site-container li { max-width: none; }
 .page__content .align-right { float: right; margin-left: 1rem; }
 .page__content .align-left { float: left; margin-right: 1rem; }
 .news-list { list-style: none; margin: 0; padding: 0; }
+.news-emoji { display: inline-block; width: 1.25em; margin-right: .35em; font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif; font-size: 1rem; font-weight: normal; line-height: 1; text-align: center; }
 .news-list .news-date, .news-list .news-headline { display: inline; }
 .news-list .news-date { text-transform: none; letter-spacing: normal; font-size: .9375rem; white-space: nowrap; }
 .news-list .news-headline { font-size: .9375rem; }

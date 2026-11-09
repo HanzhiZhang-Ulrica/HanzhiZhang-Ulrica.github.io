@@ -1,0 +1,2 @@
+{%- assign news_icon = site.data.news_icons[include.item.category] -%}
+{%- if news_icon -%}<span class="news-emoji" aria-hidden="true">{{ news_icon | escape }}</span>{%- endif -%}
