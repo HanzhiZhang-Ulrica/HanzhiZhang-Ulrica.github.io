@@ -2,6 +2,7 @@
 html { scroll-padding-top: 6rem; }
 body { min-height: 100vh; }
 main.site-container { width: 100%; min-height: 65vh; }
+main.site-container p, main.site-container li { max-width: none; }
 [hidden] { display: none !important; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .sr-only, .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
@@ -31,8 +32,6 @@ main.site-container { width: 100%; min-height: 65vh; }
 .page__content, .archive { min-width: 0; }
 .page__content h2:not(:first-child), .archive > h2:not(:first-child) { margin-top: var(--space-10); }
 .page__content h3:not(:first-child) { margin-top: var(--space-8); }
-.page__content p, .page__content li { max-width: 75ch; }
-.home-content .page__content p, .home-content .page__content li { max-width: 65ch; }
 .page__content a, .archive a { overflow-wrap: anywhere; }
 .page__content img { max-width: 100%; height: auto; border-radius: var(--radius-md); }
 .page__content iframe { max-width: 100%; }
