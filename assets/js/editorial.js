@@ -10,7 +10,7 @@
   function setNewTabTarget(link) {
     var href = link.getAttribute('href');
     if (!href || !href.trim() || href.trim() === '#') return;
-    if (link.matches('.skip-link') || /^(mailto|tel):/i.test(href.trim())) {
+    if (link.closest('.navbar') || link.matches('.skip-link') || /^(mailto|tel):/i.test(href.trim())) {
       link.target = '_self';
       return;
     }
