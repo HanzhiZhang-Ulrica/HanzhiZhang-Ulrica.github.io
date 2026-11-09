@@ -31,6 +31,7 @@ main.site-container { width: 100%; min-height: 65vh; }
 .page__content p, .page__content li { max-width: 75ch; }
 .home-content .page__content p, .home-content .page__content li { max-width: 65ch; }
 .page__content a, .archive a { overflow-wrap: anywhere; }
+.home-original-content a strong { color: inherit; }
 .page__content img { max-width: 100%; height: auto; border-radius: var(--radius-md); }
 .page__content iframe { max-width: 100%; }
 .page__content blockquote { margin: var(--space-6) 0; padding: var(--space-2) 0 var(--space-2) var(--space-4); border-left: 3px solid var(--accent); color: var(--text-muted); }

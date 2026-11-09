@@ -7,6 +7,23 @@
   var navMenu = document.getElementById('navbarNav');
   var navbar = document.querySelector('.navbar');
 
+  function setNewTabTarget(link) {
+    var href = link.getAttribute('href');
+    if (!href || !href.trim() || href.trim() === '#') return;
+    if (link.matches('.skip-link') || /^(mailto|tel):/i.test(href.trim())) {
+      link.target = '_self';
+      return;
+    }
+    if (link.matches('.disabled, [aria-disabled="true"]')) return;
+    var destination;
+    try { destination = new URL(href, document.baseURI); } catch (_) { return; }
+    if (destination.protocol !== 'http:' && destination.protocol !== 'https:') return;
+    link.target = '_blank';
+    link.relList.remove('opener');
+    link.relList.add('noopener', 'noreferrer');
+  }
+  document.querySelectorAll('a[href]').forEach(setNewTabTarget);
+
   function closeNavigation(restoreFocus) {
     if (!navToggle || !navMenu) return;
     navMenu.classList.remove('show');
@@ -313,6 +330,7 @@
       var link = document.createElement('a');
       link.className = 'search-result-item';
       link.href = item.url;
+      setNewTabTarget(link);
       var title = document.createElement('div');
       title.className = 'search-result-title';
       title.textContent = item.title;
