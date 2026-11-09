@@ -47,6 +47,7 @@ main.site-container { width: 100%; min-height: 65vh; }
 .news-list .news-date { text-transform: none; letter-spacing: .035em; font-size: .78rem; }
 .news-list .news-headline { font-size: .9375rem; }
 .news-card { margin-top: var(--space-4); }
+.news-date-note { margin-top: var(--space-4); font-size: .75rem; color: var(--text-muted); }
 .news-item:first-child { padding-top: 0; }
 .news-item:last-child { padding-bottom: 0; }
 .pub-entry .pub-title { font-size: 1rem; line-height: 1.6; }

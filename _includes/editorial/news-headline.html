@@ -1,0 +1,8 @@
+{%- assign news_text = include.item.text | escape -%}
+{%- if include.item.link_url and include.item.link_text -%}
+  {%- assign news_link_text = include.item.link_text | escape -%}
+  {%- capture news_link -%}<a href="{{ include.item.link_url | escape }}" target="_blank" rel="noopener noreferrer">{{ news_link_text }}</a>{%- endcapture -%}
+  {{- news_text | replace: news_link_text, news_link -}}
+{%- else -%}
+  {{- news_text -}}
+{%- endif -%}

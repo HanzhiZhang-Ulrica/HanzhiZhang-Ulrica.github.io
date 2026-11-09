@@ -1,7 +1,8 @@
 <div class="section-card news-card">
   <ul class="news-list news-timeline">
   {% for item in site.data.news %}
-    <li class="news-item" id="news-{{ forloop.index }}"><strong class="news-date">{{ item.date_label }}:</strong> <span class="news-headline">{{ item.text | escape }}</span></li>
+    <li class="news-item" id="news-{{ forloop.index }}"><strong class="news-date">{{ item.date_label | escape }}:</strong> <span class="news-headline">{% include editorial/news-headline.html item=item %}</span></li>
   {% endfor %}
   </ul>
 </div>
+<p class="news-date-note">Reviewing dates reflect conference review cycles; ranges may be inferred from submission and notification dates.</p>
