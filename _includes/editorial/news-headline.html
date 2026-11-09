@@ -1,4 +1,9 @@
 {%- assign news_text = include.item.text | escape -%}
+{%- for phrase in include.item.emphasis -%}
+  {%- assign news_phrase = phrase | escape -%}
+  {%- capture news_emphasis -%}<strong>{{ news_phrase }}</strong>{%- endcapture -%}
+  {%- assign news_text = news_text | replace: news_phrase, news_emphasis -%}
+{%- endfor -%}
 {%- if include.item.link_url and include.item.link_text -%}
   {%- assign news_link_text = include.item.link_text | escape -%}
   {%- capture news_link -%}<a href="{{ include.item.link_url | escape }}" target="_blank" rel="noopener noreferrer">{{ news_link_text }}</a>{%- endcapture -%}
