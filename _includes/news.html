@@ -1,7 +1,7 @@
 <div class="section-card news-card">
   <ul class="news-list news-timeline">
   {% for item in site.data.news %}
-    <li class="news-item"><strong class="news-date">{{ item.date_label }}:</strong> <span class="news-headline">{{ item.text | escape }}</span></li>
+    <li class="news-item" id="news-{{ forloop.index }}"><strong class="news-date">{{ item.date_label }}:</strong> <span class="news-headline">{{ item.text | escape }}</span></li>
   {% endfor %}
   </ul>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: 'Harmful Factuality: LLMs Correcting What They Shouldn''t'
-icon: 🛡️
+icon:
 year: 2026
 order: 3
 authors: M. Li, **H. Zhang**, H. Fan, J. Ding, and Y. Feng
@@ -11,8 +11,8 @@ codeurl: https://github.com/ResponsibleAILab/Harmful-Factuality-Hallucination
 collection: publications
 date: '2026-01-01'
 date_precision: year
-excerpt: 🛡️ A study of harmful factuality in large language models, examining how factual corrections can produce outputs
+excerpt: A study of harmful factuality in large language models, examining how factual corrections can produce outputs
   that are true but unfaithful to the source.
 ---
 
-🛡️ A study of harmful factuality in large language models, examining how factual corrections can produce outputs that are true but unfaithful to the source.
+A study of harmful factuality in large language models, examining how factual corrections can produce outputs that are true but unfaithful to the source.

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "📄 CV"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-📋 [Click to view the CV of Hanzhi Zhang]({{ '/files/CV_Hanzhi_Zhang.pdf' | relative_url }})
+[Click to view the CV of Hanzhi Zhang]({{ '/files/CV_Hanzhi_Zhang.pdf' | relative_url }})
 
-## 🎓 Education
+## Education
 
 **PhD Candidate in Computer Science** (Aug. 2023 - present; expected May 2027)<br>
 University of North Texas (UNT), Denton, TX<br>
@@ -23,7 +23,7 @@ University of Birmingham (UoB), UK
 **BS in Computer Science and Technology (Honours)** (Sept. 2017 - Aug. 2021)<br>
 Xiamen University (XMU), China
 
-## 💼 Professional Experience
+## Professional Experience
 
 **Graduate Research Assistant** (Aug. 2023 - present)<br>
 Responsible AI Lab, University of North Texas, Denton, TX
@@ -42,13 +42,13 @@ Argonne National Laboratory, Lemont, IL
 **Storage Backend Intern** (Aug. 2020 - Apr. 2021)<br>
 OPPO, Inc., Shenzhen, China
 
-## 🔬 Research Interests
+## Research Interests
 
-**⚡ Efficient AI Systems**: Hardware-aware LLM inference, sparse and mixed-precision computation, post-training quantization, GPU optimization, and HPC.
+**Efficient AI Systems**: Hardware-aware LLM inference, sparse and mixed-precision computation, post-training quantization, GPU optimization, and HPC.
 
-**🤖 Reliable and Responsible AI**: Multilingual fact verification, AI hallucination, benchmark development, safety-critical perception, and AI for science.
+**Reliable and Responsible AI**: Multilingual fact verification, AI hallucination, benchmark development, safety-critical perception, and AI for science.
 
-## 🎓 Teaching & Mentoring
+## Teaching & Mentoring
 
 **Teaching Assistant, CSCE 4201: Introduction to Artificial Intelligence** (Fall 2026)<br>
 University of North Texas, 74 undergraduate students<br>
@@ -66,7 +66,7 @@ Guest lecture on Long-Context Evaluation of Large Language Models
 Responsible AI Lab, University of North Texas<br>
 8 graduate students, 2 undergraduates, and 1 TAMS student; projects include Poly-FEVER and D2SO
 
-## 🖥️ Grants & Computing Allocations
+## Grants & Computing Allocations
 
 **Amazon Research Awards, TileRoute-Trainium** (2026)<br>
 Lead student researcher and proposal co-writer; PI: Dr. Yunhe Feng

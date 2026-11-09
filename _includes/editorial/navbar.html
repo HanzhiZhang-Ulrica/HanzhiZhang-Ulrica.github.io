@@ -11,6 +11,7 @@
         {% assign active = false %}
         {% if page.url contains item.url %}{% assign active = true %}{% endif %}
         {% if page.collection == 'publications' and item.url == '/publications/' %}{% assign active = true %}{% endif %}
+        {% if page.collection == 'posts' and item.url == '/year-archive/' %}{% assign active = true %}{% endif %}
         <li class="nav-item"><a class="nav-link{% if active %} active{% endif %}" href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
         {% endfor %}
       </ul>

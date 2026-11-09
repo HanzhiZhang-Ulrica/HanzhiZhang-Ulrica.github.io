@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "🔬 Research"
+title: "Research"
 permalink: /research/
 author_profile: true
 excerpt: "Efficient AI systems, hardware-aware LLM inference, and reliable and responsible AI."
 ---
-Hanzhi's research primarily focuses on **⚡ Efficient AI Systems** and **🤖 Reliable and Responsible AI**.
+Hanzhi's research primarily focuses on **Efficient AI Systems** and **Reliable and Responsible AI**.
 
-## ⚡ Efficient AI Systems
+## Efficient AI Systems
 
 Her primary research direction spans **hardware-aware LLM inference, sparse and mixed-precision computation, post-training quantization, GPU optimization, and HPC**. She conducts large-scale GPU experiments on **ALCF Polaris** and **TACC Lonestar6**.
 
@@ -17,7 +17,7 @@ Her primary research direction spans **hardware-aware LLM inference, sparse and 
 
 **ACL Findings 2025** · [Paper](https://aclanthology.org/2025.findings-acl.242/) · [Code](https://github.com/HanzhiZhang-Ulrica/DAM)
 
-## 🤖 Reliable and Responsible AI
+## Reliable and Responsible AI
 
 ### Poly-FEVER: Multilingual Fact Verification
 
@@ -41,9 +41,9 @@ Her primary research direction spans **hardware-aware LLM inference, sparse and 
 
 Her collaborative work includes **HALO**, which studies hallucination analysis and retrieval-augmented context for clinical decision making; **Harmful Factuality**, which examines how factual corrections can produce outputs that are true but unfaithful to the source; and **ByteScience**, which bridges scientific literature and structured data with language models.
 
-[📚 Explore all peer-reviewed publications]({{ '/publications/' | relative_url }})
+[Explore all peer-reviewed publications]({{ '/publications/' | relative_url }})
 
-## 🤝 Grants, Computing Allocations & Collaborations
+## Grants, Computing Allocations & Collaborations
 
 ### Amazon Research Awards: TileRoute-Trainium · 2026–present
 

@@ -1,6 +1,6 @@
 ---
 title: 'DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration'
-icon: ⚡
+icon:
 year: 2025
 order: 4
 authors: '**H. Zhang**, H. Fan, K. Sha, Y. Huang, and Y. Feng'
@@ -11,8 +11,8 @@ codeurl: https://github.com/HanzhiZhang-Ulrica/DAM
 collection: publications
 date: '2025-01-01'
 date_precision: year
-excerpt: 🚀 A breakthrough approach to long-context inference in large language models by dynamically learning adaptive attention
+excerpt: A breakthrough approach to long-context inference in large language models by dynamically learning adaptive attention
   masks at the granularity of individual attention maps.
 ---
 
-🚀 A breakthrough approach to long-context inference in large language models by dynamically learning adaptive attention masks at the granularity of individual attention maps.
+A breakthrough approach to long-context inference in large language models by dynamically learning adaptive attention masks at the granularity of individual attention maps.

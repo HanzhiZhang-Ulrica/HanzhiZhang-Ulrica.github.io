@@ -1,0 +1,11 @@
+<h2 id="selected-publications">Selected publications</h2>
+<div class="section-card selected-pubs">
+  {% assign selected_publications = site.publications | sort: 'order' %}
+  {% for publication in selected_publications %}
+    {% assign first_author = publication.authors | split: ',' | first | strip %}
+    {% if first_author == '**H. Zhang**' or publication.equal_contribution contains 'Hanzhi Zhang' %}
+      {% include editorial/publication-entry.html publication=publication %}
+    {% endif %}
+  {% endfor %}
+  <p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a></p>
+</div>

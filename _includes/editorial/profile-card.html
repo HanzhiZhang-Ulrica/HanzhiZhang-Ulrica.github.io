@@ -13,6 +13,9 @@
     <a href="{{ author.orcid }}" class="icon-link" title="ORCID" aria-label="ORCID">{% include editorial/icon.html name="orcid" %}</a>
     <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn">{% include editorial/icon.html name="linkedin" %}</a>
   </div>
-  <p class="profile-email"><a href="mailto:{{ author.email }}">{{ author.email }}</a></p>
-  <p class="profile-motto">{{ site.title | split: ' | ' | last }}</p>
+  <ul class="profile-education" aria-label="Education">
+    <li>(expected May 2027) PhD in Computer Science, University of North Texas</li>
+    <li>(2022) MS in Data Science with Distinction, University of Birmingham</li>
+    <li>(2021) BS in Computer Science and Technology (Honours), Xiamen University</li>
+  </ul>
 </aside>

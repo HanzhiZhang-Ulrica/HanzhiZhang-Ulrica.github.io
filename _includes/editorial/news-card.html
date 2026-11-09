@@ -1,0 +1,12 @@
+<aside class="section-card sidebar-news" aria-labelledby="latest-news-title" id="-news">
+  <h2 id="latest-news-title">News</h2>
+  <ul class="news-timeline sidebar-news-list">
+    {% for item in site.data.news limit:5 %}
+    <li class="news-item">
+      <div class="news-date">{{ item.date_label | escape }}</div>
+      <div class="news-headline">{{ item.text | escape }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="news-archive-link"><a href="{{ '/news/' | relative_url }}">See all news &rarr;</a></p>
+</aside>

@@ -1,6 +1,6 @@
 ---
 title: 'Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models'
-icon: 🌍
+icon:
 year: 2026
 order: 2
 authors: '**H. Zhang**, S. Anjum, H. Fan, W. Zheng, Y. Huang, and Y. Feng'
@@ -11,8 +11,8 @@ dataurl: https://huggingface.co/datasets/HanzhiZhang/Poly-FEVER
 collection: publications
 date: '2026-01-01'
 date_precision: year
-excerpt: 🔍 A comprehensive multilingual benchmark with 77,973 labeled factual claims spanning 11 languages for fact verification
+excerpt: A comprehensive multilingual benchmark with 77,973 labeled factual claims spanning 11 languages for fact verification
   and hallucination detection in Large Language Models.
 ---
 
-🔍 A comprehensive multilingual benchmark with 77,973 labeled factual claims spanning 11 languages for fact verification and hallucination detection in Large Language Models.
+A comprehensive multilingual benchmark with 77,973 labeled factual claims spanning 11 languages for fact verification and hallucination detection in Large Language Models.

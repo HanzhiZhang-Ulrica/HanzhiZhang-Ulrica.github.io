@@ -17,7 +17,7 @@ sitemap: false
 {% endif %}
 {% endfor %}
 {% for news in site.data.news %}
-{{ separator }}{"title": {{ news.date_label | prepend: 'News · ' | jsonify }}, "url": {{ '/' | relative_url | append: '#-news' | jsonify }}, "content": {{ news.text | jsonify }}}
+{{ separator }}{"title": {{ news.date_label | prepend: 'News · ' | jsonify }}, "url": {{ '/news/' | relative_url | append: '#news-' | append: forloop.index | jsonify }}, "content": {{ news.text | jsonify }}}
 {% assign separator = ',' %}
 {% endfor %}
 ]

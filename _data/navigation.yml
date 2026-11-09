@@ -1,9 +1,11 @@
 main:
-  - title: "🔬 Research"
+  - title: "Research"
     url: /research/
-  - title: "📚 Publications"
+  - title: "Publications"
     url: /publications/
-  - title: "🎓 Teaching"
+  - title: "Teaching"
     url: /teaching/
-  - title: "📄 CV"
+  - title: "CV"
     url: /cv/
+  - title: "Blog Posts"
+    url: /year-archive/

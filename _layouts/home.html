@@ -12,5 +12,8 @@ layout: default
     <span class="visually-hidden">{{ page.title }}</span>
     <div class="page__content home-original-content">{{ content }}</div>
   </div>
-  <div class="home-sidebar">{% include editorial/profile-card.html %}</div>
+  <div class="home-sidebar">
+    {% include editorial/profile-card.html %}
+    {% include editorial/news-card.html %}
+  </div>
 </div>

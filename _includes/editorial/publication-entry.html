@@ -1,0 +1,11 @@
+{% assign publication = include.publication %}
+<article class="pub-entry" data-pub-searchable>
+  <span class="year-badge" aria-hidden="true">{{ publication.year }}</span>
+  <div class="text-justify publication-citation">
+    <span class="citation-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>.
+    <span class="citation-title">{{ publication.title | escape }}</span>.
+    <em class="citation-venue">{{ publication.venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</em>, {{ publication.year }}.
+  </div>
+  {% if publication.equal_contribution %}<div class="pub-equal"><em>* {{ publication.equal_contribution }} </em></div>{% endif %}
+  <div class="pub-actions">{% include publication-links.html publication=publication %} <a class="btn-pill btn-link" href="{{ publication.url | relative_url }}">Details</a></div>
+</article>

@@ -17,14 +17,7 @@ excerpt: "Peer-reviewed publications by Hanzhi Zhang on efficient AI systems, la
     <section class="publication-year" aria-labelledby="year-{{ year.name }}">
       <h2 id="year-{{ year.name }}">{{ year.name }}</h2>
       {% for publication in year.items %}
-      <article class="pub-entry" data-pub-searchable>
-        <span class="year-badge" aria-hidden="true">{{ publication.year }}</span>
-        <div class="pub-title">{{ publication.title | escape }}</div>
-        <div class="pub-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-        <div class="pub-venue">{{ publication.venue | markdownify | remove: '<p>' | remove: '</p>' }}, {{ publication.year }}.</div>
-        {% if publication.equal_contribution %}<div class="pub-equal"><em>* {{ publication.equal_contribution }} </em></div>{% endif %}
-        <div class="pub-actions">{% include publication-links.html publication=publication %} <a class="btn-pill btn-link" href="{{ publication.url | relative_url }}">[details]</a></div>
-      </article>
+      {% include editorial/publication-entry.html publication=publication %}
       {% endfor %}
     </section>
     {% endfor %}
