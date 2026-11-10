@@ -26,10 +26,9 @@ main.site-container p, main.site-container li { max-width: none; }
 .teaching-resources { max-width: none; margin: var(--space-1) 0 0; font-size: inherit; line-height: inherit; }
 .student-feedback-group + .student-feedback-group { margin-top: var(--space-8); }
 .student-feedback-group h3 { font-size: 1.125rem; margin-bottom: var(--space-4); }
-.student-feedback .student-quote { margin: 0 0 var(--space-4); padding: 0; border: 0; font-size: .9375rem; font-style: normal; line-height: 1.6; }
+.student-feedback .student-quote { margin: 0 0 var(--space-4); padding: 0; border: 0; font-size: .9375rem; font-style: italic; line-height: 1.6; }
 .student-feedback .student-quote:last-child { margin-bottom: 0; }
-.student-quote p { margin: 0 0 var(--space-2); font: inherit; }
-.student-quote p:last-child { margin-bottom: 0; }
+.student-quote p { margin: 0; font: inherit; }
 .service-records { margin-bottom: var(--space-4); font-size: .9375rem; line-height: 1.8; }
 .service-records:last-child { margin-bottom: 0; }
 .content-page { min-width: 0; }

@@ -30,9 +30,7 @@ excerpt: "Undergraduate and graduate teaching, NSF REU coordination, and student
       <h3 id="{{ group.id | escape }}">{{ group.title | escape }}</h3>
       {% for quote in group.quotes %}
       <blockquote class="student-quote">
-        {% for paragraph in quote.paragraphs %}
-        <p>{% if forloop.first %}“{% endif %}{{ paragraph | escape }}{% if forloop.last %}”{% endif %}</p>
-        {% endfor %}
+        <p>“{{ quote.paragraphs | join: ' ' | escape }}”</p>
       </blockquote>
       {% endfor %}
     </section>
