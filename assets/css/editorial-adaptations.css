@@ -24,7 +24,6 @@ main.site-container p, main.site-container li { max-width: none; }
 .teaching-details p { max-width: none; margin-bottom: var(--space-2); font-size: .9375rem; line-height: 1.65; }
 .teaching-details p:last-child { margin-bottom: 0; }
 .teaching-resources { max-width: none; margin: var(--space-3) 0 0; font-size: .9375rem; line-height: 1.65; }
-.service-field { margin: var(--space-6) 0 var(--space-2); font-family: "DM Sans", sans-serif; font-size: 1rem; }
 .service-records { margin-bottom: var(--space-4); font-size: .9375rem; line-height: 1.8; }
 .service-records:last-child { margin-bottom: 0; }
 .content-page { min-width: 0; }

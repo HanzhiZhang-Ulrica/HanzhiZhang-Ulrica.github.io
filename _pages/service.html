@@ -10,10 +10,7 @@ excerpt: "Conference and journal reviewing, external reviewing, and conference a
 
   <section class="section-card" aria-labelledby="conference-reviewer">
     <h2 id="conference-reviewer">Conference Reviewer</h2>
-    {% for group in site.data.services.conference %}
-    <h3 class="service-field">{{ group.field | escape }}</h3>
-    <p class="service-records">{{ group.venues | join: ', ' | markdownify | remove: '<p>' | remove: '</p>' | strip }}.</p>
-    {% endfor %}
+    <p class="service-records">{{ site.data.services.conference | join: ', ' | markdownify | remove: '<p>' | remove: '</p>' | strip }}.</p>
   </section>
 
   <section class="section-card" aria-labelledby="journal-reviewer">
