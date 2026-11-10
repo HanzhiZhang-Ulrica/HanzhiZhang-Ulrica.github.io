@@ -22,4 +22,20 @@ excerpt: "Undergraduate and graduate teaching, NSF REU coordination, and student
       {% include editorial/teaching-entry.html entry=entry %}
     {% endfor %}
   </section>
+
+  <section class="section-card student-feedback" aria-labelledby="student-feedback-heading">
+    <h2 id="student-feedback-heading">What My Students Say</h2>
+    {% for group in site.data.student_feedback %}
+    <section class="student-feedback-group" aria-labelledby="{{ group.id | escape }}">
+      <h3 id="{{ group.id | escape }}">{{ group.title | escape }}</h3>
+      {% for quote in group.quotes %}
+      <blockquote class="student-quote">
+        {% for paragraph in quote.paragraphs %}
+        <p>{% if forloop.first %}“{% endif %}{{ paragraph | escape }}{% if forloop.last %}”{% endif %}</p>
+        {% endfor %}
+      </blockquote>
+      {% endfor %}
+    </section>
+    {% endfor %}
+  </section>
 </div>

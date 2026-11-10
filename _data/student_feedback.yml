@@ -1,0 +1,54 @@
+- title: Teaching Feedback
+  id: teaching-feedback
+  quotes:
+    - paragraphs:
+        - >-
+          I just wanted to say thank you for today's lecture! I learned a lot about backpropagation, gradient descent, and convolutional neural networks, and I really appreciated the time and effort you put into explaining these concepts to us.
+        - >-
+          It was great having you teach our class today, and I hope we'll get to learn from you again!
+    - paragraphs:
+        - >-
+          Honestly stoping mid lecture and asking us if we understand is such a great way to teach, cuz sometimes students don’t really understand and are not to comfortable stopping you mid lecture to ask questions so that’s something I really like about you!
+    - paragraphs:
+        - >-
+          As a visual learner, going through the figures and diagram and explaining each step helped me better understand the material.
+    - paragraphs:
+        - >-
+          In depth explanation of the visuals. Interactive examples on the whiteboard to break down concepts.
+    - paragraphs:
+        - >-
+          has really good in depth knowledge over the subjects. able to answer any questions that were being asked.
+    - paragraphs:
+        - >-
+          I really liked how she would answer questions and elaborate on topics if she felt we didnt understand.
+    - paragraphs:
+        - >-
+          the way she explains using the whiteboard at times when something doesnt make sense to us!
+    - paragraphs:
+        - >-
+          very good at explaining the topics and able to answer any questions/explain better if there’s difficulty understanding a topic.
+    - paragraphs:
+        - >-
+          All slides were well structured and taught by professor.
+    - paragraphs:
+        - >-
+          Walking through the mathematical processes was really helpful.
+    - paragraphs:
+        - >-
+          I appreciated the clear explanations and engaging teaching.
+
+- title: Research Mentoring
+  id: research-mentoring-feedback
+  quotes:
+    - paragraphs:
+        - >-
+          thank you for your guidance and mentorship. I learned a lot about benchmarking and profiling in the process of trying to optimize KVZip.
+    - paragraphs:
+        - >-
+          We met at the AI Expo about two weeks ago, and you encouraged me to reach out to Mr. Feng because you felt my experience would be a good fit. I just wanted to thank you for that advice, I contacted him shortly after, and the conversation went really well. I really appreciate it!
+    - paragraphs:
+        - >-
+          Hi, I saw that you presented the D2SO paper yesterday. I just wanted to thank you for that and for letting me be part of the project. Congratulations and thank you again!
+    - paragraphs:
+        - >-
+          Loved your presentation at AIxHEART today!
