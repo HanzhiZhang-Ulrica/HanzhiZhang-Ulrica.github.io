@@ -1,7 +1,7 @@
 <aside class="section-card sidebar-news" aria-labelledby="latest-news-title" id="-news">
   <h2 id="latest-news-title">News</h2>
   <ul class="news-list news-timeline sidebar-news-list">
-    {% for item in site.data.news limit:6 %}
+    {% for item in site.data.news limit:10 %}
     <li class="news-item">
       <strong class="news-date">{% include editorial/news-icon.html item=item %}{{ item.date_label | escape }}:</strong> <span class="news-headline">{% include editorial/news-headline.html item=item %}</span>
     </li>
