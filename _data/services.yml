@@ -5,7 +5,9 @@ conference:
       - ICLR 2027
       - NeurIPS 2026 (**Top Reviewer**)
       - ICML 2026
-      - ACL Rolling Review 2026 (May, August, and October cycles)
+      - ACL Rolling Review 2026 (October cycle)
+      - ACL Rolling Review 2026 (August cycle)
+      - ACL Rolling Review 2026 (May cycle)
   - field: Data mining and systems
     venues:
       - CIKM 2025

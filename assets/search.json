@@ -11,9 +11,9 @@ sitemap: false
 {% case document.url %}
 {% when '/service/' %}
 {{ document.title }}
-Conference Reviewer. {% for group in site.data.services.conference %}{{ group.field }}: {{ group.venues | join: '; ' }}. {% endfor %}
-Journal Reviewer: {{ site.data.services.journals | join: '; ' }}.
-External Reviewer: {{ site.data.services.external | join: '; ' }}.
+Conference Reviewer. {% for group in site.data.services.conference %}{{ group.field }}: {{ group.venues | join: ', ' }}. {% endfor %}
+Journal Reviewer: {{ site.data.services.journals | join: ', ' }}.
+External Reviewer: {{ site.data.services.external | join: ', ' }}.
 {% for entry in site.data.services.volunteering %}Student Volunteer, {{ entry.event }}, {{ entry.institution }}, {{ entry.date }}. {% endfor %}
 {% when '/talks/' %}
 {{ document.title }}
