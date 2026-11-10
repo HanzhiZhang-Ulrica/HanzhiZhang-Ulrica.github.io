@@ -26,7 +26,7 @@ excerpt: "Conference and journal reviewing, external reviewing, and conference a
   <section class="section-card" aria-labelledby="volunteering">
     <h2 id="volunteering">Conference and Workshop Volunteer</h2>
     {% for entry in site.data.services.volunteering %}
-    <article class="pub-entry">
+    <article class="pub-entry volunteer-entry">
       <span class="year-badge">{{ entry.date | escape }}</span>
       <div class="text-justify">Student Volunteer, {{ entry.event | escape }}{% if entry.institution %}, {{ entry.institution | escape }}{% endif %}.</div>
     </article>
