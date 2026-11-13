@@ -24,6 +24,7 @@ main.site-container p, main.site-container li { max-width: none; }
 .site-footer .footer-contact { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-1) var(--space-4); }
 .site-footer .footer-contact-row { display: flex; align-items: baseline; gap: var(--space-2); }
 .site-footer .footer-contact-row .footer-heading, .site-footer .footer-contact-row p { margin: 0; }
+.site-footer .footer-contact-row .footer-heading { font-size: .8125rem; text-transform: none; }
 .site-footer .footer-contact-row .footer-heading, .site-footer .footer-contact-row a { white-space: nowrap; }
 .site-footer .footer-copyright { max-width: none; margin: 0 0 0 auto; padding: 0; border: 0; text-align: right; font-size: .8125rem; text-transform: none; }
 .site-footer .footer-copyright a { font-size: inherit; }
