@@ -17,15 +17,7 @@
   category: review
   date_note: "Review cycle named in the CV; not an inferred invitation date."
 - date_label: "Oct 2026"
-  text: "Gave a lecture on CNNs for CSCE 4201"
-  category: teaching
-  date_note: "Lecture month confirmed by Hanzhi Zhang."
-- date_label: "Oct 2026"
-  text: "Gave a lecture on NLP for CSCE 4201"
-  category: teaching
-  date_note: "Lecture month confirmed by Hanzhi Zhang."
-- date_label: "Oct 2026"
-  text: "Gave a lecture on Transformers for CSCE 4201"
+  text: "Gave lectures on CNNs, NLP, and Transformers for CSCE 4201"
   category: teaching
   date_note: "Lecture month confirmed by Hanzhi Zhang."
 - date_label: "Oct 2026"
