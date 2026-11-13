@@ -12,6 +12,8 @@ main.site-container p, main.site-container li { max-width: none; }
 .sr-only, .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .home-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-1) var(--space-4); margin-bottom: var(--space-1); }
 .home-heading .home-hero { margin-bottom: 0; }
+.home-links { display: flex; flex-direction: column; align-items: flex-start; align-self: center; gap: var(--space-1); }
+.faculty-job-market { display: inline-block; padding: .2rem .75rem; border-radius: var(--radius-full); background: var(--warm-accent-light); color: var(--warm-accent); font-size: .75rem; font-weight: 500; line-height: 1.5; }
 .home-cv-link { font-size: .875rem; line-height: 1.5; }
 .profile-education { text-align: left; margin: var(--space-4) 0 0; list-style: none; padding: 0; }
 .profile-education li { font-size: .875rem; color: var(--text-secondary); padding: var(--space-1) 0; }
