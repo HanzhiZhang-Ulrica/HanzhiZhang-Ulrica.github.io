@@ -9,10 +9,9 @@ excerpt: "Invited talks, conference and poster presentations, and research semin
 <div class="content-page talks-page">
   <h1 class="page__title">{{ page.title }}</h1>
 
-  {% assign current_year = site.time | date: '%Y' %}
   {% assign talk_years = site.data.talks.entries | group_by: 'year' | sort: 'name' | reverse %}
   {% for year in talk_years %}
-  <details class="section-card talk-year" id="talk-year-{{ year.name }}"{% if year.name == current_year %} open{% endif %}>
+  <details class="section-card talk-year" id="talk-year-{{ year.name }}" open>
     <summary class="talk-year-heading"><span>{{ year.name | escape }}</span><span class="talk-year-toggle" aria-hidden="true"></span></summary>
     {% for entry in year.items %}
     <article class="pub-entry talk-entry">

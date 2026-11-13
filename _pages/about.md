@@ -10,7 +10,7 @@ redirect_from:
 ---
 Hanzhi Zhang is currently a **PhD Candidate in Computer Science**, directed by [Dr. Yunhe Feng](https://yunhefeng.me/) in the [Department of Computer Science and Engineering (CSE) at the University of North Texas (UNT), Denton, TX](https://computerscience.engineering.unt.edu/), and co-advised by [Dr. Kewei Sha](https://comersha.github.io/) in the [Department of Data Science](https://datascience.unt.edu/), with expected graduation in **May 2027**. She is a member of the [Responsible AI Lab](https://yunhefeng.me/lab/) and the [LLaVi Lab](https://llavi-lab.github.io/) at UNT.
 
-Her research focuses on **Efficient and Sustainable AI Systems**, particularly **data–model–hardware co-design** and **hardware-aware, energy-efficient LLM inference**. She also explores **Reliable and Responsible AI**, including **multilingual fact verification**, **hallucination detection and mitigation**, **trustworthy AI benchmarking**, and **AI for scientific discovery**.
+Her research focuses on **Efficient and Sustainable AI Systems**, particularly data–model–hardware co-design and hardware-aware, energy-efficient LLM inference. She also explores Reliable and Responsible AI, including multilingual fact verification, hallucination detection and mitigation, trustworthy AI benchmarking, and AI for scientific discovery.
 
 {% include editorial/selected-publications.html %}
 

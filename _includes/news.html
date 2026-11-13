@@ -2,7 +2,7 @@
 {% assign news_index = 0 %}
 <div class="news-years">
   {% for year in news_years %}
-  <details class="section-card news-card news-year" id="news-year-{{ year.name }}"{% if forloop.first %} open{% endif %}>
+  <details class="section-card news-card news-year" id="news-year-{{ year.name }}" open>
     <summary class="news-year-heading"><span>{{ year.name | escape }}</span><span class="news-year-toggle" aria-hidden="true"></span></summary>
     <ul class="news-list news-timeline">
     {% for item in year.items %}
