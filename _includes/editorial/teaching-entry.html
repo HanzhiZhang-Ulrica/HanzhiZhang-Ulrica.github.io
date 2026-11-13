@@ -1,7 +1,7 @@
 {% assign entry = include.entry %}
 <article class="pub-entry teaching-entry">
   {% if entry.term or entry.year %}<span class="year-badge">{{ entry.term | default: entry.year | escape }}</span>{% endif %}
-  <div class="text-justify teaching-heading"><strong>{{ entry.title | escape }}</strong>{% if entry.role %}. {{ entry.role | escape }}{% endif %}{% if entry.institution %}, {{ entry.institution | escape }}{% endif %}{% if entry.location %}, {{ entry.location | escape }}{% endif %}.</div>
+  <div class="text-justify teaching-heading"><strong>{{ entry.title | escape }}</strong>{% if entry.role %}, {{ entry.role | escape }}{% endif %}{% if entry.institution %}, {{ entry.institution | escape }}{% endif %}{% if entry.location %}, {{ entry.location | escape }}{% endif %}.</div>
   <div class="teaching-details">{{ entry.details | markdownify }}</div>
   {% if entry.resources %}
   <p class="teaching-resources">{{ entry.resources_before | escape }} {% for resource in entry.resources %}{% unless forloop.first %} and {% endunless %}<a href="{{ resource.url | relative_url }}">{{ resource.label | escape }}</a>{% endfor %} {{ entry.resources_after | escape }}</p>
