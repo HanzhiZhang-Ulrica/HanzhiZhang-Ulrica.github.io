@@ -6,12 +6,14 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+{% assign seo_title = site.title %}
+{% if page.title and page.url != '/' %}
+  {% assign seo_page_title = page.title | markdownify | strip_html | strip_newlines | strip %}
+  {% assign seo_title = site.title | append: " " | append: site.title_separator | append: " " | append: seo_page_title %}
 {% endif %}
 
 {% if seo_title %}
-  {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
+  {% assign seo_title = seo_title | escape_once %}
 {% endif %}
 
 {% if site.url %}

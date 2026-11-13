@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Hanzhi Zhang | Per Aspera Ad Astra"
-title_separator          : "-"
+title                    : "Hanzhi Zhang"
+title_separator          : "|"
 name                     : &name "Hanzhi Zhang"
 accent_color             : "#0E7153"
 description              : &description "Hanzhi Zhang, Ph.D. Candidate at UNT, researches efficient AI systems, hardware-aware LLM inference, mixed-precision computing, and reliable and responsible AI."
