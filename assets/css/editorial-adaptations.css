@@ -68,6 +68,7 @@ a[data-link-kind] strong, a[data-link-kind] b { color: inherit; }
 .news-card { margin-top: var(--space-4); }
 .news-years .news-item, .sidebar-news .news-item { max-width: none; padding: 2px 0; border-bottom: none; font-size: .9375rem; line-height: 1.6; }
 .sidebar-news .news-item, .sidebar-news .news-date, .sidebar-news .news-headline { font-size: .875rem; }
+.news-year-heading, .talk-year-heading, .btn-bib, .btn-abstract { --accent: var(--warm-accent); }
 .news-year-heading, .talk-year-heading { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); cursor: pointer; list-style: none; font-family: "Source Serif 4", Georgia, serif; font-size: 1.375rem; font-weight: 700; color: var(--text-primary); }
 .news-year-heading::-webkit-details-marker, .talk-year-heading::-webkit-details-marker { display: none; }
 .news-year-toggle, .talk-year-toggle { width: .5rem; height: .5rem; margin-right: .25rem; flex: 0 0 auto; border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent); transform: rotate(-45deg); }
