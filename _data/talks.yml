@@ -35,7 +35,7 @@ entries:
     year: "2025"
     details: "Professional development session for middle-school teachers."
 
-  - title: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
+  - title: "Efficient Long-Context Inference through Dynamic Sparse Attention"
     title_url: "https://aclanthology.org/2025.findings-acl.242/"
     type: "Poster presentation"
     venue: "UNT University Research Day"
@@ -57,7 +57,7 @@ entries:
     term: "May 2025"
     year: "2025"
 
-  - title: "DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration"
+  - title: "Adaptive Attention Masks for Large Language Model Acceleration"
     title_url: "https://aclanthology.org/2025.findings-acl.242/"
     type: "Poster presentation"
     venue: "North Texas Symposium on Generative AI, UT Arlington"
@@ -101,7 +101,7 @@ entries:
     term: "Apr 2024"
     year: "2024"
 
-  - title: "Poly-FEVER: A Multilingual Hallucination Detection Benchmark"
+  - title: "Investigating Biased Cross-Lingual Hallucination Detection Capabilities of LLMs: POLY-FEVER Benchmark & Mitigating Approaches"
     title_url: "/images/POLY-FEVER-poster.png"
     type: "Poster presentation"
     venue: "UNT Engineering Showcase"

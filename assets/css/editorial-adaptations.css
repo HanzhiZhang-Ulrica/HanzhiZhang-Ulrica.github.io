@@ -3,6 +3,10 @@ html { scroll-padding-top: 6rem; }
 body { min-height: 100vh; }
 main.site-container { width: 100%; min-height: 65vh; }
 main.site-container p, main.site-container li { max-width: none; }
+/* Align body prose while reducing short final lines; leave site metadata alone. */
+:is(.page__content, .content-page) p:not(.page__meta, .page__date, .visually-hidden),
+.publication-citation,
+.pub-abstract-text { text-align: justify; text-wrap: pretty; }
 [hidden] { display: none !important; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .sr-only, .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }

@@ -114,7 +114,7 @@
   text: "Gave an invited talk on “Responsible AI: The Hidden Curriculum” at AIxHEART"
   category: talk
 - date_label: "Oct 2025"
-  text: "Presented a poster on “DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration” at UNT University Research Day"
+  text: "Presented a poster on “Efficient Long-Context Inference through Dynamic Sparse Attention” at UNT University Research Day"
   category: poster
   link_text: "UNT University Research Day"
   link_url: "https://research.unt.edu/resources/research-events/research-day-2025/"
@@ -161,7 +161,7 @@
   link_text: "D2SO: Detecting Distant and Small Objects for Vision-Based Vehicle Autonomous Systems"
   link_url: "https://doi.org/10.1109/MOST65065.2025.00013"
 - date_label: "Mar 2025"
-  text: "Presented a poster on “DAM: Dynamic Attention Mask for Long-Context Large Language Model Inference Acceleration” at the North Texas Symposium on Generative AI at UT Arlington"
+  text: "Presented a poster on “Adaptive Attention Masks for Large Language Model Acceleration” at the North Texas Symposium on Generative AI at UT Arlington"
   category: poster
   link_text: "North Texas Symposium on Generative AI"
   link_url: "https://carida.uta.edu/symposium/"
@@ -251,7 +251,7 @@
   link_text: "Small Language Model"
   link_url: "https://hengfan2010.github.io/aiseminar/S24.htm"
 - date_label: "Mar 2024"
-  text: "I won First Place for the poster “Poly-FEVER: A Multilingual Hallucination Detection Benchmark” at UNT Engineering Showcase."
+  text: "I won First Place for the poster “Investigating Biased Cross-Lingual Hallucination Detection Capabilities of LLMs: POLY-FEVER Benchmark & Mitigating Approaches” at UNT Engineering Showcase."
   category: award
   emphasis: ["First Place"]
 - date_label: "Oct 2023"
