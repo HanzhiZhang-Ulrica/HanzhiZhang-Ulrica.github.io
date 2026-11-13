@@ -11,6 +11,8 @@
 }
 
 .chip {
+  --accent: var(--warm-accent);
+  --accent-light: var(--warm-accent-light);
   display: inline-block;
   padding: 0.25rem 0.875rem;
   font-family: 'DM Sans', sans-serif;

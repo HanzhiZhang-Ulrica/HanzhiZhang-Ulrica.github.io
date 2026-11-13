@@ -4,7 +4,7 @@ Adapted from [sbryngelson/academic-website-template](https://github.com/sbryngel
 
 ## Sources and output
 
-- `_sass/editorial/` contains the template's complete `_sass/` tree, copied without changes.
+- `_sass/editorial/` contains the template's complete `_sass/` tree with local color and readability adaptations.
 - `_sass/editorial/theme.scss` is the template's `assets/main.scss` with only Jekyll front matter removed. This is the compilation entry point.
 - `assets/editorial.css` is the complete, compressed output, compiled with **Dart Sass 1.108.1**. It includes the template's selected Bootstrap 5.3.8 modules and editorial styles. It can be served by the existing Jekyll 3 / GitHub Pages build without adding Ruby plugins.
 - `assets/fonts/` contains the template's exact Source Serif 4, DM Sans, and JetBrains Mono WOFF2 files, including Latin and Latin Extended subsets and their original license files.
@@ -24,6 +24,8 @@ npx --yes --package sass@1.108.1 sass --load-path=_sass/editorial --style=compre
 Alternatively, install Dart Sass 1.108.1 outside the website repository and run its `sass` command with the same arguments. The migration used a workspace-only pnpm install and `node <compiler-directory>/node_modules/sass/sass.js`; no package dependencies were added to this repository.
 
 The unmodified Bootstrap source emits Sass deprecation warnings about legacy functions with this compiler; compilation succeeds. Commit the updated `assets/editorial.css` after changing Sass sources.
+
+The warm/cool palette is defined in `_sass/editorial/base/_variables.scss`. The light-mode cool base is also set by `accent_color` in `_config.yml`. Warm accents mark navigation, research keywords, heading rules, and year badges; cool accents mark links and action buttons. Dark-mode values are explicit, and print colors remain neutral. Profile decoration uses both accents, and text selection uses the theme's contrast foreground.
 
 ## Licenses and provenance
 

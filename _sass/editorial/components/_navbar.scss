@@ -34,6 +34,8 @@
 }
 
 .nav-link {
+  --accent: var(--warm-accent);
+  --accent-light: var(--warm-accent-light);
   color: var(--text-secondary) !important;
   font-weight: 500;
   font-size: 0.8125rem;

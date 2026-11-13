@@ -3,13 +3,15 @@
 // =============================================================
 
 :root {
-  // Accent. Set `accent_color` in _config.yml (it overrides --accent-base);
-  // every other accent variable is derived from it so light and dark mode
-  // both stay readable whatever color is chosen.
-  --accent-base: #1a7a6d;
-  --accent: var(--accent-base);
-  --accent-hover: color-mix(in srgb, var(--accent-base) 82%, black);
-  --accent-light: color-mix(in srgb, var(--accent-base) 8%, transparent);
+  // Warm accents mark sections and labels; cool accents mark links and actions.
+  // `accent_color` in _config.yml overrides the light-mode cool base.
+  --accent-base: #0E7153;
+  --warm-accent: #86334F;
+  --cool-accent: var(--accent-base);
+  --warm-accent-light: color-mix(in srgb, var(--warm-accent) 8%, transparent);
+  --accent: var(--cool-accent);
+  --accent-hover: color-mix(in srgb, var(--cool-accent) 82%, black);
+  --accent-light: color-mix(in srgb, var(--cool-accent) 8%, transparent);
   --on-accent: #ffffff;           // text placed on a solid accent background
 
   // Light mode — warm parchment tones
@@ -55,10 +57,13 @@
 
 // Dark mode — rich warm dark
 [data-bs-theme="dark"] {
-  // Lighten the accent so text and pills meet WCAG AA on dark surfaces
-  --accent: color-mix(in srgb, var(--accent-base) 62%, white);
-  --accent-hover: color-mix(in srgb, var(--accent-base) 45%, white);
-  --accent-light: color-mix(in srgb, var(--accent-base) 14%, transparent);
+  // Use the supplied dark palette directly rather than auto-lightening it.
+  --warm-accent: #EAA2B5;
+  --cool-accent: #7ED5AF;
+  --warm-accent-light: color-mix(in srgb, var(--warm-accent) 14%, transparent);
+  --accent: var(--cool-accent);
+  --accent-hover: color-mix(in srgb, var(--cool-accent) 82%, white);
+  --accent-light: color-mix(in srgb, var(--cool-accent) 14%, transparent);
   --on-accent: #1c1b18;
 
   --bg-primary: #1c1b18;
