@@ -10,12 +10,12 @@ excerpt: "Publications and preprints by Hanzhi Zhang on efficient AI systems, la
   <div class="publication-intro"><p>For full publication list, please go to my <a href="https://scholar.google.com/citations?user=piQO0TQAAAAJ&hl=en">Google Scholar profile</a>.</p></div>
   <label class="visually-hidden" for="pubSearch">Filter publications by title, author, or year</label>
   <input type="search" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year..." aria-controls="pubList">
-  <div class="section-card" id="pubList">
+  <div id="pubList">
     {% assign publications = site.publications | sort: 'order' %}
     {% assign preprints = publications | where: 'publication_type', 'preprint' %}
     {% assign proceedings = publications | where_exp: 'publication', "publication.publication_type != 'preprint'" %}
     {% if preprints.size > 0 %}
-    <section class="publication-group" aria-labelledby="preprints" data-publication-group>
+    <section class="section-card publication-group" aria-labelledby="preprints" data-publication-group>
       <h2 id="preprints">Preprints</h2>
       {% for publication in preprints %}
         {% include editorial/publication-entry.html publication=publication %}
@@ -23,7 +23,7 @@ excerpt: "Publications and preprints by Hanzhi Zhang on efficient AI systems, la
     </section>
     {% endif %}
     {% if proceedings.size > 0 %}
-    <section class="publication-group" aria-labelledby="conference-proceedings" data-publication-group>
+    <section class="section-card publication-group" aria-labelledby="conference-proceedings" data-publication-group>
       <h2 id="conference-proceedings">Refereed Conference Proceedings</h2>
       {% for publication in proceedings %}
         {% include editorial/publication-entry.html publication=publication %}

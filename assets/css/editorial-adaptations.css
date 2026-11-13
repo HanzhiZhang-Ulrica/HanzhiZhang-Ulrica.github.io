@@ -101,7 +101,6 @@ a[data-link-kind] strong, a[data-link-kind] b { color: inherit; }
 .pub-bibtex code { font-size: inherit; white-space: inherit; overflow-wrap: anywhere; }
 .pub-collapse .pub-abstract-text { font: inherit; }
 .pub-abstract-source { margin: var(--space-2) 0 0; font-size: .75rem; color: var(--text-muted); }
-.publication-group + .publication-group { margin-top: var(--space-8); }
 .pub-equal { font-size: .875rem; color: var(--text-muted); }
 .publication-year + .publication-year { margin-top: var(--space-8); }
 .publication-year h2 { margin-bottom: 0; }
