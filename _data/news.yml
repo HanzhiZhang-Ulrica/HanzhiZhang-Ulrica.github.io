@@ -2,6 +2,18 @@
 # Reviewing labels use the first month of the sourced review-cycle bounds,
 # following the requested display convention; they are not personal assignment dates.
 # Original date notes and sources retain the full review-cycle evidence.
+- date_label: "Nov 2026"
+  text: "Our research paper, “TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference”, is now available as a preprint on arXiv."
+  category: paper
+  link_text: "TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference"
+  link_url: "https://arxiv.org/abs/2611.07256"
+  date_note: "First arXiv submission: Nov 5, 2026 (v1)."
+- date_label: "Nov 2026"
+  text: "Our research paper, “TileQuant: Tile as the Precision-Allocation Unit for LLM Mixed-Precision Post-Training Quantization”, is now available as a preprint on arXiv."
+  category: paper
+  link_text: "TileQuant: Tile as the Precision-Allocation Unit for LLM Mixed-Precision Post-Training Quantization"
+  link_url: "https://arxiv.org/abs/2611.07217"
+  date_note: "First arXiv submission: Nov 4, 2026 (v1)."
 - date_label: "Oct 2026"
   text: "Selected as a “Top Reviewer” for NeurIPS 2026"
   category: award
@@ -24,6 +36,12 @@
   text: "Started research collaboration with Amazon scientist Qian Qu"
   category: collaboration
   date_note: "Collaboration start month confirmed by Hanzhi Zhang."
+- date_label: "Oct 2026"
+  text: "Our research paper, “AlignQuant: Tile-Aligned Mixed-Precision Quantization for Efficient LLM Generation”, is now available as a preprint on arXiv."
+  category: paper
+  link_text: "AlignQuant: Tile-Aligned Mixed-Precision Quantization for Efficient LLM Generation"
+  link_url: "https://arxiv.org/abs/2610.07457"
+  date_note: "First arXiv submission: Oct 5, 2026 (v1)."
 - date_label: "Sep 2026"
   text: "Gave a presentation on “MixLLM: LLM Quantization with Global Mixed-precision between Output-features and Highly-efficient System Design” at UNT's LLaVi Lab AI Seminar"
   category: talk
@@ -56,6 +74,12 @@
   link_text: "Poly-FEVER: A Multilingual Hallucination Detection Benchmark"
   link_url: "https://aclanthology.org/2026.findings-emnlp.540/"
   emphasis: ["EMNLP 2026"]
+- date_label: "Aug 2026"
+  text: "Our research paper, “TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration”, is now available as a preprint on arXiv."
+  category: paper
+  link_text: "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration"
+  link_url: "https://arxiv.org/abs/2608.17336"
+  date_note: "First arXiv submission: Aug 18, 2026 (v1)."
 - date_label: "Summer 2026"
   text: "Served as Academic Coordinator and Research Mentor for nine undergraduates in UNT's NSF REU program"
   category: mentoring
@@ -90,6 +114,12 @@
   date_note: "Apr 1, 2026"
   link_text: "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free"
   link_url: "https://llavi-lab.github.io/seminar/S26.html"
+- date_label: "Mar 2026"
+  text: "Our research paper, “Towards Visual Query Segmentation in the Wild”, is now available as a preprint on arXiv."
+  category: paper
+  link_text: "Towards Visual Query Segmentation in the Wild"
+  link_url: "https://arxiv.org/abs/2603.08898"
+  date_note: "First arXiv submission: Mar 9, 2026 (v1); separate from the Sep 2026 acceptance announcement."
 - date_label: "Mar 2026"
   text: "Our research paper, “Harmful Factuality: LLMs Correcting What They Shouldn’t”, has been published in Findings of the Association for Computational Linguistics (EACL 2026)."
   category: paper
