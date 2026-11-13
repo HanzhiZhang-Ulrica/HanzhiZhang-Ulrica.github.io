@@ -9,8 +9,10 @@ permalink: /publication/2025-d2so-detecting-distant-small-objects
 redirect_to: /publications/#pub-2025-d2so-detecting-distant-small-objects
 paperurl: https://songfu-cse.github.io/Papers/MOST2025B.pdf
 collection: publications
-date: '2025-01-01'
-date_precision: year
+# Proceedings issue month from publisher metadata.
+# https://api.crossref.org/works/10.1109/MOST65065.2025.00013
+date: '2025-05-01'
+date_precision: month
 excerpt: A specialized framework for detecting distant and small objects in vision-based autonomous vehicle systems, enhancing
   safety and situational awareness.
 doi: 10.1109/MOST65065.2025.00013

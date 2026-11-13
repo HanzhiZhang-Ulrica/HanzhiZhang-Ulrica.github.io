@@ -9,8 +9,8 @@ permalink: /publication/2025-dam-dynamic-attention-mask
 paperurl: https://aclanthology.org/2025.findings-acl.242/
 codeurl: https://github.com/HanzhiZhang-Ulrica/DAM
 collection: publications
-date: '2025-01-01'
-date_precision: year
+date: '2025-07-01'
+date_precision: month
 excerpt: A breakthrough approach to long-context inference in large language models by dynamically learning adaptive attention
   masks at the granularity of individual attention maps.
 doi: 10.18653/v1/2025.findings-acl.242

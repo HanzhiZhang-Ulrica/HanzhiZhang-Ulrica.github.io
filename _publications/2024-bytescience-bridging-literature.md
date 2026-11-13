@@ -9,8 +9,10 @@ venue: IEEE International Conference on Data Mining Workshops (IEEE ICDMW)
 permalink: /publication/2024-bytescience-bridging-literature
 paperurl: https://ieeexplore.ieee.org/abstract/document/10917307
 collection: publications
-date: '2024-01-01'
-date_precision: year
+# Proceedings issue month from publisher metadata.
+# https://api.crossref.org/works/10.1109/ICDMW65004.2024.00126
+date: '2024-12-01'
+date_precision: month
 excerpt: An innovative framework that bridges unstructured scientific literature and structured data through auto fine-tuned
   Large Language Models operating at token granularity.
 doi: 10.1109/ICDMW65004.2024.00126

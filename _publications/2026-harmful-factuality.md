@@ -9,8 +9,8 @@ permalink: /publication/2026-harmful-factuality
 paperurl: https://aclanthology.org/2026.findings-eacl.46/
 codeurl: https://github.com/ResponsibleAILab/Harmful-Factuality-Hallucination
 collection: publications
-date: '2026-01-01'
-date_precision: year
+date: '2026-03-01'
+date_precision: month
 excerpt: A study of harmful factuality in large language models, examining how factual corrections can produce outputs
   that are true but unfaithful to the source.
 doi: 10.18653/v1/2026.findings-eacl.46

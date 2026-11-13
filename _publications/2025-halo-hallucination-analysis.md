@@ -10,8 +10,10 @@ permalink: /publication/2025-halo-hallucination-analysis
 paperurl: https://doi.org/10.1145/3721201.3721385
 codeurl: https://github.com/ResponsibleAILab/HALO
 collection: publications
-date: '2025-01-01'
-date_precision: year
+# Proceedings issue month from publisher metadata.
+# https://api.crossref.org/works/10.1145/3721201.3721385
+date: '2025-06-01'
+date_precision: month
 excerpt: A comprehensive framework for hallucination analysis and learning optimization that empowers Large Language Models
   with retrieval-augmented context for guided clinical decision making.
 doi: 10.1145/3721201.3721385

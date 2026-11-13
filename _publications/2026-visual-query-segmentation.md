@@ -10,8 +10,10 @@ permalink: /publication/2026-visual-query-segmentation
 paperurl: https://arxiv.org/abs/2603.08898
 equal_contribution: Bing Fan, Minghao Li, and Hanzhi Zhang contributed equally.
 collection: publications
-date: '2026-01-01'
-date_precision: year
+# Accepted paper: sort by the scheduled conference month.
+# https://neurips.cc/Conferences/2026/Dates
+date: '2026-12-01'
+date_precision: month
 excerpt: A benchmark for visual query segmentation in real-world video. Hanzhi co-developed **VQS-4K**, containing **4,111
   videos and more than 1.3 million frames**.
 doi: 10.48550/arXiv.2603.08898

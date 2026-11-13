@@ -13,7 +13,7 @@ excerpt: "Publications and preprints by Hanzhi Zhang on efficient AI systems, la
   <div id="pubList">
     {% assign publications = site.publications | sort: 'order' %}
     {% assign preprints = publications | where: 'publication_type', 'preprint' | sort: 'date' | reverse %}
-    {% assign proceedings = publications | where_exp: 'publication', "publication.publication_type != 'preprint'" %}
+    {% assign proceedings = publications | where_exp: 'publication', "publication.publication_type != 'preprint'" | sort: 'date' | reverse %}
     {% if preprints.size > 0 %}
     <section class="section-card publication-group" aria-labelledby="preprints" data-publication-group>
       <h2 id="preprints">Preprints</h2>
