@@ -12,7 +12,7 @@ excerpt: "Publications and preprints by Hanzhi Zhang on efficient AI systems, la
   <input type="search" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year..." aria-controls="pubList">
   <div id="pubList">
     {% assign publications = site.publications | sort: 'order' %}
-    {% assign preprints = publications | where: 'publication_type', 'preprint' %}
+    {% assign preprints = publications | where: 'publication_type', 'preprint' | sort: 'date' | reverse %}
     {% assign proceedings = publications | where_exp: 'publication', "publication.publication_type != 'preprint'" %}
     {% if preprints.size > 0 %}
     <section class="section-card publication-group" aria-labelledby="preprints" data-publication-group>
