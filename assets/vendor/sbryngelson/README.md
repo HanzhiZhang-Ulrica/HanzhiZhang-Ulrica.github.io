@@ -25,7 +25,7 @@ Alternatively, install Dart Sass 1.108.1 outside the website repository and run 
 
 The unmodified Bootstrap source emits Sass deprecation warnings about legacy functions with this compiler; compilation succeeds. Commit the updated `assets/editorial.css` after changing Sass sources.
 
-The warm/cool palette is defined in `_sass/editorial/base/_variables.scss`. The light-mode cool base is also set by `accent_color` in `_config.yml`. Warm accents mark internal links, in-page disclosures, research keywords, and heading rules; cool accents mark external links, resource buttons, and year badges. Disclosures and keywords have a borderless warm tint. Link destinations are classified in `assets/js/editorial.js`, using both the current and canonical site origins so previews behave like the live site. Dark-mode values are explicit, print colors remain neutral, and text selection uses the theme's contrast foreground.
+The warm/cool palette is defined in `_sass/editorial/base/_variables.scss`. The light-mode cool base is also set by `accent_color` in `_config.yml`. Warm accents mark internal links, in-page disclosures, research keywords, and heading rules; cool accents mark external links, resource buttons, and year badges. Navigation branding and inactive labels stay neutral; only active and hovered navigation items use the warm accent. All pill labels and buttons are borderless, with a warm tint for disclosures and keywords. Link destinations are classified in `assets/js/editorial.js`, using both the current and canonical site origins so previews behave like the live site. Dark-mode values are explicit, print colors remain neutral, and text selection uses the theme's contrast foreground.
 
 ## Licenses and provenance
 

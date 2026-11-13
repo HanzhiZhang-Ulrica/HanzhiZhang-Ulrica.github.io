@@ -23,7 +23,6 @@ a[data-link-kind="internal"] { --accent: var(--warm-accent); --accent-hover: var
 a[data-link-kind]:not(.btn-pill) { color: var(--accent); }
 a[data-link-kind]:not(.btn-pill):hover { color: var(--accent-hover); }
 a[data-link-kind] strong, a[data-link-kind] b { color: inherit; }
-.navbar a[data-link-kind] { color: var(--accent) !important; }
 .site-footer { padding: var(--space-2) 0; margin-top: var(--space-6); }
 .site-footer p, .site-footer a { line-height: 1.5; }
 .site-footer .footer-contact { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-1) var(--space-4); }
@@ -103,10 +102,10 @@ a[data-link-kind] strong, a[data-link-kind] b { color: inherit; }
 .page__meta, .page__date { font-size: .875rem; color: var(--text-muted); }
 .page__meta-title, .page__share-title { font-size: 1rem; }
 .page__share { margin-top: var(--space-8); padding-top: var(--space-4); border-top: 1px solid var(--border-color); }
-.page__share .btn { display: inline-block; color: var(--text-secondary); font-size: .8rem; border: 1px solid var(--border-color); border-radius: var(--radius-full); padding: .25rem .75rem; margin-right: .25rem; }
+.page__share .btn { display: inline-block; color: var(--text-secondary); font-size: .8rem; border: 0; border-radius: var(--radius-full); padding: .25rem .75rem; margin-right: .25rem; }
 .page__taxonomy-item { padding: .1rem .4rem; background: var(--accent-light); border-radius: var(--radius-sm); }
 .pagination { display: flex; gap: 1rem; justify-content: space-between; margin-top: var(--space-6); }
-.pagination--pager { padding: .3rem .85rem; border: 1px solid var(--border-color); border-radius: var(--radius-full); font-size: .875rem; }
+.pagination--pager { padding: .3rem .85rem; border: 0; border-radius: var(--radius-full); font-size: .875rem; }
 .pagination--pager.disabled { color: var(--text-muted); pointer-events: none; }
 .page__related { margin-top: var(--space-8); }
 .grid__wrapper { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-6); }
