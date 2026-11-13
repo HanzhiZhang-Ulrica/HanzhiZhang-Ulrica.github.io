@@ -1,7 +1,7 @@
 {% assign publication = include.publication %}
 {% assign publication_id = publication.slug | default: publication.title | slugify %}
 <article class="pub-entry" id="pub-{{ publication_id }}" data-pub-searchable>
-  <span class="year-badge" aria-hidden="true">{{ publication.year }}</span>
+  <time class="year-badge" datetime="{{ publication.date | date: '%Y-%m' }}">{{ publication.date | date: '%b %Y' }}</time>
   <div class="text-justify publication-citation">
     <span class="citation-authors">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>.
     <span class="citation-title">{{ publication.title | escape }}</span>.
