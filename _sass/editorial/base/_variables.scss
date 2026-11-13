@@ -3,15 +3,19 @@
 // =============================================================
 
 :root {
-  // Warm accents mark sections and labels; cool accents mark links and actions.
+  // Warm accents mark internal links and controls; cool accents mark external links and dates.
   // `accent_color` in _config.yml overrides the light-mode cool base.
   --accent-base: #0E7153;
   --warm-accent: #86334F;
+  --warm-accent-hover: color-mix(in srgb, var(--warm-accent) 82%, black);
   --cool-accent: var(--accent-base);
+  --cool-accent-hover: color-mix(in srgb, var(--cool-accent) 82%, black);
+  --cool-accent-light: color-mix(in srgb, var(--cool-accent) 8%, transparent);
   --warm-accent-light: color-mix(in srgb, var(--warm-accent) 8%, transparent);
+  --warm-accent-light-hover: color-mix(in srgb, var(--warm-accent) 16%, transparent);
   --accent: var(--cool-accent);
-  --accent-hover: color-mix(in srgb, var(--cool-accent) 82%, black);
-  --accent-light: color-mix(in srgb, var(--cool-accent) 8%, transparent);
+  --accent-hover: var(--cool-accent-hover);
+  --accent-light: var(--cool-accent-light);
   --on-accent: #ffffff;           // text placed on a solid accent background
 
   // Light mode — warm parchment tones
@@ -59,11 +63,15 @@
 [data-bs-theme="dark"] {
   // Use the supplied dark palette directly rather than auto-lightening it.
   --warm-accent: #EAA2B5;
+  --warm-accent-hover: color-mix(in srgb, var(--warm-accent) 82%, white);
   --cool-accent: #7ED5AF;
+  --cool-accent-hover: color-mix(in srgb, var(--cool-accent) 82%, white);
+  --cool-accent-light: color-mix(in srgb, var(--cool-accent) 14%, transparent);
   --warm-accent-light: color-mix(in srgb, var(--warm-accent) 14%, transparent);
+  --warm-accent-light-hover: color-mix(in srgb, var(--warm-accent) 22%, transparent);
   --accent: var(--cool-accent);
-  --accent-hover: color-mix(in srgb, var(--cool-accent) 82%, white);
-  --accent-light: color-mix(in srgb, var(--cool-accent) 14%, transparent);
+  --accent-hover: var(--cool-accent-hover);
+  --accent-light: var(--cool-accent-light);
   --on-accent: #1c1b18;
 
   --bg-primary: #1c1b18;

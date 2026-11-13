@@ -17,8 +17,13 @@ main.site-container p, main.site-container li { max-width: none; }
 .sidebar-news .news-archive-link { margin: var(--space-4) 0 0; }
 .chip-static { cursor: default; }
 .chip-static:hover { background-color: var(--accent-light); color: var(--accent); }
-.btn-pill.btn-arxiv { background-color: var(--accent); color: var(--on-accent); }
-.btn-pill.btn-arxiv:hover { background-color: var(--accent-hover); color: var(--on-accent); }
+/* Destination, rather than target tab, determines a link's color. */
+a[data-link-kind="external"] { --accent: var(--cool-accent); --accent-hover: var(--cool-accent-hover); --accent-light: var(--cool-accent-light); }
+a[data-link-kind="internal"] { --accent: var(--warm-accent); --accent-hover: var(--warm-accent-hover); --accent-light: var(--warm-accent-light); }
+a[data-link-kind]:not(.btn-pill) { color: var(--accent); }
+a[data-link-kind]:not(.btn-pill):hover { color: var(--accent-hover); }
+a[data-link-kind] strong, a[data-link-kind] b { color: inherit; }
+.navbar a[data-link-kind] { color: var(--accent) !important; }
 .site-footer { padding: var(--space-2) 0; margin-top: var(--space-6); }
 .site-footer p, .site-footer a { line-height: 1.5; }
 .site-footer .footer-contact { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-1) var(--space-4); }

@@ -27,7 +27,7 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   {% endif %}
 </head>
-<body data-baseurl="{{ site.baseurl }}">
+<body data-baseurl="{{ site.baseurl }}" data-site-url="{{ site.url | escape }}">
   <a class="skip-link" href="#main">Skip to content</a>
   {% include editorial/icons.svg %}
   {% include editorial/navbar.html %}

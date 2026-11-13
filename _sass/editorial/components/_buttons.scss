@@ -8,7 +8,7 @@
   font-size: 0.75rem;
   font-weight: 600;
   border-radius: var(--radius-full);
-  border: 1px solid transparent;
+  border: 0;
   cursor: pointer;
   transition: all var(--transition-fast);
   text-decoration: none;
@@ -16,58 +16,21 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
 
-  &.btn-pdf {
-    background-color: var(--accent);
-    color: var(--on-accent);
-    &:hover { background-color: var(--accent-hover); color: var(--on-accent); }
-  }
+  // Outbound resources share the same green treatment.
+  background-color: var(--cool-accent);
+  color: var(--on-accent);
+  &:hover { background-color: var(--accent-hover); color: var(--on-accent); }
 
-  &.btn-doi {
-    background-color: var(--text-primary);
-    color: var(--bg-primary);
-    &:hover { opacity: 0.85; color: var(--bg-primary); }
-  }
-
-  &.btn-arxiv {
-    background-color: #b31b1b;
-    color: #fff;
-    &:hover { background-color: #8c1515; color: #fff; }
-  }
-
-  // Outlined: BibTeX/abstract toggles and secondary links
+  // In-page disclosures and internal destinations use a borderless warm tint.
   &.btn-bib,
   &.btn-abstract,
-  &.btn-link,
-  &.btn-code,
-  &.btn-slides,
-  &.btn-video,
-  &.btn-poster,
-  &.btn-data {
-    background-color: transparent;
-    color: var(--text-secondary);
-    border-color: var(--border-color);
+  &[data-link-kind="internal"] {
+    background-color: var(--warm-accent-light);
+    color: var(--warm-accent);
     &:hover {
-      border-color: var(--accent);
-      color: var(--accent);
+      background-color: var(--warm-accent-light-hover);
+      color: var(--warm-accent);
     }
-  }
-
-  &.btn-website {
-    background-color: var(--accent);
-    color: var(--on-accent);
-    &:hover { background-color: var(--accent-hover); color: var(--on-accent); }
-  }
-
-  &.btn-git {
-    background-color: var(--text-primary);
-    color: var(--bg-primary);
-    &:hover { opacity: 0.85; color: var(--bg-primary); }
-  }
-
-  &.btn-paper {
-    background-color: #b31b1b;
-    color: #fff;
-    &:hover { background-color: #8c1515; color: #fff; }
   }
 }
 
